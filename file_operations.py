@@ -5,7 +5,7 @@ def read_nc_file(file_path):
         raise ValueError("The file is not a .nc file")
     logger.debug(f"Reading file {file_path}")
     counter=1
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='cp1250') as file:
         for line in file:
             logger.debug(f"Line {counter}: {line}")
             counter+=1

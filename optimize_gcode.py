@@ -12,4 +12,6 @@ def main():
         print(f"File {input_file} does not exist")
         sys.exit(1)
     get_and_write(input_file)
-    
+
+if __name__ == '__main__':
+    main() 

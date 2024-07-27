@@ -5,7 +5,7 @@ import regex as re
 def get_and_write(file_path):
     logger.debug(f"Processing file {file_path}")
     generator=read_nc_file(file_path=file_path)
-    with open(file_path.replace('.nc','processed.nc'),'w') as file:
+    with open(file_path.replace('.nc','processed.nc'),'w', encoding='cp1250') as file:
         for line in generator:
             if is_line_of_interest(line):
                 file.write(line)
