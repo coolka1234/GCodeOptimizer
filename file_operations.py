@@ -7,6 +7,6 @@ def read_nc_file(file_path):
     counter=1
     with open(file_path, 'r', encoding='cp1250') as file:
         for line in file:
-            logger.debug(f"Line {counter}: {line}")
+            # logger.debug(f"Line {counter}: {line}")
             counter+=1
             yield line

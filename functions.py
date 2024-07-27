@@ -9,7 +9,10 @@ def get_and_write(file_path):
         for line in generator:
             if is_line_of_interest(line):
                 file.write(line)
-                logger.debug(f"Line written: {line}")
+                logger.debug(f"I: {line}")
+            else:
+                file.write(line)
+                logger.debug(f"NI: {line}")
     logger.debug(f"File {file_path} processed")
 
 def is_line_of_interest(line):
