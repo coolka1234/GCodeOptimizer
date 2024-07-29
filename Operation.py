@@ -17,5 +17,8 @@ class Operation:
         dict_of_values['A'] = re.search(r'A\d+\.\d+', line).group(0)
         dict_of_values['F'] = re.search(r'F\d+\.\d+', line).group(0)
         return dict_of_values
-Operation('G01X114.6109Z27.0517A18.8177674F1600.0')
+
+    def __str__(self) -> str:
+        return f'X: {self.X}, Z: {self.Z}, A: {self.A}, F: {self.F}, Operation: {self.operation}'    
+print(str(Operation('G01X114.6109Z27.0517A18.8177674F1600.0')))
  
