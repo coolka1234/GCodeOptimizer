@@ -32,7 +32,8 @@ def calcualte_F(line):
     if F is not None:
         original_F = F
         F = original_F / distance * X if distance != 0 else original_F
+    return F
 
 def replace_f_in_line(f_value, line):
-    output_string = re.sub(r'F\d+(\.\d+)?', 'F5678', line)
+    output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
     return output_string
