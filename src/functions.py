@@ -10,15 +10,16 @@ def get_and_write(file_path):
     with open(file_path.replace('.nc','processed.nc'),'w', encoding='cp1250') as file:
         for line in generator:
             if is_line_of_interest(line):
-                file.write(line)
                 logger.debug(f"I: {line}")
+                new_line=handle_the_line(line)
+                file.write(new_line)
             else:
                 file.write(line)
                 logger.debug(f"NI: {line}")
     logger.debug(f"File {file_path} processed")
 
 def is_line_of_interest(line):
-    pattern = r'(A-?\d+|F\d+)'
+    pattern = r'(?=.*G-?\d+)(?=.*A-?\d+)(?=.*F\d+)' 
     return bool(re.search(pattern, line))
 
 def calcualte_F(line):
@@ -37,3 +38,8 @@ def calcualte_F(line):
 def replace_f_in_line(f_value, line):
     output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
     return output_string
+
+def handle_the_line(line):
+    F=calcualte_F(line)
+    new_line=replace_f_in_line(F, line)
+    return new_line

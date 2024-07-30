@@ -3,11 +3,11 @@ class Operation:
     def __init__(self, line) -> None:
         dict_of_values= self.parse_line(line)
         # print(dict_of_values)
-        self.X=dict_of_values['X']
-        self.Z=dict_of_values['Z']
-        self.A=dict_of_values['A']
-        self.F=dict_of_values['F']
-        self.operation=dict_of_values['operation']
+        self.X=None if None else float(dict_of_values['X'][1:])
+        self.Z=None if None else float(dict_of_values['Z'][1:])
+        self.A=None if None else float(dict_of_values['A'][1:])
+        self.F=None if None else float(dict_of_values['F'][1:])
+        self.operation=None if None else dict_of_values['operation']
 
     def parse_line(self,line):
         dict_of_values = {}
