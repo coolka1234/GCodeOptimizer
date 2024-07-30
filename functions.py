@@ -23,21 +23,15 @@ def is_line_of_interest(line):
 
 def calcualte_F(line):
     operation_line=Operation(line)
-    a=operation_line.A
-    f=operation_line.F
-    x=operation_line.X
-    radius=operation_line.Z
-    
-    # Convert A from degrees to radians
-    a_rad = math.radians(a) if a is not None else 0
-    # Calculate the linear distance for the angular movement
-    distance_a = radius * a_rad
-    # Calculate the total effective distance moved
-    distance_x = x if x is not None else 0
-    distance_z = z if z is not None else 0
-    total_distance = math.sqrt(distance_x**2 + distance_a**2 + distance_z**2)
-    # Adjust the feed rate
-    if total_distance == 0:
-        return f  # No movement, return the original feed rate
-    adjusted_feed = f * distance_x / total_distance
-    return adjusted_feed
+    A=operation_line.A
+    F=operation_line.F
+    X=operation_line.X
+    Z=operation_line.Z
+    effective_radius = Z
+    distance = math.sqrt(X**2 + (effective_radius * A)**2)
+    if F is not None:
+        original_F = F
+        F = original_F / distance * X if distance != 0 else original_F
+
+def replace_f_in_line(f_value, line):
+    output_string = re.sub(r'F\d+', 'F5678', line)
