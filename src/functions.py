@@ -19,9 +19,11 @@ def get_and_write(file_path):
     logger.debug(f"File {file_path} processed")
 
 def is_line_of_interest(line):
-    pattern = r'(?=.*G-?\d+)(?=.*A-?\d+)(?=.*F\d+)' 
+    if '(' in line or ')' in line:
+        return False
+    pattern = r'[AXYZG]'
     return bool(re.search(pattern, line))
-
+ 
 def calcualte_F(line):
     operation_line=Operation(line)
     A=operation_line.A
