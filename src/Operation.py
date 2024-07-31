@@ -4,9 +4,9 @@ class Operation:
     def __init__(self, line) -> None:
         dict_of_values= self.parse_line(line)
         # print(dict_of_values)
-        self.X=global_vars.global_X if dict_of_values['X']==None else float(dict_of_values['X'][1:])
+        self.X=0 if dict_of_values['X']==None else float(dict_of_values['X'][1:])
         self.Z=global_vars.global_Z if dict_of_values['Z']==None else float(dict_of_values['Z'][1:])
-        self.A=global_vars.global_A if dict_of_values['A']==None else float(dict_of_values['A'][1:])
+        self.A=0 if dict_of_values['A']==None else float(dict_of_values['A'][1:])
         self.F=global_vars.global_F if dict_of_values['F']==None else float(dict_of_values['F'][1:])
         self.operation=global_vars.global_operation if dict_of_values['operation']==None else dict_of_values['operation']
 
