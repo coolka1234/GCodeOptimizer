@@ -1,4 +1,4 @@
-from math import log
+from math import log, sin
 import math
 from file_operations import read_nc_file
 import global_vars
@@ -33,13 +33,13 @@ def calculate_F(line):
     F=operation_line.F
     X=operation_line.X
     Z=operation_line.Z
+    arc_length = A*Z+2*Z*sin(A/2)
     effective_radius = Z
     if X is None or X == 0:
-        effective_radius = Z
-        distance = abs(effective_radius * A)
+        distance = arc_length
     else:
         effective_radius = Z
-        distance = math.sqrt(X**2 + (effective_radius * A)**2)
+        distance = math.sqrt(X**2 + (arc_length)**2)
     if distance != 0:
         adjusted_F = F / distance * global_vars.global_X
         logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}")
