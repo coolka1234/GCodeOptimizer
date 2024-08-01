@@ -59,7 +59,7 @@ def calculate_F(line):
     else:
         adjusted_F = F
     
-    return adjusted_F
+    return round(adjusted_F,4)
 
 def replace_f_in_line(f_value, line):
     output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
