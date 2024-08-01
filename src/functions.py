@@ -33,7 +33,7 @@ def calculate_F(line):
     F=operation_line.F
     X=operation_line.X
     Z=operation_line.Z
-    arc_length = A*Z+2*Z*sin(A/2)
+    arc_length = abs(A)*Z+2*Z*sin(abs(A)/2)
     effective_radius = Z
     if X is None or X == 0:
         distance = arc_length
