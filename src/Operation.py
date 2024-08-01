@@ -25,16 +25,16 @@ class Operation:
     def parse_line(self,line):
         dict_of_values = {}
         dict_of_values['operation'] = re.search(r'[A-Z]\d+', line).group(0)
-        x_match = re.search(r'X-?\d+\.\d+?', line)
+        x_match = re.search(r'X-?\d+(\.\d+)?', line) 
         dict_of_values['X'] = x_match.group(0) if x_match else None
         
-        z_match = re.search(r'Z-?\d+\.\d+?', line)
+        z_match = re.search(r'Z-?\d+(\.\d+)?', line)
         dict_of_values['Z'] = z_match.group(0) if z_match else None
         
-        a_match = re.search(r'A-?\d+\.?\d+?', line)
+        a_match = re.search(r'A-?\d+(\.\d+)?', line)
         dict_of_values['A'] = a_match.group(0) if a_match else None
         
-        f_match = re.search(r'F\d+\.\d+?', line)
+        f_match = re.search(r'F-?\d+(\.\d+)?', line)
         dict_of_values['F'] = f_match.group(0) if f_match else None
         logger.debug(f"Dict of values: {dict_of_values}")
         return dict_of_values

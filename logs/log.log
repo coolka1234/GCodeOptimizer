@@ -68,7 +68,7 @@ DEBUG:local_logging:NI: F1500.0
 
 DEBUG:local_logging:I: G01Z28.0000A0.0F1500.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z28.0', 'A': 'A0.0', 'F': 'F1500.0'}
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z28.0000', 'A': 'A0.0', 'F': 'F1500.0'}
 DEBUG:local_logging:Detected A: A0.0 global_A: 0
 DEBUG:local_logging:Global A: 0, local A: 0.0
 DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 0.0, F: 1500.0, Operation: G01
@@ -86,176 +86,176 @@ DEBUG:local_logging:NI: F1600.0
 
 DEBUG:local_logging:I: G01A-1.7647059F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-1.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-1.7 global_A: 0.0
-DEBUG:local_logging:Global A: 0.0, local A: -1.7
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.6 for X: None, Z: 28.0, A: -1.7, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-1.7647059', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-1.7647059 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-1.7647059F1600.0
 
 DEBUG:local_logging:New line: G01A-1.7647059F0.0
 
 DEBUG:local_logging:I: G01A-3.5294118F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-3.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-3.5 global_A: -1.7
-DEBUG:local_logging:Global A: -1.7, local A: -1.8
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.4 for X: None, Z: 28.0, A: -1.8, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-3.5294118', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-3.5294118 global_A: -1.7647059
+DEBUG:local_logging:Global A: -1.7647059, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-3.5294118F1600.0
 
 DEBUG:local_logging:New line: G01A-3.5294118F0.0
 
 DEBUG:local_logging:I: G01A-5.2941177F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-5.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-5.2 global_A: -3.5
-DEBUG:local_logging:Global A: -3.5, local A: -1.7000000000000002
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7000000000000002, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000001 for X: None, Z: 28.0, A: -1.7000000000000002, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-5.2941177', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-5.2941177 global_A: -3.5294118
+DEBUG:local_logging:Global A: -3.5294118, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-5.2941177F1600.0
 
 DEBUG:local_logging:New line: G01A-5.2941177F0.0
 
 DEBUG:local_logging:I: G01A-7.0588235F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-7.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-7.0 global_A: -5.2
-DEBUG:local_logging:Global A: -5.2, local A: -1.7999999999999998
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7999999999999998, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999999 for X: None, Z: 28.0, A: -1.7999999999999998, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-7.0588235', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-7.0588235 global_A: -5.2941177
+DEBUG:local_logging:Global A: -5.2941177, local A: -1.7647057999999998
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647057999999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176239999999 for X: None, Z: 28.0, A: -1.7647057999999998, F: 1600.0
 DEBUG:local_logging:Old line: G01A-7.0588235F1600.0
 
 DEBUG:local_logging:New line: G01A-7.0588235F0.0
 
 DEBUG:local_logging:I: G01A-8.8235294F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-8.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-8.8 global_A: -7.0
-DEBUG:local_logging:Global A: -7.0, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-8.8235294', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-8.8235294 global_A: -7.0588235
+DEBUG:local_logging:Global A: -7.0588235, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-8.8235294F1600.0
 
 DEBUG:local_logging:New line: G01A-8.8235294F0.0
 
 DEBUG:local_logging:I: G01A-10.5882353F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-10.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-10.5 global_A: -8.8
-DEBUG:local_logging:Global A: -8.8, local A: -1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-10.5882353', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-10.5882353 global_A: -8.8235294
+DEBUG:local_logging:Global A: -8.8235294, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-10.5882353F1600.0
 
 DEBUG:local_logging:New line: G01A-10.5882353F0.0
 
 DEBUG:local_logging:I: G01A-12.3529412F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-12.3', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-12.3 global_A: -10.5
-DEBUG:local_logging:Global A: -10.5, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-12.3529412', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-12.3529412 global_A: -10.5882353
+DEBUG:local_logging:Global A: -10.5882353, local A: -1.764705900000001
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.764705900000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000026 for X: None, Z: 28.0, A: -1.764705900000001, F: 1600.0
 DEBUG:local_logging:Old line: G01A-12.3529412F1600.0
 
 DEBUG:local_logging:New line: G01A-12.3529412F0.0
 
 DEBUG:local_logging:I: G01A-14.1176471F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-14.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-14.1 global_A: -12.3
-DEBUG:local_logging:Global A: -12.3, local A: -1.799999999999999
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.799999999999999, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999997 for X: None, Z: 28.0, A: -1.799999999999999, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-14.1176471', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-14.1176471 global_A: -12.3529412
+DEBUG:local_logging:Global A: -12.3529412, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-14.1176471F1600.0
 
 DEBUG:local_logging:New line: G01A-14.1176471F0.0
 
 DEBUG:local_logging:I: G01A-15.8823529F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-15.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-15.8 global_A: -14.1
-DEBUG:local_logging:Global A: -14.1, local A: -1.700000000000001
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.700000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000003 for X: None, Z: 28.0, A: -1.700000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-15.8823529', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-15.8823529 global_A: -14.1176471
+DEBUG:local_logging:Global A: -14.1176471, local A: -1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A-15.8823529F1600.0
 
 DEBUG:local_logging:New line: G01A-15.8823529F0.0
 
 DEBUG:local_logging:I: G01A-17.6470588F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-17.6', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-17.6 global_A: -15.8
-DEBUG:local_logging:Global A: -15.8, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-17.6470588', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-17.6470588 global_A: -15.8823529
+DEBUG:local_logging:Global A: -15.8823529, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-17.6470588F1600.0
 
 DEBUG:local_logging:New line: G01A-17.6470588F0.0
 
 DEBUG:local_logging:I: G01A-19.4117647F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-19.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-19.4 global_A: -17.6
-DEBUG:local_logging:Global A: -17.6, local A: -1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-19.4117647', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-19.4117647 global_A: -17.6470588
+DEBUG:local_logging:Global A: -17.6470588, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-19.4117647F1600.0
 
 DEBUG:local_logging:New line: G01A-19.4117647F0.0
 
 DEBUG:local_logging:I: G01A-21.1764706F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-21.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-21.1 global_A: -19.4
-DEBUG:local_logging:Global A: -19.4, local A: -1.7000000000000028
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7000000000000028, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000008 for X: None, Z: 28.0, A: -1.7000000000000028, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-21.1764706', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-21.1764706 global_A: -19.4117647
+DEBUG:local_logging:Global A: -19.4117647, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-21.1764706F1600.0
 
 DEBUG:local_logging:New line: G01A-21.1764706F0.0
 
 DEBUG:local_logging:I: G01A-22.9411765F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-22.9', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-22.9 global_A: -21.1
-DEBUG:local_logging:Global A: -21.1, local A: -1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-22.9411765', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-22.9411765 global_A: -21.1764706
+DEBUG:local_logging:Global A: -21.1764706, local A: -1.7647059000000027
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059000000027, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000076 for X: None, Z: 28.0, A: -1.7647059000000027, F: 1600.0
 DEBUG:local_logging:Old line: G01A-22.9411765F1600.0
 
 DEBUG:local_logging:New line: G01A-22.9411765F0.0
 
 DEBUG:local_logging:I: G01A-24.7058824F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-24.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-24.7 global_A: -22.9
-DEBUG:local_logging:Global A: -22.9, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-24.7058824', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-24.7058824 global_A: -22.9411765
+DEBUG:local_logging:Global A: -22.9411765, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-24.7058824F1600.0
 
 DEBUG:local_logging:New line: G01A-24.7058824F0.0
 
 DEBUG:local_logging:I: G01A-26.4705882F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-26.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-26.4 global_A: -24.7
-DEBUG:local_logging:Global A: -24.7, local A: -1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-26.4705882', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-26.4705882 global_A: -24.7058824
+DEBUG:local_logging:Global A: -24.7058824, local A: -1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A-26.4705882F1600.0
 
 DEBUG:local_logging:New line: G01A-26.4705882F0.0
 
 DEBUG:local_logging:I: G01A-28.2352941F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-28.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-28.2 global_A: -26.4
-DEBUG:local_logging:Global A: -26.4, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-28.2352941', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-28.2352941 global_A: -26.4705882
+DEBUG:local_logging:Global A: -26.4705882, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-28.2352941F1600.0
 
 DEBUG:local_logging:New line: G01A-28.2352941F0.0
@@ -263,17 +263,17 @@ DEBUG:local_logging:New line: G01A-28.2352941F0.0
 DEBUG:local_logging:I: G01A-30.F1600.0
 
 DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-30', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-30 global_A: -28.2
-DEBUG:local_logging:Global A: -28.2, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Detected A: A-30 global_A: -28.2352941
+DEBUG:local_logging:Global A: -28.2352941, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-30.F1600.0
 
 DEBUG:local_logging:New line: G01A-30.F0.0
 
 DEBUG:local_logging:I: G01X60.0000A-30.F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X60.0', 'Z': None, 'A': 'A-30', 'F': 'F1600.0'}
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X60.0000', 'Z': None, 'A': 'A-30', 'F': 'F1600.0'}
 DEBUG:local_logging:Detected A: A-30 global_A: -30.0
 DEBUG:local_logging:Global A: -30.0, local A: 0.0
 DEBUG:local_logging:Operation: X: 60.0, Z: 28.0, A: 0.0, F: 1600.0, Operation: G01
@@ -284,381 +284,381 @@ DEBUG:local_logging:New line: G01X60.0000A-30.F1600.0
 
 DEBUG:local_logging:I: G01A-28.2352941F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-28.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-28.2 global_A: -30.0
-DEBUG:local_logging:Global A: -30.0, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-28.2352941', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-28.2352941 global_A: -30.0
+DEBUG:local_logging:Global A: -30.0, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-28.2352941F1600.0
 
-DEBUG:local_logging:New line: G01A-28.2352941F1904.8
+DEBUG:local_logging:New line: G01A-28.2352941F1942.9
 
 DEBUG:local_logging:I: G01A-26.4705882F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-26.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-26.4 global_A: -28.2
-DEBUG:local_logging:Global A: -28.2, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-26.4705882', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-26.4705882 global_A: -28.2352941
+DEBUG:local_logging:Global A: -28.2352941, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-26.4705882F1600.0
 
-DEBUG:local_logging:New line: G01A-26.4705882F1904.8
+DEBUG:local_logging:New line: G01A-26.4705882F1942.9
 
 DEBUG:local_logging:I: G01A-24.7058824F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-24.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-24.7 global_A: -26.4
-DEBUG:local_logging:Global A: -26.4, local A: 1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-24.7058824', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-24.7058824 global_A: -26.4705882
+DEBUG:local_logging:Global A: -26.4705882, local A: 1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A-24.7058824F1600.0
 
-DEBUG:local_logging:New line: G01A-24.7058824F2016.8
+DEBUG:local_logging:New line: G01A-24.7058824F1942.9
 
 DEBUG:local_logging:I: G01A-22.9411765F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-22.9', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-22.9 global_A: -24.7
-DEBUG:local_logging:Global A: -24.7, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-22.9411765', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-22.9411765 global_A: -24.7058824
+DEBUG:local_logging:Global A: -24.7058824, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-22.9411765F1600.0
 
-DEBUG:local_logging:New line: G01A-22.9411765F1904.8
+DEBUG:local_logging:New line: G01A-22.9411765F1942.9
 
 DEBUG:local_logging:I: G01A-21.1764706F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-21.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-21.1 global_A: -22.9
-DEBUG:local_logging:Global A: -22.9, local A: 1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-21.1764706', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-21.1764706 global_A: -22.9411765
+DEBUG:local_logging:Global A: -22.9411765, local A: 1.7647059000000027
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059000000027, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000076 for X: None, Z: 28.0, A: 1.7647059000000027, F: 1600.0
 DEBUG:local_logging:Old line: G01A-21.1764706F1600.0
 
-DEBUG:local_logging:New line: G01A-21.1764706F1904.8
+DEBUG:local_logging:New line: G01A-21.1764706F1942.9
 
 DEBUG:local_logging:I: G01A-19.4117647F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-19.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-19.4 global_A: -21.1
-DEBUG:local_logging:Global A: -21.1, local A: 1.7000000000000028
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7000000000000028, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000008 for X: None, Z: 28.0, A: 1.7000000000000028, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-19.4117647', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-19.4117647 global_A: -21.1764706
+DEBUG:local_logging:Global A: -21.1764706, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-19.4117647F1600.0
 
-DEBUG:local_logging:New line: G01A-19.4117647F2016.8
+DEBUG:local_logging:New line: G01A-19.4117647F1942.9
 
 DEBUG:local_logging:I: G01A-17.6470588F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-17.6', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-17.6 global_A: -19.4
-DEBUG:local_logging:Global A: -19.4, local A: 1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-17.6470588', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-17.6470588 global_A: -19.4117647
+DEBUG:local_logging:Global A: -19.4117647, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-17.6470588F1600.0
 
-DEBUG:local_logging:New line: G01A-17.6470588F1904.8
+DEBUG:local_logging:New line: G01A-17.6470588F1942.9
 
 DEBUG:local_logging:I: G01A-15.8823529F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-15.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-15.8 global_A: -17.6
-DEBUG:local_logging:Global A: -17.6, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-15.8823529', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-15.8823529 global_A: -17.6470588
+DEBUG:local_logging:Global A: -17.6470588, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-15.8823529F1600.0
 
-DEBUG:local_logging:New line: G01A-15.8823529F1904.8
+DEBUG:local_logging:New line: G01A-15.8823529F1942.9
 
 DEBUG:local_logging:I: G01A-14.1176471F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-14.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-14.1 global_A: -15.8
-DEBUG:local_logging:Global A: -15.8, local A: 1.700000000000001
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.700000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000003 for X: None, Z: 28.0, A: 1.700000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-14.1176471', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-14.1176471 global_A: -15.8823529
+DEBUG:local_logging:Global A: -15.8823529, local A: 1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A-14.1176471F1600.0
 
-DEBUG:local_logging:New line: G01A-14.1176471F2016.8
+DEBUG:local_logging:New line: G01A-14.1176471F1942.9
 
 DEBUG:local_logging:I: G01A-12.3529412F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-12.3', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-12.3 global_A: -14.1
-DEBUG:local_logging:Global A: -14.1, local A: 1.799999999999999
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.799999999999999, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999997 for X: None, Z: 28.0, A: 1.799999999999999, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-12.3529412', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-12.3529412 global_A: -14.1176471
+DEBUG:local_logging:Global A: -14.1176471, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-12.3529412F1600.0
 
-DEBUG:local_logging:New line: G01A-12.3529412F1904.8
+DEBUG:local_logging:New line: G01A-12.3529412F1942.9
 
 DEBUG:local_logging:I: G01A-10.5882353F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-10.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-10.5 global_A: -12.3
-DEBUG:local_logging:Global A: -12.3, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-10.5882353', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-10.5882353 global_A: -12.3529412
+DEBUG:local_logging:Global A: -12.3529412, local A: 1.764705900000001
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.764705900000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000026 for X: None, Z: 28.0, A: 1.764705900000001, F: 1600.0
 DEBUG:local_logging:Old line: G01A-10.5882353F1600.0
 
-DEBUG:local_logging:New line: G01A-10.5882353F1904.8
+DEBUG:local_logging:New line: G01A-10.5882353F1942.9
 
 DEBUG:local_logging:I: G01A-8.8235294F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-8.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-8.8 global_A: -10.5
-DEBUG:local_logging:Global A: -10.5, local A: 1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-8.8235294', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-8.8235294 global_A: -10.5882353
+DEBUG:local_logging:Global A: -10.5882353, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-8.8235294F1600.0
 
-DEBUG:local_logging:New line: G01A-8.8235294F2016.8
+DEBUG:local_logging:New line: G01A-8.8235294F1942.9
 
 DEBUG:local_logging:I: G01A-7.0588235F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-7.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-7.0 global_A: -8.8
-DEBUG:local_logging:Global A: -8.8, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-7.0588235', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-7.0588235 global_A: -8.8235294
+DEBUG:local_logging:Global A: -8.8235294, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-7.0588235F1600.0
 
-DEBUG:local_logging:New line: G01A-7.0588235F1904.8
+DEBUG:local_logging:New line: G01A-7.0588235F1942.9
 
 DEBUG:local_logging:I: G01A-5.2941177F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-5.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-5.2 global_A: -7.0
-DEBUG:local_logging:Global A: -7.0, local A: 1.7999999999999998
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7999999999999998, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999999 for X: None, Z: 28.0, A: 1.7999999999999998, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-5.2941177', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-5.2941177 global_A: -7.0588235
+DEBUG:local_logging:Global A: -7.0588235, local A: 1.7647057999999998
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647057999999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176239999999 for X: None, Z: 28.0, A: 1.7647057999999998, F: 1600.0
 DEBUG:local_logging:Old line: G01A-5.2941177F1600.0
 
-DEBUG:local_logging:New line: G01A-5.2941177F1904.8
+DEBUG:local_logging:New line: G01A-5.2941177F1942.9
 
 DEBUG:local_logging:I: G01A-3.5294118F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-3.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-3.5 global_A: -5.2
-DEBUG:local_logging:Global A: -5.2, local A: 1.7000000000000002
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7000000000000002, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000001 for X: None, Z: 28.0, A: 1.7000000000000002, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-3.5294118', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-3.5294118 global_A: -5.2941177
+DEBUG:local_logging:Global A: -5.2941177, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-3.5294118F1600.0
 
-DEBUG:local_logging:New line: G01A-3.5294118F2016.8
+DEBUG:local_logging:New line: G01A-3.5294118F1942.9
 
 DEBUG:local_logging:I: G01A-1.7647059F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-1.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-1.7 global_A: -3.5
-DEBUG:local_logging:Global A: -3.5, local A: 1.8
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.4 for X: None, Z: 28.0, A: 1.8, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A-1.7647059', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-1.7647059 global_A: -3.5294118
+DEBUG:local_logging:Global A: -3.5294118, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-1.7647059F1600.0
 
-DEBUG:local_logging:New line: G01A-1.7647059F1904.8
+DEBUG:local_logging:New line: G01A-1.7647059F1942.9
 
 DEBUG:local_logging:I: G01A0.0F1600.0
 
 DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A0.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A0.0 global_A: -1.7
-DEBUG:local_logging:Global A: -1.7, local A: 1.7
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.6 for X: None, Z: 28.0, A: 1.7, F: 1600.0
+DEBUG:local_logging:Detected A: A0.0 global_A: -1.7647059
+DEBUG:local_logging:Global A: -1.7647059, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A0.0F1600.0
 
-DEBUG:local_logging:New line: G01A0.0F2016.8
+DEBUG:local_logging:New line: G01A0.0F1942.9
 
 DEBUG:local_logging:I: G01A1.7647059F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A1.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A1.7 global_A: 0.0
-DEBUG:local_logging:Global A: 0.0, local A: 1.7
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.6 for X: None, Z: 28.0, A: 1.7, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A1.7647059', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A1.7647059 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A1.7647059F1600.0
 
-DEBUG:local_logging:New line: G01A1.7647059F2016.8
+DEBUG:local_logging:New line: G01A1.7647059F1942.9
 
 DEBUG:local_logging:I: G01A3.5294118F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A3.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A3.5 global_A: 1.7
-DEBUG:local_logging:Global A: 1.7, local A: 1.8
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.4 for X: None, Z: 28.0, A: 1.8, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A3.5294118', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A3.5294118 global_A: 1.7647059
+DEBUG:local_logging:Global A: 1.7647059, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A3.5294118F1600.0
 
-DEBUG:local_logging:New line: G01A3.5294118F1904.8
+DEBUG:local_logging:New line: G01A3.5294118F1942.9
 
 DEBUG:local_logging:I: G01A5.2941177F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A5.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A5.2 global_A: 3.5
-DEBUG:local_logging:Global A: 3.5, local A: 1.7000000000000002
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7000000000000002, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000001 for X: None, Z: 28.0, A: 1.7000000000000002, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A5.2941177', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A5.2941177 global_A: 3.5294118
+DEBUG:local_logging:Global A: 3.5294118, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A5.2941177F1600.0
 
-DEBUG:local_logging:New line: G01A5.2941177F2016.8
+DEBUG:local_logging:New line: G01A5.2941177F1942.9
 
 DEBUG:local_logging:I: G01A7.0588235F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A7.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A7.0 global_A: 5.2
-DEBUG:local_logging:Global A: 5.2, local A: 1.7999999999999998
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7999999999999998, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999999 for X: None, Z: 28.0, A: 1.7999999999999998, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A7.0588235', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A7.0588235 global_A: 5.2941177
+DEBUG:local_logging:Global A: 5.2941177, local A: 1.7647057999999998
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647057999999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176239999999 for X: None, Z: 28.0, A: 1.7647057999999998, F: 1600.0
 DEBUG:local_logging:Old line: G01A7.0588235F1600.0
 
-DEBUG:local_logging:New line: G01A7.0588235F1904.8
+DEBUG:local_logging:New line: G01A7.0588235F1942.9
 
 DEBUG:local_logging:I: G01A8.8235294F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A8.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A8.8 global_A: 7.0
-DEBUG:local_logging:Global A: 7.0, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A8.8235294', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A8.8235294 global_A: 7.0588235
+DEBUG:local_logging:Global A: 7.0588235, local A: 1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: 1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A8.8235294F1600.0
 
-DEBUG:local_logging:New line: G01A8.8235294F1904.8
+DEBUG:local_logging:New line: G01A8.8235294F1942.9
 
 DEBUG:local_logging:I: G01A10.5882353F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A10.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A10.5 global_A: 8.8
-DEBUG:local_logging:Global A: 8.8, local A: 1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A10.5882353', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A10.5882353 global_A: 8.8235294
+DEBUG:local_logging:Global A: 8.8235294, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A10.5882353F1600.0
 
-DEBUG:local_logging:New line: G01A10.5882353F2016.8
+DEBUG:local_logging:New line: G01A10.5882353F1942.9
 
 DEBUG:local_logging:I: G01A12.3529412F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A12.3', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A12.3 global_A: 10.5
-DEBUG:local_logging:Global A: 10.5, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A12.3529412', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A12.3529412 global_A: 10.5882353
+DEBUG:local_logging:Global A: 10.5882353, local A: 1.764705900000001
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.764705900000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000026 for X: None, Z: 28.0, A: 1.764705900000001, F: 1600.0
 DEBUG:local_logging:Old line: G01A12.3529412F1600.0
 
-DEBUG:local_logging:New line: G01A12.3529412F1904.8
+DEBUG:local_logging:New line: G01A12.3529412F1942.9
 
 DEBUG:local_logging:I: G01A14.1176471F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A14.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A14.1 global_A: 12.3
-DEBUG:local_logging:Global A: 12.3, local A: 1.799999999999999
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.799999999999999, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999997 for X: None, Z: 28.0, A: 1.799999999999999, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A14.1176471', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A14.1176471 global_A: 12.3529412
+DEBUG:local_logging:Global A: 12.3529412, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A14.1176471F1600.0
 
-DEBUG:local_logging:New line: G01A14.1176471F1904.8
+DEBUG:local_logging:New line: G01A14.1176471F1942.9
 
 DEBUG:local_logging:I: G01A15.8823529F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A15.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A15.8 global_A: 14.1
-DEBUG:local_logging:Global A: 14.1, local A: 1.700000000000001
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.700000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000003 for X: None, Z: 28.0, A: 1.700000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A15.8823529', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A15.8823529 global_A: 14.1176471
+DEBUG:local_logging:Global A: 14.1176471, local A: 1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A15.8823529F1600.0
 
-DEBUG:local_logging:New line: G01A15.8823529F2016.8
+DEBUG:local_logging:New line: G01A15.8823529F1942.9
 
 DEBUG:local_logging:I: G01A17.6470588F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A17.6', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A17.6 global_A: 15.8
-DEBUG:local_logging:Global A: 15.8, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A17.6470588', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A17.6470588 global_A: 15.8823529
+DEBUG:local_logging:Global A: 15.8823529, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A17.6470588F1600.0
 
-DEBUG:local_logging:New line: G01A17.6470588F1904.8
+DEBUG:local_logging:New line: G01A17.6470588F1942.9
 
 DEBUG:local_logging:I: G01A19.4117647F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A19.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A19.4 global_A: 17.6
-DEBUG:local_logging:Global A: 17.6, local A: 1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A19.4117647', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A19.4117647 global_A: 17.6470588
+DEBUG:local_logging:Global A: 17.6470588, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A19.4117647F1600.0
 
-DEBUG:local_logging:New line: G01A19.4117647F1904.8
+DEBUG:local_logging:New line: G01A19.4117647F1942.9
 
 DEBUG:local_logging:I: G01A21.1764706F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A21.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A21.1 global_A: 19.4
-DEBUG:local_logging:Global A: 19.4, local A: 1.7000000000000028
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7000000000000028, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000008 for X: None, Z: 28.0, A: 1.7000000000000028, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A21.1764706', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A21.1764706 global_A: 19.4117647
+DEBUG:local_logging:Global A: 19.4117647, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A21.1764706F1600.0
 
-DEBUG:local_logging:New line: G01A21.1764706F2016.8
+DEBUG:local_logging:New line: G01A21.1764706F1942.9
 
 DEBUG:local_logging:I: G01A22.9411765F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A22.9', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A22.9 global_A: 21.1
-DEBUG:local_logging:Global A: 21.1, local A: 1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: 1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A22.9411765', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A22.9411765 global_A: 21.1764706
+DEBUG:local_logging:Global A: 21.1764706, local A: 1.7647059000000027
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647059000000027, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000076 for X: None, Z: 28.0, A: 1.7647059000000027, F: 1600.0
 DEBUG:local_logging:Old line: G01A22.9411765F1600.0
 
-DEBUG:local_logging:New line: G01A22.9411765F1904.8
+DEBUG:local_logging:New line: G01A22.9411765F1942.9
 
 DEBUG:local_logging:I: G01A24.7058824F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A24.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A24.7 global_A: 22.9
-DEBUG:local_logging:Global A: 22.9, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A24.7058824', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A24.7058824 global_A: 22.9411765
+DEBUG:local_logging:Global A: 22.9411765, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A24.7058824F1600.0
 
-DEBUG:local_logging:New line: G01A24.7058824F1904.8
+DEBUG:local_logging:New line: G01A24.7058824F1942.9
 
 DEBUG:local_logging:I: G01A26.4705882F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A26.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A26.4 global_A: 24.7
-DEBUG:local_logging:Global A: 24.7, local A: 1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: 1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A26.4705882', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A26.4705882 global_A: 24.7058824
+DEBUG:local_logging:Global A: 24.7058824, local A: 1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: 1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A26.4705882F1600.0
 
-DEBUG:local_logging:New line: G01A26.4705882F2016.8
+DEBUG:local_logging:New line: G01A26.4705882F1942.9
 
 DEBUG:local_logging:I: G01A28.2352941F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A28.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A28.2 global_A: 26.4
-DEBUG:local_logging:Global A: 26.4, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A28.2352941', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A28.2352941 global_A: 26.4705882
+DEBUG:local_logging:Global A: 26.4705882, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A28.2352941F1600.0
 
-DEBUG:local_logging:New line: G01A28.2352941F1904.8
+DEBUG:local_logging:New line: G01A28.2352941F1942.9
 
 DEBUG:local_logging:I: G01A30.F1600.0
 
 DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A30', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A30 global_A: 28.2
-DEBUG:local_logging:Global A: 28.2, local A: 1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: 1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Detected A: A30 global_A: 28.2352941
+DEBUG:local_logging:Global A: 28.2352941, local A: 1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A30.F1600.0
 
-DEBUG:local_logging:New line: G01A30.F1904.8
+DEBUG:local_logging:New line: G01A30.F1942.9
 
 DEBUG:local_logging:I: G01X20.0000A30.F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X20.0', 'Z': None, 'A': 'A30', 'F': 'F1600.0'}
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X20.0000', 'Z': None, 'A': 'A30', 'F': 'F1600.0'}
 DEBUG:local_logging:Detected A: A30 global_A: 30.0
 DEBUG:local_logging:Global A: 30.0, local A: 0.0
 DEBUG:local_logging:Operation: X: -40.0, Z: 28.0, A: 0.0, F: 1600.0, Operation: G01
@@ -669,199 +669,199 @@ DEBUG:local_logging:New line: G01X20.0000A30.F800.0
 
 DEBUG:local_logging:I: G01A28.2352941F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A28.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A28.2 global_A: 30.0
-DEBUG:local_logging:Global A: 30.0, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A28.2352941', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A28.2352941 global_A: 30.0
+DEBUG:local_logging:Global A: 30.0, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A28.2352941F1600.0
 
-DEBUG:local_logging:New line: G01A28.2352941F634.9
+DEBUG:local_logging:New line: G01A28.2352941F647.6
 
 DEBUG:local_logging:I: G01A26.4705882F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A26.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A26.4 global_A: 28.2
-DEBUG:local_logging:Global A: 28.2, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A26.4705882', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A26.4705882 global_A: 28.2352941
+DEBUG:local_logging:Global A: 28.2352941, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A26.4705882F1600.0
 
-DEBUG:local_logging:New line: G01A26.4705882F634.9
+DEBUG:local_logging:New line: G01A26.4705882F647.6
 
 DEBUG:local_logging:I: G01A24.7058824F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A24.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A24.7 global_A: 26.4
-DEBUG:local_logging:Global A: 26.4, local A: -1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A24.7058824', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A24.7058824 global_A: 26.4705882
+DEBUG:local_logging:Global A: 26.4705882, local A: -1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A24.7058824F1600.0
 
-DEBUG:local_logging:New line: G01A24.7058824F672.3
+DEBUG:local_logging:New line: G01A24.7058824F647.6
 
 DEBUG:local_logging:I: G01A22.9411765F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A22.9', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A22.9 global_A: 24.7
-DEBUG:local_logging:Global A: 24.7, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A22.9411765', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A22.9411765 global_A: 24.7058824
+DEBUG:local_logging:Global A: 24.7058824, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A22.9411765F1600.0
 
-DEBUG:local_logging:New line: G01A22.9411765F634.9
+DEBUG:local_logging:New line: G01A22.9411765F647.6
 
 DEBUG:local_logging:I: G01A21.1764706F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A21.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A21.1 global_A: 22.9
-DEBUG:local_logging:Global A: 22.9, local A: -1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A21.1764706', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A21.1764706 global_A: 22.9411765
+DEBUG:local_logging:Global A: 22.9411765, local A: -1.7647059000000027
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059000000027, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000076 for X: None, Z: 28.0, A: -1.7647059000000027, F: 1600.0
 DEBUG:local_logging:Old line: G01A21.1764706F1600.0
 
-DEBUG:local_logging:New line: G01A21.1764706F634.9
+DEBUG:local_logging:New line: G01A21.1764706F647.6
 
 DEBUG:local_logging:I: G01A19.4117647F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A19.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A19.4 global_A: 21.1
-DEBUG:local_logging:Global A: 21.1, local A: -1.7000000000000028
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7000000000000028, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000008 for X: None, Z: 28.0, A: -1.7000000000000028, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A19.4117647', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A19.4117647 global_A: 21.1764706
+DEBUG:local_logging:Global A: 21.1764706, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A19.4117647F1600.0
 
-DEBUG:local_logging:New line: G01A19.4117647F672.3
+DEBUG:local_logging:New line: G01A19.4117647F647.6
 
 DEBUG:local_logging:I: G01A17.6470588F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A17.6', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A17.6 global_A: 19.4
-DEBUG:local_logging:Global A: 19.4, local A: -1.7999999999999972
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999992 for X: None, Z: 28.0, A: -1.7999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A17.6470588', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A17.6470588 global_A: 19.4117647
+DEBUG:local_logging:Global A: 19.4117647, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A17.6470588F1600.0
 
-DEBUG:local_logging:New line: G01A17.6470588F634.9
+DEBUG:local_logging:New line: G01A17.6470588F647.6
 
 DEBUG:local_logging:I: G01A15.8823529F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A15.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A15.8 global_A: 17.6
-DEBUG:local_logging:Global A: 17.6, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A15.8823529', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A15.8823529 global_A: 17.6470588
+DEBUG:local_logging:Global A: 17.6470588, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A15.8823529F1600.0
 
-DEBUG:local_logging:New line: G01A15.8823529F634.9
+DEBUG:local_logging:New line: G01A15.8823529F647.6
 
 DEBUG:local_logging:I: G01A14.1176471F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A14.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A14.1 global_A: 15.8
-DEBUG:local_logging:Global A: 15.8, local A: -1.700000000000001
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.700000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000003 for X: None, Z: 28.0, A: -1.700000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A14.1176471', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A14.1176471 global_A: 15.8823529
+DEBUG:local_logging:Global A: 15.8823529, local A: -1.7647058000000015
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176240000004 for X: None, Z: 28.0, A: -1.7647058000000015, F: 1600.0
 DEBUG:local_logging:Old line: G01A14.1176471F1600.0
 
-DEBUG:local_logging:New line: G01A14.1176471F672.3
+DEBUG:local_logging:New line: G01A14.1176471F647.6
 
 DEBUG:local_logging:I: G01A12.3529412F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A12.3', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A12.3 global_A: 14.1
-DEBUG:local_logging:Global A: 14.1, local A: -1.799999999999999
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.799999999999999, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999997 for X: None, Z: 28.0, A: -1.799999999999999, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A12.3529412', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A12.3529412 global_A: 14.1176471
+DEBUG:local_logging:Global A: 14.1176471, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A12.3529412F1600.0
 
-DEBUG:local_logging:New line: G01A12.3529412F634.9
+DEBUG:local_logging:New line: G01A12.3529412F647.6
 
 DEBUG:local_logging:I: G01A10.5882353F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A10.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A10.5 global_A: 12.3
-DEBUG:local_logging:Global A: 12.3, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A10.5882353', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A10.5882353 global_A: 12.3529412
+DEBUG:local_logging:Global A: 12.3529412, local A: -1.764705900000001
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.764705900000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000026 for X: None, Z: 28.0, A: -1.764705900000001, F: 1600.0
 DEBUG:local_logging:Old line: G01A10.5882353F1600.0
 
-DEBUG:local_logging:New line: G01A10.5882353F634.9
+DEBUG:local_logging:New line: G01A10.5882353F647.6
 
 DEBUG:local_logging:I: G01A8.8235294F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A8.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A8.8 global_A: 10.5
-DEBUG:local_logging:Global A: 10.5, local A: -1.6999999999999993
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.59999999999998 for X: None, Z: 28.0, A: -1.6999999999999993, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A8.8235294', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A8.8235294 global_A: 10.5882353
+DEBUG:local_logging:Global A: 10.5882353, local A: -1.7647058999999992
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176519999998 for X: None, Z: 28.0, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A8.8235294F1600.0
 
-DEBUG:local_logging:New line: G01A8.8235294F672.3
+DEBUG:local_logging:New line: G01A8.8235294F647.6
 
 DEBUG:local_logging:I: G01A7.0588235F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A7.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A7.0 global_A: 8.8
-DEBUG:local_logging:Global A: 8.8, local A: -1.8000000000000007
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.40000000000002 for X: None, Z: 28.0, A: -1.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A7.0588235', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A7.0588235 global_A: 8.8235294
+DEBUG:local_logging:Global A: 8.8235294, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A7.0588235F1600.0
 
-DEBUG:local_logging:New line: G01A7.0588235F634.9
+DEBUG:local_logging:New line: G01A7.0588235F647.6
 
 DEBUG:local_logging:I: G01A5.2941177F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A5.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A5.2 global_A: 7.0
-DEBUG:local_logging:Global A: 7.0, local A: -1.7999999999999998
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7999999999999998, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.39999999999999 for X: None, Z: 28.0, A: -1.7999999999999998, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A5.2941177', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A5.2941177 global_A: 7.0588235
+DEBUG:local_logging:Global A: 7.0588235, local A: -1.7647057999999998
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647057999999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.41176239999999 for X: None, Z: 28.0, A: -1.7647057999999998, F: 1600.0
 DEBUG:local_logging:Old line: G01A5.2941177F1600.0
 
-DEBUG:local_logging:New line: G01A5.2941177F634.9
+DEBUG:local_logging:New line: G01A5.2941177F647.6
 
 DEBUG:local_logging:I: G01A3.5294118F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A3.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A3.5 global_A: 5.2
-DEBUG:local_logging:Global A: 5.2, local A: -1.7000000000000002
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7000000000000002, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.60000000000001 for X: None, Z: 28.0, A: -1.7000000000000002, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A3.5294118', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A3.5294118 global_A: 5.2941177
+DEBUG:local_logging:Global A: 5.2941177, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A3.5294118F1600.0
 
-DEBUG:local_logging:New line: G01A3.5294118F672.3
+DEBUG:local_logging:New line: G01A3.5294118F647.6
 
 DEBUG:local_logging:I: G01A1.7647059F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A1.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A1.7 global_A: 3.5
-DEBUG:local_logging:Global A: 3.5, local A: -1.8
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.8, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 50.4 for X: None, Z: 28.0, A: -1.8, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A1.7647059', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A1.7647059 global_A: 3.5294118
+DEBUG:local_logging:Global A: 3.5294118, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A1.7647059F1600.0
 
-DEBUG:local_logging:New line: G01A1.7647059F634.9
+DEBUG:local_logging:New line: G01A1.7647059F647.6
 
 DEBUG:local_logging:I: G01A0.0F1600.0
 
 DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': None, 'A': 'A0.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A0.0 global_A: 1.7
-DEBUG:local_logging:Global A: 1.7, local A: -1.7
-DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 47.6 for X: None, Z: 28.0, A: -1.7, F: 1600.0
+DEBUG:local_logging:Detected A: A0.0 global_A: 1.7647059
+DEBUG:local_logging:Global A: 1.7647059, local A: -1.7647059
+DEBUG:local_logging:Operation: X: None, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.411765200000005 for X: None, Z: 28.0, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A0.0F1600.0
 
-DEBUG:local_logging:New line: G01A0.0F672.3
+DEBUG:local_logging:New line: G01A0.0F647.6
 
 DEBUG:local_logging:NI: F2500.0
 
 DEBUG:local_logging:I: G01Z36.0084A0.0F2500.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z36.0', 'A': 'A0.0', 'F': 'F2500.0'}
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z36.0084', 'A': 'A0.0', 'F': 'F2500.0'}
 DEBUG:local_logging:Detected A: A0.0 global_A: 0.0
 DEBUG:local_logging:Global A: 0.0, local A: 0.0
-DEBUG:local_logging:Operation: X: None, Z: 36.0, A: 0.0, F: 2500.0, Operation: G01
+DEBUG:local_logging:Operation: X: None, Z: 36.0084, A: 0.0, F: 2500.0, Operation: G01
 DEBUG:local_logging:Old line: G01Z36.0084A0.0F2500.0
 
 DEBUG:local_logging:New line: G01Z36.0084A0.0F2500.0
@@ -900,14 +900,14 @@ DEBUG:local_logging:NI: F1500.0
 
 DEBUG:local_logging:I: G01Z27.0023A-3.9542578F1500.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z27.0', 'A': 'A-3.9', 'F': 'F1500.0'}
-DEBUG:local_logging:Detected A: A-3.9 global_A: 0.0
-DEBUG:local_logging:Global A: 0.0, local A: -3.9
-DEBUG:local_logging:Operation: X: None, Z: 27.0, A: -3.9, F: 1500.0, Operation: G01
-DEBUG:local_logging:Distance: 105.3 for X: None, Z: 27.0, A: -3.9, F: 1500.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z27.0023', 'A': 'A-3.9542578', 'F': 'F1500.0'}
+DEBUG:local_logging:Detected A: A-3.9542578 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: -3.9542578
+DEBUG:local_logging:Operation: X: None, Z: 27.0023, A: -3.9542578, F: 1500.0, Operation: G01
+DEBUG:local_logging:Distance: 106.77405539294001 for X: None, Z: 27.0023, A: -3.9542578, F: 1500.0
 DEBUG:local_logging:Old line: G01Z27.0023A-3.9542578F1500.0
 
-DEBUG:local_logging:New line: G01Z27.0023A-3.9542578F284.9
+DEBUG:local_logging:New line: G01Z27.0023A-3.9542578F281.0
 
 DEBUG:local_logging:NI: ()
 
@@ -919,314 +919,1367 @@ DEBUG:local_logging:NI: F1600.0
 
 DEBUG:local_logging:I: G01X118.7770Z27.0066A-6.7015563F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X118.7', 'Z': 'Z27.0', 'A': 'A-6.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-6.7 global_A: -3.9
-DEBUG:local_logging:Global A: -3.9, local A: -2.8000000000000003
-DEBUG:local_logging:Operation: X: 98.7, Z: 27.0, A: -2.8000000000000003, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 124.32638497117176 for X: 98.7, Z: 27.0, A: -2.8000000000000003, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X118.7770', 'Z': 'Z27.0066', 'A': 'A-6.7015563', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-6.7015563 global_A: -3.9542578
+DEBUG:local_logging:Global A: -3.9542578, local A: -2.7472985
+DEBUG:local_logging:Operation: X: 98.777, Z: 27.0066, A: -2.7472985, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 123.53874775131435 for X: 98.777, Z: 27.0066, A: -2.7472985, F: 1600.0
 DEBUG:local_logging:Old line: G01X118.7770Z27.0066A-6.7015563F1600.0
 
-DEBUG:local_logging:New line: G01X118.7770Z27.0066A-6.7015563F1527.6
+DEBUG:local_logging:New line: G01X118.7770Z27.0066A-6.7015563F1538.3
 
 DEBUG:local_logging:I: G01X116.3721Z27.0132A-9.4698126F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X116.3', 'Z': 'Z27.0', 'A': 'A-9.4', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-9.4 global_A: -6.7
-DEBUG:local_logging:Global A: -6.7, local A: -2.7
-DEBUG:local_logging:Operation: X: -2.4000000000000057, Z: 27.0, A: -2.7, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 72.93949547398859 for X: -2.4000000000000057, Z: 27.0, A: -2.7, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X116.3721', 'Z': 'Z27.0132', 'A': 'A-9.4698126', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-9.4698126 global_A: -6.7015563
+DEBUG:local_logging:Global A: -6.7015563, local A: -2.768256299999999
+DEBUG:local_logging:Operation: X: -2.404899999999998, Z: 27.0132, A: -2.768256299999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 74.81812176136097 for X: -2.404899999999998, Z: 27.0132, A: -2.768256299999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X116.3721Z27.0132A-9.4698126F1600.0
 
-DEBUG:local_logging:New line: G01X116.3721Z27.0132A-9.4698126F2551.2
+DEBUG:local_logging:New line: G01X116.3721Z27.0132A-9.4698126F2488.6
 
 DEBUG:local_logging:I: G01X113.9692Z27.0220A-12.2559926F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X113.9', 'Z': 'Z27.0', 'A': 'A-12.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-12.2 global_A: -9.4
-DEBUG:local_logging:Global A: -9.4, local A: -2.799999999999999
-DEBUG:local_logging:Operation: X: -2.3999999999999915, Z: 27.0, A: -2.799999999999999, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.63808564473321 for X: -2.3999999999999915, Z: 27.0, A: -2.799999999999999, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X113.9692', 'Z': 'Z27.0220', 'A': 'A-12.2559926', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-12.2559926 global_A: -9.4698126
+DEBUG:local_logging:Global A: -9.4698126, local A: -2.7861800000000017
+DEBUG:local_logging:Operation: X: -2.4029000000000025, Z: 27.022, A: -2.7861800000000017, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.32649172945258 for X: -2.4029000000000025, Z: 27.022, A: -2.7861800000000017, F: 1600.0
 DEBUG:local_logging:Old line: G01X113.9692Z27.0220A-12.2559926F1600.0
 
-DEBUG:local_logging:New line: G01X113.9692Z27.0220A-12.2559926F2409.4
+DEBUG:local_logging:New line: G01X113.9692Z27.0220A-12.2559926F2420.8
 
 DEBUG:local_logging:I: G01X111.5765Z27.0332A-15.0569381F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X111.5', 'Z': 'Z27.0', 'A': 'A-15.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-15.0 global_A: -12.2
-DEBUG:local_logging:Global A: -12.2, local A: -2.8000000000000007
-DEBUG:local_logging:Operation: X: -2.4000000000000057, Z: 27.0, A: -2.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.63808564473327 for X: -2.4000000000000057, Z: 27.0, A: -2.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X111.5765', 'Z': 'Z27.0332', 'A': 'A-15.0569381', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-15.0569381 global_A: -12.2559926
+DEBUG:local_logging:Global A: -12.2559926, local A: -2.800945499999999
+DEBUG:local_logging:Operation: X: -2.392700000000005, Z: 27.0332, A: -2.800945499999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.75631503520472 for X: -2.392700000000005, Z: 27.0332, A: -2.800945499999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X111.5765Z27.0332A-15.0569381F1600.0
 
-DEBUG:local_logging:New line: G01X111.5765Z27.0332A-15.0569381F2358.6
+DEBUG:local_logging:New line: G01X111.5765Z27.0332A-15.0569381F2356.5
 
 DEBUG:local_logging:I: G01X109.2023Z27.0467A-17.8693874F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X109.2', 'Z': 'Z27.0', 'A': 'A-17.8', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-17.8 global_A: -15.0
-DEBUG:local_logging:Global A: -15.0, local A: -2.8000000000000007
-DEBUG:local_logging:Operation: X: -2.299999999999997, Z: 27.0, A: -2.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.63497868050207 for X: -2.299999999999997, Z: 27.0, A: -2.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X109.2023', 'Z': 'Z27.0467', 'A': 'A-17.8693874', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-17.8693874 global_A: -15.0569381
+DEBUG:local_logging:Global A: -15.0569381, local A: -2.812449300000001
+DEBUG:local_logging:Operation: X: -2.374200000000002, Z: 27.0467, A: -2.812449300000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.10451494810931 for X: -2.374200000000002, Z: 27.0467, A: -2.812449300000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X109.2023Z27.0467A-17.8693874F1600.0
 
-DEBUG:local_logging:New line: G01X109.2023Z27.0467A-17.8693874F2310.0
+DEBUG:local_logging:New line: G01X109.2023Z27.0467A-17.8693874F2295.8
 
 DEBUG:local_logging:I: G01X106.8551Z27.0624A-20.6899967F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X106.8', 'Z': 'Z27.0', 'A': 'A-20.6', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-20.6 global_A: -17.8
-DEBUG:local_logging:Global A: -17.8, local A: -2.8000000000000007
-DEBUG:local_logging:Operation: X: -2.4000000000000057, Z: 27.0, A: -2.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.63808564473327 for X: -2.4000000000000057, Z: 27.0, A: -2.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X106.8551', 'Z': 'Z27.0624', 'A': 'A-20.6899967', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-20.6899967 global_A: -17.8693874
+DEBUG:local_logging:Global A: -17.8693874, local A: -2.8206092999999974
+DEBUG:local_logging:Operation: X: -2.347200000000001, Z: 27.0624, A: -2.8206092999999974, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.36853643920041 for X: -2.347200000000001, Z: 27.0624, A: -2.8206092999999974, F: 1600.0
 DEBUG:local_logging:Old line: G01X106.8551Z27.0624A-20.6899967F1600.0
 
-DEBUG:local_logging:New line: G01X106.8551Z27.0624A-20.6899967F2259.2
+DEBUG:local_logging:New line: G01X106.8551Z27.0624A-20.6899967F2238.7
 
 DEBUG:local_logging:I: G01X104.5431Z27.0804A-23.5153641F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X104.5', 'Z': 'Z27.0', 'A': 'A-23.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-23.5 global_A: -20.6
-DEBUG:local_logging:Global A: -20.6, local A: -2.8999999999999986
-DEBUG:local_logging:Operation: X: -2.299999999999997, Z: 27.0, A: -2.8999999999999986, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 78.3337730484112 for X: -2.299999999999997, Z: 27.0, A: -2.8999999999999986, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X104.5431', 'Z': 'Z27.0804', 'A': 'A-23.5153641', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-23.5153641 global_A: -20.6899967
+DEBUG:local_logging:Global A: -20.6899967, local A: -2.825367400000001
+DEBUG:local_logging:Operation: X: -2.3119999999999976, Z: 27.0804, A: -2.825367400000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.54700274191875 for X: -2.3119999999999976, Z: 27.0804, A: -2.825367400000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X104.5431Z27.0804A-23.5153641F1600.0
 
-DEBUG:local_logging:New line: G01X104.5431Z27.0804A-23.5153641F2134.5
+DEBUG:local_logging:New line: G01X104.5431Z27.0804A-23.5153641F2185.2
 
 DEBUG:local_logging:I: G01X102.2744Z27.1006A-26.3420538F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X102.2', 'Z': 'Z27.1', 'A': 'A-26.3', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-26.3 global_A: -23.5
-DEBUG:local_logging:Global A: -23.5, local A: -2.8000000000000007
-DEBUG:local_logging:Operation: X: -2.299999999999997, Z: 27.1, A: -2.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.91484966724234 for X: -2.299999999999997, Z: 27.1, A: -2.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X102.2744', 'Z': 'Z27.1006', 'A': 'A-26.3420538', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-26.3420538 global_A: -23.5153641
+DEBUG:local_logging:Global A: -23.5153641, local A: -2.8266896999999993
+DEBUG:local_logging:Operation: X: -2.2686999999999955, Z: 27.1006, A: -2.8266896999999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.63857393741242 for X: -2.2686999999999955, Z: 27.1006, A: -2.8266896999999993, F: 1600.0
 DEBUG:local_logging:Old line: G01X102.2744Z27.1006A-26.3420538F1600.0
 
-DEBUG:local_logging:New line: G01X102.2744Z27.1006A-26.3420538F2154.0
+DEBUG:local_logging:New line: G01X102.2744Z27.1006A-26.3420538F2135.2
 
 DEBUG:local_logging:I: G01X100.0569Z27.1228A-29.1666211F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X100.0', 'Z': 'Z27.1', 'A': 'A-29.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-29.1 global_A: -26.3
-DEBUG:local_logging:Global A: -26.3, local A: -2.8000000000000007
-DEBUG:local_logging:Operation: X: -2.200000000000003, Z: 27.1, A: -2.8000000000000007, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.91188576237587 for X: -2.200000000000003, Z: 27.1, A: -2.8000000000000007, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X100.0569', 'Z': 'Z27.1228', 'A': 'A-29.1666211', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-29.1666211 global_A: -26.3420538
+DEBUG:local_logging:Global A: -26.3420538, local A: -2.824567300000002
+DEBUG:local_logging:Operation: X: -2.217500000000001, Z: 27.1228, A: -2.824567300000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.64226028185604 for X: -2.217500000000001, Z: 27.1228, A: -2.824567300000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X100.0569Z27.1228A-29.1666211F1600.0
 
-DEBUG:local_logging:New line: G01X100.0569Z27.1228A-29.1666211F2107.7
+DEBUG:local_logging:New line: G01X100.0569Z27.1228A-29.1666211F2088.8
 
 DEBUG:local_logging:I: G01X97.8981Z27.1471A-31.9856376F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X97.8', 'Z': 'Z27.1', 'A': 'A-31.9', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-31.9 global_A: -29.1
-DEBUG:local_logging:Global A: -29.1, local A: -2.799999999999997
-DEBUG:local_logging:Operation: X: -2.200000000000003, Z: 27.1, A: -2.799999999999997, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.91188576237576 for X: -2.200000000000003, Z: 27.1, A: -2.799999999999997, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X97.8981', 'Z': 'Z27.1471', 'A': 'A-31.9856376', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-31.9856376 global_A: -29.1666211
+DEBUG:local_logging:Global A: -29.1666211, local A: -2.8190165
+DEBUG:local_logging:Operation: X: -2.1587999999999994, Z: 27.1471, A: -2.8190165, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.55856582308316 for X: -2.1587999999999994, Z: 27.1471, A: -2.8190165, F: 1600.0
 DEBUG:local_logging:Old line: G01X97.8981Z27.1471A-31.9856376F1600.0
 
-DEBUG:local_logging:New line: G01X97.8981Z27.1471A-31.9856376F2061.3
+DEBUG:local_logging:New line: G01X97.8981Z27.1471A-31.9856376F2046.0
 
 DEBUG:local_logging:I: G01X95.8050Z27.1734A-34.7957164F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X95.8', 'Z': 'Z27.1', 'A': 'A-34.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-34.7 global_A: -31.9
-DEBUG:local_logging:Global A: -31.9, local A: -2.8000000000000043
-DEBUG:local_logging:Operation: X: -2.0, Z: 27.1, A: -2.8000000000000043, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 75.90635283031334 for X: -2.0, Z: 27.1, A: -2.8000000000000043, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X95.8050', 'Z': 'Z27.1734', 'A': 'A-34.7957164', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-34.7957164 global_A: -31.9856376
+DEBUG:local_logging:Global A: -31.9856376, local A: -2.810078800000003
+DEBUG:local_logging:Operation: X: -2.0930999999999926, Z: 27.1734, A: -2.810078800000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.38807703222787 for X: -2.0930999999999926, Z: 27.1734, A: -2.810078800000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X95.8050Z27.1734A-34.7957164F1600.0
 
-DEBUG:local_logging:New line: G01X95.8050Z27.1734A-34.7957164F2019.3
+DEBUG:local_logging:New line: G01X95.8050Z27.1734A-34.7957164F2006.7
 
 DEBUG:local_logging:I: G01X93.7843Z27.2014A-37.5935357F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X93.7', 'Z': 'Z27.2', 'A': 'A-37.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-37.5 global_A: -34.7
-DEBUG:local_logging:Global A: -34.7, local A: -2.799999999999997
-DEBUG:local_logging:Operation: X: -2.0999999999999943, Z: 27.2, A: -2.799999999999997, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 76.18894670488619 for X: -2.0999999999999943, Z: 27.2, A: -2.799999999999997, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X93.7843', 'Z': 'Z27.2014', 'A': 'A-37.5935357', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-37.5935357 global_A: -34.7957164
+DEBUG:local_logging:Global A: -34.7957164, local A: -2.7978192999999933
+DEBUG:local_logging:Operation: X: -2.020700000000005, Z: 27.2014, A: -2.7978192999999933, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.13142360363402 for X: -2.020700000000005, Z: 27.2014, A: -2.7978192999999933, F: 1600.0
 DEBUG:local_logging:Old line: G01X93.7843Z27.2014A-37.5935357F1600.0
 
-DEBUG:local_logging:New line: G01X93.7843Z27.2014A-37.5935357F1967.7
+DEBUG:local_logging:New line: G01X93.7843Z27.2014A-37.5935357F1971.0
 
 DEBUG:local_logging:I: G01X91.8420Z27.2312A-40.3758623F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X91.8', 'Z': 'Z27.2', 'A': 'A-40.3', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-40.3 global_A: -37.5
-DEBUG:local_logging:Global A: -37.5, local A: -2.799999999999997
-DEBUG:local_logging:Operation: X: -1.9000000000000057, Z: 27.2, A: -2.799999999999997, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 76.1836964185907 for X: -1.9000000000000057, Z: 27.2, A: -2.799999999999997, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X91.8420', 'Z': 'Z27.2312', 'A': 'A-40.3758623', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-40.3758623 global_A: -37.5935357
+DEBUG:local_logging:Global A: -37.5935357, local A: -2.7823266000000046
+DEBUG:local_logging:Operation: X: -1.942300000000003, Z: 27.2312, A: -2.7823266000000046, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.79098391562746 for X: -1.942300000000003, Z: 27.2312, A: -2.7823266000000046, F: 1600.0
 DEBUG:local_logging:Old line: G01X91.8420Z27.2312A-40.3758623F1600.0
 
-DEBUG:local_logging:New line: G01X91.8420Z27.2312A-40.3758623F1928.0
+DEBUG:local_logging:New line: G01X91.8420Z27.2312A-40.3758623F1938.8
 
 DEBUG:local_logging:I: G01X89.9833Z27.2625A-43.1395726F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X89.9', 'Z': 'Z27.2', 'A': 'A-43.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-43.1 global_A: -40.3
-DEBUG:local_logging:Global A: -40.3, local A: -2.8000000000000043
-DEBUG:local_logging:Operation: X: -1.8999999999999915, Z: 27.2, A: -2.8000000000000043, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 76.18369641859088 for X: -1.8999999999999915, Z: 27.2, A: -2.8000000000000043, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X89.9833', 'Z': 'Z27.2625', 'A': 'A-43.1395726', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-43.1395726 global_A: -40.3758623
+DEBUG:local_logging:Global A: -40.3758623, local A: -2.7637102999999996
+DEBUG:local_logging:Operation: X: -1.858699999999999, Z: 27.2625, A: -2.7637102999999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.36857467867334 for X: -1.858699999999999, Z: 27.2625, A: -2.7637102999999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X89.9833Z27.2625A-43.1395726F1600.0
 
-DEBUG:local_logging:New line: G01X89.9833Z27.2625A-43.1395726F1888.1
+DEBUG:local_logging:New line: G01X89.9833Z27.2625A-43.1395726F1910.3
 
 DEBUG:local_logging:I: G01X87.3621Z27.3121A-47.2437216F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X87.3', 'Z': 'Z27.3', 'A': 'A-47.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-47.2 global_A: -43.1
-DEBUG:local_logging:Global A: -43.1, local A: -4.100000000000001
-DEBUG:local_logging:Operation: X: -2.6000000000000085, Z: 27.3, A: -4.100000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 111.96019337246614 for X: -2.6000000000000085, Z: 27.3, A: -4.100000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X87.3621', 'Z': 'Z27.3121', 'A': 'A-47.2437216', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-47.2437216 global_A: -43.1395726
+DEBUG:local_logging:Global A: -43.1395726, local A: -4.104149
+DEBUG:local_logging:Operation: X: -2.6212000000000018, Z: 27.3121, A: -4.104149, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 112.12357100665646 for X: -2.6212000000000018, Z: 27.3121, A: -4.104149, F: 1600.0
 DEBUG:local_logging:Old line: G01X87.3621Z27.3121A-47.2437216F1600.0
 
-DEBUG:local_logging:New line: G01X87.3621Z27.3121A-47.2437216F1247.6
+DEBUG:local_logging:New line: G01X87.3621Z27.3121A-47.2437216F1246.7
 
 DEBUG:local_logging:I: G01X86.5349Z27.3293A-48.5993127F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X86.5', 'Z': 'Z27.3', 'A': 'A-48.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-48.5 global_A: -47.2
-DEBUG:local_logging:Global A: -47.2, local A: -1.2999999999999972
-DEBUG:local_logging:Operation: X: -0.7999999999999972, Z: 27.3, A: -1.2999999999999972, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 35.499015479305825 for X: -0.7999999999999972, Z: 27.3, A: -1.2999999999999972, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X86.5349', 'Z': 'Z27.3293', 'A': 'A-48.5993127', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-48.5993127 global_A: -47.2437216
+DEBUG:local_logging:Global A: -47.2437216, local A: -1.355591099999998
+DEBUG:local_logging:Operation: X: -0.8272000000000048, Z: 27.3293, A: -1.355591099999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 37.056589633417055 for X: -0.8272000000000048, Z: 27.3293, A: -1.355591099999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X86.5349Z27.3293A-48.5993127F1600.0
 
-DEBUG:local_logging:New line: G01X86.5349Z27.3293A-48.5993127F3898.7
+DEBUG:local_logging:New line: G01X86.5349Z27.3293A-48.5993127F3736.3
 
 DEBUG:local_logging:I: G01X85.9353Z27.2929A-45.6910303F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X85.9', 'Z': 'Z27.2', 'A': 'A-45.6', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-45.6 global_A: -48.5
-DEBUG:local_logging:Global A: -48.5, local A: 2.8999999999999986
-DEBUG:local_logging:Operation: X: -0.5999999999999943, Z: 27.2, A: 2.8999999999999986, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 78.88228191425495 for X: -0.5999999999999943, Z: 27.2, A: 2.8999999999999986, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X85.9353', 'Z': 'Z27.2929', 'A': 'A-45.6910303', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-45.6910303 global_A: -48.5993127
+DEBUG:local_logging:Global A: -48.5993127, local A: 2.9082823999999974
+DEBUG:local_logging:Operation: X: -0.5995999999999952, Z: 27.2929, A: 2.9082823999999974, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 79.37772536343019 for X: -0.5995999999999952, Z: 27.2929, A: 2.9082823999999974, F: 1600.0
 DEBUG:local_logging:Old line: G01X85.9353Z27.2929A-45.6910303F1600.0
 
-DEBUG:local_logging:New line: G01X85.9353Z27.2929A-45.6910303F1742.3
+DEBUG:local_logging:New line: G01X85.9353Z27.2929A-45.6910303F1732.2
 
 DEBUG:local_logging:I: G01X85.2989Z27.2580A-42.7473499F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X85.2', 'Z': 'Z27.2', 'A': 'A-42.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-42.7 global_A: -45.6
-DEBUG:local_logging:Global A: -45.6, local A: 2.8999999999999986
-DEBUG:local_logging:Operation: X: -0.7000000000000028, Z: 27.2, A: 2.8999999999999986, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 78.88310592262448 for X: -0.7000000000000028, Z: 27.2, A: 2.8999999999999986, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X85.2989', 'Z': 'Z27.2580', 'A': 'A-42.7473499', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-42.7473499 global_A: -45.6910303
+DEBUG:local_logging:Global A: -45.6910303, local A: 2.943680399999998
+DEBUG:local_logging:Operation: X: -0.6363999999999947, Z: 27.258, A: 2.943680399999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 80.24136404985605 for X: -0.6363999999999947, Z: 27.258, A: 2.943680399999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X85.2989Z27.2580A-42.7473499F1600.0
 
-DEBUG:local_logging:New line: G01X85.2989Z27.2580A-42.7473499F1728.1
+DEBUG:local_logging:New line: G01X85.2989Z27.2580A-42.7473499F1700.8
 
 DEBUG:local_logging:I: G01X84.2785Z27.2085A-38.2727486F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X84.2', 'Z': 'Z27.2', 'A': 'A-38.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-38.2 global_A: -42.7
-DEBUG:local_logging:Global A: -42.7, local A: 4.5
-DEBUG:local_logging:Operation: X: -1.0, Z: 27.2, A: 4.5, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 122.40408489915686 for X: -1.0, Z: 27.2, A: 4.5, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X84.2785', 'Z': 'Z27.2085', 'A': 'A-38.2727486', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-38.2727486 global_A: -42.7473499
+DEBUG:local_logging:Global A: -42.7473499, local A: 4.474601300000003
+DEBUG:local_logging:Operation: X: -1.0204000000000093, Z: 27.2085, A: 4.474601300000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 121.75146553639414 for X: -1.0204000000000093, Z: 27.2085, A: 4.474601300000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X84.2785Z27.2085A-38.2727486F1600.0
 
-DEBUG:local_logging:New line: G01X84.2785Z27.2085A-38.2727486F1100.6
+DEBUG:local_logging:New line: G01X84.2785Z27.2085A-38.2727486F1107.5
 
 DEBUG:local_logging:I: G01X83.1846Z27.1633A-33.7381515F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X83.1', 'Z': 'Z27.1', 'A': 'A-33.7', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-33.7 global_A: -38.2
-DEBUG:local_logging:Global A: -38.2, local A: 4.5
-DEBUG:local_logging:Operation: X: -1.1000000000000085, Z: 27.1, A: 4.5, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 121.95496094870434 for X: -1.1000000000000085, Z: 27.1, A: 4.5, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X83.1846', 'Z': 'Z27.1633', 'A': 'A-33.7381515', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-33.7381515 global_A: -38.2727486
+DEBUG:local_logging:Global A: -38.2727486, local A: 4.534597099999999
+DEBUG:local_logging:Operation: X: -1.0938999999999908, Z: 27.1633, A: 4.534597099999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 123.17947871227317 for X: -1.0938999999999908, Z: 27.1633, A: 4.534597099999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X83.1846Z27.1633A-33.7381515F1600.0
 
-DEBUG:local_logging:New line: G01X83.1846Z27.1633A-33.7381515F1090.2
+DEBUG:local_logging:New line: G01X83.1846Z27.1633A-33.7381515F1080.5
 
 DEBUG:local_logging:I: G01X82.0250Z27.1228A-29.1568047F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X82.0', 'Z': 'Z27.1', 'A': 'A-29.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-29.1 global_A: -33.7
-DEBUG:local_logging:Global A: -33.7, local A: 4.600000000000001
-DEBUG:local_logging:Operation: X: -1.0999999999999943, Z: 27.1, A: 4.600000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 124.66485310623844 for X: -1.0999999999999943, Z: 27.1, A: 4.600000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X82.0250', 'Z': 'Z27.1228', 'A': 'A-29.1568047', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-29.1568047 global_A: -33.7381515
+DEBUG:local_logging:Global A: -33.7381515, local A: 4.581346800000002
+DEBUG:local_logging:Operation: X: -1.1595999999999975, Z: 27.1228, A: 4.581346800000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 124.26436363493531 for X: -1.1595999999999975, Z: 27.1228, A: 4.581346800000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X82.0250Z27.1228A-29.1568047F1600.0
 
-DEBUG:local_logging:New line: G01X82.0250Z27.1228A-29.1568047F1052.4
+DEBUG:local_logging:New line: G01X82.0250Z27.1228A-29.1568047F1056.1
 
 DEBUG:local_logging:I: G01X80.8088Z27.0875A-24.5428307F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X80.8', 'Z': 'Z27.0', 'A': 'A-24.5', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-24.5 global_A: -29.1
-DEBUG:local_logging:Global A: -29.1, local A: 4.600000000000001
-DEBUG:local_logging:Operation: X: -1.2000000000000028, Z: 27.0, A: 4.600000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 124.20579696616423 for X: -1.2000000000000028, Z: 27.0, A: 4.600000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X80.8088', 'Z': 'Z27.0875', 'A': 'A-24.5428307', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-24.5428307 global_A: -29.1568047
+DEBUG:local_logging:Global A: -29.1568047, local A: 4.613973999999999
+DEBUG:local_logging:Operation: X: -1.2162000000000006, Z: 27.0875, A: 4.613973999999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 124.98693805315366 for X: -1.2162000000000006, Z: 27.0875, A: 4.613973999999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X80.8088Z27.0875A-24.5428307F1600.0
 
-DEBUG:local_logging:New line: G01X80.8088Z27.0875A-24.5428307F1040.9
+DEBUG:local_logging:New line: G01X80.8088Z27.0875A-24.5428307F1034.5
 
 DEBUG:local_logging:I: G01X79.5466Z27.0578A-19.9109819F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X79.5', 'Z': 'Z27.0', 'A': 'A-19.9', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-19.9 global_A: -24.5
-DEBUG:local_logging:Global A: -24.5, local A: 4.600000000000001
-DEBUG:local_logging:Operation: X: -1.2999999999999972, Z: 27.0, A: 4.600000000000001, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 124.20680335633799 for X: -1.2999999999999972, Z: 27.0, A: 4.600000000000001, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X79.5466', 'Z': 'Z27.0578', 'A': 'A-19.9109819', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-19.9109819 global_A: -24.5428307
+DEBUG:local_logging:Global A: -24.5428307, local A: 4.6318488
+DEBUG:local_logging:Operation: X: -1.262200000000007, Z: 27.0578, A: 4.6318488, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 125.33399423524685 for X: -1.262200000000007, Z: 27.0578, A: 4.6318488, F: 1600.0
 DEBUG:local_logging:Old line: G01X79.5466Z27.0578A-19.9109819F1600.0
 
-DEBUG:local_logging:New line: G01X79.5466Z27.0578A-19.9109819F1024.1
+DEBUG:local_logging:New line: G01X79.5466Z27.0578A-19.9109819F1015.5
 
 DEBUG:local_logging:I: G01X78.2498Z27.0342A-15.276364F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X78.2', 'Z': 'Z27.0', 'A': 'A-15.2', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-15.2 global_A: -19.9
-DEBUG:local_logging:Global A: -19.9, local A: 4.699999999999999
-DEBUG:local_logging:Operation: X: -1.2999999999999972, Z: 27.0, A: 4.699999999999999, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 126.9066586117529 for X: -1.2999999999999972, Z: 27.0, A: 4.699999999999999, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X78.2498', 'Z': 'Z27.0342', 'A': 'A-15.276364', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-15.276364 global_A: -19.9109819
+DEBUG:local_logging:Global A: -19.9109819, local A: 4.6346179
+DEBUG:local_logging:Operation: X: -1.2968000000000046, Z: 27.0342, A: 4.6346179, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 125.29989807273634 for X: -1.2968000000000046, Z: 27.0342, A: 4.6346179, F: 1600.0
 DEBUG:local_logging:Old line: G01X78.2498Z27.0342A-15.276364F1600.0
 
-DEBUG:local_logging:New line: G01X78.2498Z27.0342A-15.276364F985.9
+DEBUG:local_logging:New line: G01X78.2498Z27.0342A-15.276364F999.2
 
 DEBUG:local_logging:I: G01X77.3719Z27.0218A-12.1925757F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X77.3', 'Z': 'Z27.0', 'A': 'A-12.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-12.1 global_A: -15.2
-DEBUG:local_logging:Global A: -15.2, local A: 3.0999999999999996
-DEBUG:local_logging:Operation: X: -0.9000000000000057, Z: 27.0, A: 3.0999999999999996, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 83.70483856982223 for X: -0.9000000000000057, Z: 27.0, A: 3.0999999999999996, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X77.3719', 'Z': 'Z27.0218', 'A': 'A-12.1925757', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-12.1925757 global_A: -15.276364
+DEBUG:local_logging:Global A: -15.276364, local A: 3.0837882999999984
+DEBUG:local_logging:Operation: X: -0.8778999999999968, Z: 27.0218, A: 3.0837882999999984, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 83.33413501921959 for X: -0.8778999999999968, Z: 27.0218, A: 3.0837882999999984, F: 1600.0
 DEBUG:local_logging:Old line: G01X77.3719Z27.0218A-12.1925757F1600.0
 
-DEBUG:local_logging:New line: G01X77.3719Z27.0218A-12.1925757F1477.6
+DEBUG:local_logging:New line: G01X77.3719Z27.0218A-12.1925757F1485.5
 
 DEBUG:local_logging:I: G01X76.4877Z27.0122A-9.1187481F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X76.4', 'Z': 'Z27.0', 'A': 'A-9.1', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-9.1 global_A: -12.1
-DEBUG:local_logging:Global A: -12.1, local A: 3.0
-DEBUG:local_logging:Operation: X: -0.8999999999999915, Z: 27.0, A: 3.0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 81.00499984568854 for X: -0.8999999999999915, Z: 27.0, A: 3.0, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X76.4877', 'Z': 'Z27.0122', 'A': 'A-9.1187481', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-9.1187481 global_A: -12.1925757
+DEBUG:local_logging:Global A: -12.1925757, local A: 3.0738276000000013
+DEBUG:local_logging:Operation: X: -0.8841999999999928, Z: 27.0122, A: 3.0738276000000013, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 83.03555371023228 for X: -0.8841999999999928, Z: 27.0122, A: 3.0738276000000013, F: 1600.0
 DEBUG:local_logging:Old line: G01X76.4877Z27.0122A-9.1187481F1600.0
 
-DEBUG:local_logging:New line: G01X76.4877Z27.0122A-9.1187481F1509.0
+DEBUG:local_logging:New line: G01X76.4877Z27.0122A-9.1187481F1473.8
 
 DEBUG:local_logging:I: G01X75.6008Z27.0054A-6.0592426F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X75.6', 'Z': 'Z27.0', 'A': 'A-6.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-6.0 global_A: -9.1
-DEBUG:local_logging:Global A: -9.1, local A: 3.0999999999999996
-DEBUG:local_logging:Operation: X: -0.8000000000000114, Z: 27.0, A: 3.0999999999999996, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 83.70382309070476 for X: -0.8000000000000114, Z: 27.0, A: 3.0999999999999996, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X75.6008', 'Z': 'Z27.0054', 'A': 'A-6.0592426', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-6.0592426 global_A: -9.1187481
+DEBUG:local_logging:Global A: -9.1187481, local A: 3.0595054999999993
+DEBUG:local_logging:Operation: X: -0.8868999999999971, Z: 27.0054, A: 3.0595054999999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 82.62792980776807 for X: -0.8868999999999971, Z: 27.0054, A: 3.0595054999999993, F: 1600.0
 DEBUG:local_logging:Old line: G01X75.6008Z27.0054A-6.0592426F1600.0
 
-DEBUG:local_logging:New line: G01X75.6008Z27.0054A-6.0592426F1445.1
+DEBUG:local_logging:New line: G01X75.6008Z27.0054A-6.0592426F1463.9
 
 DEBUG:local_logging:I: G01X74.7148Z27.0013A-3.0182986F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X74.7', 'Z': 'Z27.0', 'A': 'A-3.0', 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: A-3.0 global_A: -6.0
-DEBUG:local_logging:Global A: -6.0, local A: 3.0
-DEBUG:local_logging:Operation: X: -0.8999999999999915, Z: 27.0, A: 3.0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 81.00499984568854 for X: -0.8999999999999915, Z: 27.0, A: 3.0, F: 1600.0
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X74.7148', 'Z': 'Z27.0013', 'A': 'A-3.0182986', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-3.0182986 global_A: -6.0592426
+DEBUG:local_logging:Global A: -6.0592426, local A: 3.040944
+DEBUG:local_logging:Operation: X: -0.8860000000000099, Z: 27.0013, A: 3.040944, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 82.11422126917489 for X: -0.8860000000000099, Z: 27.0013, A: 3.040944, F: 1600.0
 DEBUG:local_logging:Old line: G01X74.7148Z27.0013A-3.0182986F1600.0
 
-DEBUG:local_logging:New line: G01X74.7148Z27.0013A-3.0182986F1475.5
+DEBUG:local_logging:New line: G01X74.7148Z27.0013A-3.0182986F1455.8
 
 DEBUG:local_logging:I: G01X73.8331Z27.0000A0.F1600.0
 
-DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X73.8', 'Z': 'Z27.0', 'A': None, 'F': 'F1600.0'}
-DEBUG:local_logging:Detected A: None global_A: -3.0
-DEBUG:local_logging:Operation: X: -0.9000000000000057, Z: 27.0, A: None, F: 1600.0, Operation: G01
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X73.8331', 'Z': 'Z27.0000', 'A': 'A0', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A0 global_A: -3.0182986
+DEBUG:local_logging:Global A: -3.0182986, local A: 3.0182986
+DEBUG:local_logging:Operation: X: -0.881699999999995, Z: 27.0, A: 3.0182986, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 81.49883170173342 for X: -0.881699999999995, Z: 27.0, A: 3.0182986, F: 1600.0
+DEBUG:local_logging:Old line: G01X73.8331Z27.0000A0.F1600.0
+
+DEBUG:local_logging:New line: G01X73.8331Z27.0000A0.F1449.5
+
+DEBUG:local_logging:I: G01X72.6735Z27.0023A3.9713657F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X72.6735', 'Z': 'Z27.0023', 'A': 'A3.9713657', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A3.9713657 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: 3.9713657
+DEBUG:local_logging:Operation: X: -1.1595999999999975, Z: 27.0023, A: 3.9713657, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 107.2422775436675 for X: -1.1595999999999975, Z: 27.0023, A: 3.9713657, F: 1600.0
+DEBUG:local_logging:Old line: G01X72.6735Z27.0023A3.9713657F1600.0
+
+DEBUG:local_logging:New line: G01X72.6735Z27.0023A3.9713657F1084.3
+
+DEBUG:local_logging:I: G01X71.5349Z27.0091A7.8872648F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X71.5349', 'Z': 'Z27.0091', 'A': 'A7.8872648', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A7.8872648 global_A: 3.9713657
+DEBUG:local_logging:Global A: 3.9713657, local A: 3.9158990999999994
+DEBUG:local_logging:Operation: X: -1.138600000000011, Z: 27.0091, A: 3.9158990999999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 105.77103893803964 for X: -1.138600000000011, Z: 27.0091, A: 3.9158990999999994, F: 1600.0
+DEBUG:local_logging:Old line: G01X71.5349Z27.0091A7.8872648F1600.0
+
+DEBUG:local_logging:New line: G01X71.5349Z27.0091A7.8872648F1082.1
+
+DEBUG:local_logging:I: G01X74.0240Z27.0170A10.761093F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X74.0240', 'Z': 'Z27.0170', 'A': 'A10.761093', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A10.761093 global_A: 7.8872648
+DEBUG:local_logging:Global A: 7.8872648, local A: 2.873828200000001
+DEBUG:local_logging:Operation: X: 2.4891000000000076, Z: 27.017, A: 2.873828200000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 77.68210475163517 for X: 2.4891000000000076, Z: 27.017, A: 2.873828200000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X74.0240Z27.0170A10.761093F1600.0
+
+DEBUG:local_logging:New line: G01X74.0240Z27.0170A10.761093F1524.7
+
+DEBUG:local_logging:I: G01X76.5122Z27.0274A13.658697F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X76.5122', 'Z': 'Z27.0274', 'A': 'A13.658697', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A13.658697 global_A: 10.761093
+DEBUG:local_logging:Global A: 10.761093, local A: 2.8976039999999994
+DEBUG:local_logging:Operation: X: 2.488200000000006, Z: 27.0274, A: 2.8976039999999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 78.3542196907508 for X: 2.488200000000006, Z: 27.0274, A: 2.8976039999999994, F: 1600.0
+DEBUG:local_logging:Old line: G01X76.5122Z27.0274A13.658697F1600.0
+
+DEBUG:local_logging:New line: G01X76.5122Z27.0274A13.658697F1562.4
+
+DEBUG:local_logging:I: G01X78.9902Z27.0402A16.5766148F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X78.9902', 'Z': 'Z27.0402', 'A': 'A16.5766148', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A16.5766148 global_A: 13.658697
+DEBUG:local_logging:Global A: 13.658697, local A: 2.9179178000000014
+DEBUG:local_logging:Operation: X: 2.4779999999999944, Z: 27.0402, A: 2.9179178000000014, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 78.93998385157997 for X: 2.4779999999999944, Z: 27.0402, A: 2.9179178000000014, F: 1600.0
+DEBUG:local_logging:Old line: G01X78.9902Z27.0402A16.5766148F1600.0
+
+DEBUG:local_logging:New line: G01X78.9902Z27.0402A16.5766148F1601.0
+
+DEBUG:local_logging:I: G01X81.4483Z27.0556A19.5112305F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X81.4483', 'Z': 'Z27.0556', 'A': 'A19.5112305', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A19.5112305 global_A: 16.5766148
+DEBUG:local_logging:Global A: 16.5766148, local A: 2.9346156999999984
+DEBUG:local_logging:Operation: X: 2.4581000000000017, Z: 27.0556, A: 2.9346156999999984, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 79.43582994800441 for X: 2.4581000000000017, Z: 27.0556, A: 2.9346156999999984, F: 1600.0
+DEBUG:local_logging:Old line: G01X81.4483Z27.0556A19.5112305F1600.0
+
+DEBUG:local_logging:New line: G01X81.4483Z27.0556A19.5112305F1640.5
+
+DEBUG:local_logging:I: G01X83.8772Z27.0734A22.4588002F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X83.8772', 'Z': 'Z27.0734', 'A': 'A22.4588002', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A22.4588002 global_A: 19.5112305
+DEBUG:local_logging:Global A: 19.5112305, local A: 2.947569699999999
+DEBUG:local_logging:Operation: X: 2.4288999999999987, Z: 27.0734, A: 2.947569699999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 79.83768925074453 for X: 2.4288999999999987, Z: 27.0734, A: 2.947569699999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X83.8772Z27.0734A22.4588002F1600.0
+
+DEBUG:local_logging:New line: G01X83.8772Z27.0734A22.4588002F1681.0
+
+DEBUG:local_logging:I: G01X86.2671Z27.0937A25.4154789F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X86.2671', 'Z': 'Z27.0937', 'A': 'A25.4154789', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A25.4154789 global_A: 22.4588002
+DEBUG:local_logging:Global A: 22.4588002, local A: 2.956678700000001
+DEBUG:local_logging:Operation: X: 2.3898999999999972, Z: 27.0937, A: 2.956678700000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 80.1430075581937 for X: 2.3898999999999972, Z: 27.0937, A: 2.956678700000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X86.2671Z27.0937A25.4154789F1600.0
+
+DEBUG:local_logging:New line: G01X86.2671Z27.0937A25.4154789F1722.3
+
+DEBUG:local_logging:I: G01X89.7585Z27.1286A29.8589974F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X89.7585', 'Z': 'Z27.1286', 'A': 'A29.8589974', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A29.8589974 global_A: 25.4154789
+DEBUG:local_logging:Global A: 25.4154789, local A: 4.4435185
+DEBUG:local_logging:Operation: X: 3.4913999999999987, Z: 27.1286, A: 4.4435185, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 120.59698628582412 for X: 3.4913999999999987, Z: 27.1286, A: 4.4435185, F: 1600.0
+DEBUG:local_logging:Old line: G01X89.7585Z27.1286A29.8589974F1600.0
+
+DEBUG:local_logging:New line: G01X89.7585Z27.1286A29.8589974F1190.9
+
+DEBUG:local_logging:I: G01X93.1108Z27.1686A34.3008351F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X93.1108', 'Z': 'Z27.1686', 'A': 'A34.3008351', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A34.3008351 global_A: 29.8589974
+DEBUG:local_logging:Global A: 29.8589974, local A: 4.441837700000001
+DEBUG:local_logging:Operation: X: 3.3522999999999996, Z: 27.1686, A: 4.441837700000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 120.72506413400241 for X: 3.3522999999999996, Z: 27.1686, A: 4.441837700000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X93.1108Z27.1686A34.3008351F1600.0
+
+DEBUG:local_logging:New line: G01X93.1108Z27.1686A34.3008351F1234.0
+
+DEBUG:local_logging:I: G01X96.2957Z27.2133A38.7276734F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X96.2957', 'Z': 'Z27.2133', 'A': 'A38.7276734', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A38.7276734 global_A: 34.3008351
+DEBUG:local_logging:Global A: 34.3008351, local A: 4.4268383
+DEBUG:local_logging:Operation: X: 3.184899999999999, Z: 27.2133, A: 4.4268383, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 120.51097180550707 for X: 3.184899999999999, Z: 27.2133, A: 4.4268383, F: 1600.0
+DEBUG:local_logging:Old line: G01X96.2957Z27.2133A38.7276734F1600.0
+
+DEBUG:local_logging:New line: G01X96.2957Z27.2133A38.7276734F1278.5
+
+DEBUG:local_logging:I: G01X99.2880Z27.2624A43.1264679F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X99.2880', 'Z': 'Z27.2624', 'A': 'A43.1264679', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A43.1264679 global_A: 38.7276734
+DEBUG:local_logging:Global A: 38.7276734, local A: 4.398794500000001
+DEBUG:local_logging:Operation: X: 2.9923, Z: 27.2624, A: 4.398794500000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 119.95902147553282 for X: 2.9923, Z: 27.2624, A: 4.398794500000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X99.2880Z27.2624A43.1264679F1600.0
+
+DEBUG:local_logging:New line: G01X99.2880Z27.2624A43.1264679F1324.3
+
+DEBUG:local_logging:I: G01X102.0663Z27.3152A47.4846744F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X102.0663', 'Z': 'Z27.3152', 'A': 'A47.4846744', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A47.4846744 global_A: 43.1264679
+DEBUG:local_logging:Global A: 43.1264679, local A: 4.358206500000001
+DEBUG:local_logging:Operation: X: 2.7783000000000015, Z: 27.3152, A: 4.358206500000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 119.07769800555027 for X: 2.7783000000000015, Z: 27.3152, A: 4.358206500000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X102.0663Z27.3152A47.4846744F1600.0
+
+DEBUG:local_logging:New line: G01X102.0663Z27.3152A47.4846744F1371.4
+
+DEBUG:local_logging:I: G01X104.6131Z27.3712A51.7904526F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X104.6131', 'Z': 'Z27.3712', 'A': 'A51.7904526', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A51.7904526 global_A: 47.4846744
+DEBUG:local_logging:Global A: 47.4846744, local A: 4.305778199999999
+DEBUG:local_logging:Operation: X: 2.5468000000000046, Z: 27.3712, A: 4.305778199999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 117.88183088669793 for X: 2.5468000000000046, Z: 27.3712, A: 4.305778199999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X104.6131Z27.3712A51.7904526F1600.0
+
+DEBUG:local_logging:New line: G01X104.6131Z27.3712A51.7904526F1419.9
+
+DEBUG:local_logging:I: G01X106.1759Z27.4100A54.6263904F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X106.1759', 'Z': 'Z27.4100', 'A': 'A54.6263904', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A54.6263904 global_A: 51.7904526
+DEBUG:local_logging:Global A: 51.7904526, local A: 2.8359377999999964
+DEBUG:local_logging:Operation: X: 1.5627999999999957, Z: 27.41, A: 2.8359377999999964, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 77.74876332591205 for X: 1.5627999999999957, Z: 27.41, A: 2.8359377999999964, F: 1600.0
+DEBUG:local_logging:Old line: G01X106.1759Z27.4100A54.6263904F1600.0
+
+DEBUG:local_logging:New line: G01X106.1759Z27.4100A54.6263904F2185.0
+
+DEBUG:local_logging:I: G01X107.0972Z27.3437A49.716491F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X107.0972', 'Z': 'Z27.3437', 'A': 'A49.716491', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A49.716491 global_A: 54.6263904
+DEBUG:local_logging:Global A: 54.6263904, local A: -4.9098994000000005
+DEBUG:local_logging:Operation: X: 0.9213000000000022, Z: 27.3437, A: -4.9098994000000005, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 134.25797731595296 for X: 0.9213000000000022, Z: 27.3437, A: -4.9098994000000005, F: 1600.0
+DEBUG:local_logging:Old line: G01X107.0972Z27.3437A49.716491F1600.0
+
+DEBUG:local_logging:New line: G01X107.0972Z27.3437A49.716491F1276.3
+
+DEBUG:local_logging:I: G01X108.1284Z27.2810A44.7076248F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X108.1284', 'Z': 'Z27.2810', 'A': 'A44.7076248', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A44.7076248 global_A: 49.716491
+DEBUG:local_logging:Global A: 49.716491, local A: -5.0088662
+DEBUG:local_logging:Operation: X: 1.0311999999999983, Z: 27.281, A: -5.0088662, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 136.6507697008075 for X: 1.0311999999999983, Z: 27.281, A: -5.0088662, F: 1600.0
+DEBUG:local_logging:Old line: G01X108.1284Z27.2810A44.7076248F1600.0
+
+DEBUG:local_logging:New line: G01X108.1284Z27.2810A44.7076248F1266.0
+
+DEBUG:local_logging:I: G01X109.2629Z27.2229A39.61642F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X109.2629', 'Z': 'Z27.2229', 'A': 'A39.61642', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A39.61642 global_A: 44.7076248
+DEBUG:local_logging:Global A: 44.7076248, local A: -5.0912048
+DEBUG:local_logging:Operation: X: 1.1345000000000027, Z: 27.2229, A: -5.0912048, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 138.60200234333524 for X: 1.1345000000000027, Z: 27.2229, A: -5.0912048, F: 1600.0
+DEBUG:local_logging:Old line: G01X109.2629Z27.2229A39.61642F1600.0
+
+DEBUG:local_logging:New line: G01X109.2629Z27.2229A39.61642F1261.3
+
+DEBUG:local_logging:I: G01X110.4915Z27.1702A34.4613589F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X110.4915', 'Z': 'Z27.1702', 'A': 'A34.4613589', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A34.4613589 global_A: 39.61642
+DEBUG:local_logging:Global A: 39.61642, local A: -5.1550610999999975
+DEBUG:local_logging:Operation: X: 1.2286000000000001, Z: 27.1702, A: -5.1550610999999975, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 140.06942945198276 for X: 1.2286000000000001, Z: 27.1702, A: -5.1550610999999975, F: 1600.0
+DEBUG:local_logging:Old line: G01X110.4915Z27.1702A34.4613589F1600.0
+
+DEBUG:local_logging:New line: G01X110.4915Z27.1702A34.4613589F1262.1
+
+DEBUG:local_logging:I: G01X111.8020Z27.1236A29.2624288F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X111.8020', 'Z': 'Z27.1236', 'A': 'A29.2624288', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A29.2624288 global_A: 34.4613589
+DEBUG:local_logging:Global A: 34.4613589, local A: -5.198930100000002
+DEBUG:local_logging:Operation: X: 1.3105000000000047, Z: 27.1236, A: -5.198930100000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 141.0197898444546 for X: 1.3105000000000047, Z: 27.1236, A: -5.198930100000002, F: 1600.0
+DEBUG:local_logging:Old line: G01X111.8020Z27.1236A29.2624288F1600.0
+
+DEBUG:local_logging:New line: G01X111.8020Z27.1236A29.2624288F1268.5
+
+DEBUG:local_logging:I: G01X113.1805Z27.0840A24.040688F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X113.1805', 'Z': 'Z27.0840', 'A': 'A24.040688', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A24.040688 global_A: 29.2624288
+DEBUG:local_logging:Global A: 29.2624288, local A: -5.221740799999999
+DEBUG:local_logging:Operation: X: 1.3784999999999883, Z: 27.084, A: -5.221740799999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 141.43234590632966 for X: 1.3784999999999883, Z: 27.084, A: -5.221740799999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X113.1805Z27.0840A24.040688F1600.0
+
+DEBUG:local_logging:New line: G01X113.1805Z27.0840A24.040688F1280.4
+
+DEBUG:local_logging:I: G01X114.6109Z27.0517A18.8177674F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X114.6109', 'Z': 'Z27.0517', 'A': 'A18.8177674', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A18.8177674 global_A: 24.040688
+DEBUG:local_logging:Global A: 24.040688, local A: -5.222920599999998
+DEBUG:local_logging:Operation: X: 1.430400000000006, Z: 27.0517, A: -5.222920599999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 141.29612165059757 for X: 1.430400000000006, Z: 27.0517, A: -5.222920599999998, F: 1600.0
+DEBUG:local_logging:Old line: G01X114.6109Z27.0517A18.8177674F1600.0
+
+DEBUG:local_logging:New line: G01X114.6109Z27.0517A18.8177674F1297.8
+
+DEBUG:local_logging:I: G01X116.0761Z27.0272A13.6153368F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X116.0761', 'Z': 'Z27.0272', 'A': 'A13.6153368', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A13.6153368 global_A: 18.8177674
+DEBUG:local_logging:Global A: 18.8177674, local A: -5.202430600000001
+DEBUG:local_logging:Operation: X: 1.4651999999999958, Z: 27.0272, A: -5.202430600000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 140.61476618098922 for X: 1.4651999999999958, Z: 27.0272, A: -5.202430600000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X116.0761Z27.0272A13.6153368F1600.0
+
+DEBUG:local_logging:New line: G01X116.0761Z27.0272A13.6153368F1320.8
+
+DEBUG:local_logging:I: G01X117.5586Z27.0105A8.4545683F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X117.5586', 'Z': 'Z27.0105', 'A': 'A8.4545683', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A8.4545683 global_A: 13.6153368
+DEBUG:local_logging:Global A: 13.6153368, local A: -5.1607685
+DEBUG:local_logging:Operation: X: 1.4825000000000017, Z: 27.0105, A: -5.1607685, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 139.4028207253537 for X: 1.4825000000000017, Z: 27.0105, A: -5.1607685, F: 1600.0
+DEBUG:local_logging:Old line: G01X117.5586Z27.0105A8.4545683F1600.0
+
+DEBUG:local_logging:New line: G01X117.5586Z27.0105A8.4545683F1349.3
+
+DEBUG:local_logging:I: G01X119.0411Z27.0017A3.3556293F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X119.0411', 'Z': 'Z27.0017', 'A': 'A3.3556293', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A3.3556293 global_A: 8.4545683
+DEBUG:local_logging:Global A: 8.4545683, local A: -5.098939
+DEBUG:local_logging:Operation: X: 1.4825000000000017, Z: 27.0017, A: -5.098939, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 137.68800253785227 for X: 1.4825000000000017, Z: 27.0017, A: -5.098939, F: 1600.0
+DEBUG:local_logging:Old line: G01X119.0411Z27.0017A3.3556293F1600.0
+
+DEBUG:local_logging:New line: G01X119.0411Z27.0017A3.3556293F1383.3
+
+DEBUG:local_logging:I: G01X120.0212Z27.0000A0.0F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X120.0212', 'Z': 'Z27.0000', 'A': 'A0.0', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A0.0 global_A: 3.3556293
+DEBUG:local_logging:Global A: 3.3556293, local A: -3.3556293
+DEBUG:local_logging:Operation: X: 0.9800999999999931, Z: 27.0, A: -3.3556293, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 90.60729213090123 for X: 0.9800999999999931, Z: 27.0, A: -3.3556293, F: 1600.0
+DEBUG:local_logging:Old line: G01X120.0212Z27.0000A0.0F1600.0
+
+DEBUG:local_logging:New line: G01X120.0212Z27.0000A0.0F2119.4
+
+DEBUG:local_logging:I: G01X121.1759Z27.0023A-3.9542578F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X121.1759', 'Z': 'Z27.0023', 'A': 'A-3.9542578', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-3.9542578 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: -3.9542578
+DEBUG:local_logging:Operation: X: 1.1547000000000054, Z: 27.0023, A: -3.9542578, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 106.78029891859556 for X: 1.1547000000000054, Z: 27.0023, A: -3.9542578, F: 1600.0
+DEBUG:local_logging:Old line: G01X121.1759Z27.0023A-3.9542578F1600.0
+
+DEBUG:local_logging:New line: G01X121.1759Z27.0023A-3.9542578F1815.7
+
+DEBUG:local_logging:NI: F2500.0
+
+DEBUG:local_logging:I: G01Z36.0084A-3.9542578F2500.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z36.0084', 'A': 'A-3.9542578', 'F': 'F2500.0'}
+DEBUG:local_logging:Detected A: A-3.9542578 global_A: -3.9542578
+DEBUG:local_logging:Global A: -3.9542578, local A: 0.0
+DEBUG:local_logging:Operation: X: None, Z: 36.0084, A: 0.0, F: 2500.0, Operation: G01
+DEBUG:local_logging:Old line: G01Z36.0084A-3.9542578F2500.0
+
+DEBUG:local_logging:New line: G01Z36.0084A-3.9542578F2500.0
+
+DEBUG:local_logging:NI: (Prostok?t ko?o (elipsa))
+
+DEBUG:local_logging:NI: ()
+
+DEBUG:local_logging:NI: (-------------------------------------------------------------------------------------)
+
+DEBUG:local_logging:NI: (  Pobranie TOOL 15 - FlatMill 2 )
+
+DEBUG:local_logging:NI: (  Dlugosc  40.0 mm - DIA 2.0 mm - FLUTE 2 )
+
+DEBUG:local_logging:NI: (-------------------------------------------------------------------------------------)
+
+DEBUG:local_logging:NI: M01 M05
+
+DEBUG:local_logging:NI: G53 G00 G90 Z0.0
+
+DEBUG:local_logging:NI: G53 G00 X50.0 Y0.0
+
+DEBUG:local_logging:NI: M6 T15
+
+DEBUG:local_logging:NI: G53 G00 G90 Z0.0
+
+DEBUG:local_logging:NI: S18000 M03
+
+DEBUG:local_logging:NI: G00 X0.0 Y0.0
+
+DEBUG:local_logging:NI: ()
+
+DEBUG:local_logging:NI: G00X171.0930Y-0.0000Z36.0084A0.0F2500.0
+
+DEBUG:local_logging:NI: F1500.0
+
+DEBUG:local_logging:I: G01Z27.0000A0.0F1500.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z27.0000', 'A': 'A0.0', 'F': 'F1500.0'}
+DEBUG:local_logging:Detected A: A0.0 global_A: -3.9542578
+DEBUG:local_logging:Global A: -3.9542578, local A: 3.9542578
+DEBUG:local_logging:Operation: X: None, Z: 27.0, A: 3.9542578, F: 1500.0, Operation: G01
+DEBUG:local_logging:Distance: 106.76496060000001 for X: None, Z: 27.0, A: 3.9542578, F: 1500.0
+DEBUG:local_logging:Old line: G01Z27.0000A0.0F1500.0
+
+DEBUG:local_logging:New line: G01Z27.0000A0.0F1702.5
+
+DEBUG:local_logging:NI: ()
+
+DEBUG:local_logging:NI: ( START ciecie )
+
+DEBUG:local_logging:NI: ()
+
+DEBUG:local_logging:NI: F1600.0
+
+DEBUG:local_logging:I: G01X171.0234Z27.0010A-2.8516923F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X171.0234', 'Z': 'Z27.0010', 'A': 'A-2.8516923', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-2.8516923 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: -2.8516923
+DEBUG:local_logging:Operation: X: 49.84750000000001, Z: 27.001, A: -2.8516923, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 91.72539998487191 for X: 49.84750000000001, Z: 27.001, A: -2.8516923, F: 1600.0
+DEBUG:local_logging:Old line: G01X171.0234Z27.0010A-2.8516923F1600.0
+
+DEBUG:local_logging:New line: G01X171.0234Z27.0010A-2.8516923F2983.2
+
+DEBUG:local_logging:I: G01X170.8037Z27.0049A-5.8006132F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X170.8037', 'Z': 'Z27.0049', 'A': 'A-5.8006132', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-5.8006132 global_A: -2.8516923
+DEBUG:local_logging:Global A: -2.8516923, local A: -2.9489209
+DEBUG:local_logging:Operation: X: -0.21970000000001733, Z: 27.0049, A: -2.9489209, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 79.6356170689042 for X: -0.21970000000001733, Z: 27.0049, A: -2.9489209, F: 1600.0
+DEBUG:local_logging:Old line: G01X170.8037Z27.0049A-5.8006132F1600.0
+
+DEBUG:local_logging:New line: G01X170.8037Z27.0049A-5.8006132F3431.7
+
+DEBUG:local_logging:I: G01X170.4504Z27.0107A-8.6099746F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X170.4504', 'Z': 'Z27.0107', 'A': 'A-8.6099746', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-8.6099746 global_A: -5.8006132
+DEBUG:local_logging:Global A: -5.8006132, local A: -2.8093613999999993
+DEBUG:local_logging:Operation: X: -0.3532999999999902, Z: 27.0107, A: -2.8093613999999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.88364042071136 for X: -0.3532999999999902, Z: 27.0107, A: -2.8093613999999993, F: 1600.0
+DEBUG:local_logging:Old line: G01X170.4504Z27.0107A-8.6099746F1600.0
+
+DEBUG:local_logging:New line: G01X170.4504Z27.0107A-8.6099746F3593.9
+
+DEBUG:local_logging:I: G01X169.9502Z27.0190A-11.413735F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X169.9502', 'Z': 'Z27.0190', 'A': 'A-11.413735', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-11.413735 global_A: -8.6099746
+DEBUG:local_logging:Global A: -8.6099746, local A: -2.8037604000000016
+DEBUG:local_logging:Operation: X: -0.5002000000000066, Z: 27.019, A: -2.8037604000000016, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.7564536103228 for X: -0.5002000000000066, Z: 27.019, A: -2.8037604000000016, F: 1600.0
+DEBUG:local_logging:Old line: G01X169.9502Z27.0190A-11.413735F1600.0
+
+DEBUG:local_logging:New line: G01X169.9502Z27.0190A-11.413735F3589.4
+
+DEBUG:local_logging:I: G01X169.2097Z27.0254A-14.5191696F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X169.2097', 'Z': 'Z27.0254', 'A': 'A-14.5191696', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-14.5191696 global_A: -11.413735
+DEBUG:local_logging:Global A: -11.413735, local A: -3.105434599999999
+DEBUG:local_logging:Operation: X: -0.7404999999999973, Z: 27.0254, A: -3.105434599999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 83.92887899831695 for X: -0.7404999999999973, Z: 27.0254, A: -3.105434599999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X169.2097Z27.0254A-14.5191696F1600.0
+
+DEBUG:local_logging:New line: G01X169.2097Z27.0254A-14.5191696F3225.8
+
+DEBUG:local_logging:I: G01X168.3982Z27.0275A-17.1881369F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X168.3982', 'Z': 'Z27.0275', 'A': 'A-17.1881369', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-17.1881369 global_A: -14.5191696
+DEBUG:local_logging:Global A: -14.5191696, local A: -2.6689673000000003
+DEBUG:local_logging:Operation: X: -0.8114999999999952, Z: 27.0275, A: -2.6689673000000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 72.14007810587047 for X: -0.8114999999999952, Z: 27.0275, A: -2.6689673000000003, F: 1600.0
+DEBUG:local_logging:Old line: G01X168.3982Z27.0275A-17.1881369F1600.0
+
+DEBUG:local_logging:New line: G01X168.3982Z27.0275A-17.1881369F3734.9
+
+DEBUG:local_logging:I: G01X167.4304Z27.0440A-19.7648221F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X167.4304', 'Z': 'Z27.0440', 'A': 'A-19.7648221', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-19.7648221 global_A: -17.1881369
+DEBUG:local_logging:Global A: -17.1881369, local A: -2.5766852
+DEBUG:local_logging:Operation: X: -0.9678000000000111, Z: 27.044, A: -2.5766852, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 69.6905948387076 for X: -0.9678000000000111, Z: 27.044, A: -2.5766852, F: 1600.0
+DEBUG:local_logging:Old line: G01X167.4304Z27.0440A-19.7648221F1600.0
+
+DEBUG:local_logging:New line: G01X167.4304Z27.0440A-19.7648221F3844.0
+
+DEBUG:local_logging:I: G01X166.1085Z27.0722A-22.5874181F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X166.1085', 'Z': 'Z27.0722', 'A': 'A-22.5874181', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-22.5874181 global_A: -19.7648221
+DEBUG:local_logging:Global A: -19.7648221, local A: -2.8225960000000008
+DEBUG:local_logging:Operation: X: -1.3218999999999994, Z: 27.0722, A: -2.8225960000000008, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.42531649032946 for X: -1.3218999999999994, Z: 27.0722, A: -2.8225960000000008, F: 1600.0
+DEBUG:local_logging:Old line: G01X166.1085Z27.0722A-22.5874181F1600.0
+
+DEBUG:local_logging:New line: G01X166.1085Z27.0722A-22.5874181F3477.6
+
+DEBUG:local_logging:I: G01X164.6228Z27.0934A-25.0940251F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X164.6228', 'Z': 'Z27.0934', 'A': 'A-25.0940251', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-25.0940251 global_A: -22.5874181
+DEBUG:local_logging:Global A: -22.5874181, local A: -2.506606999999999
+DEBUG:local_logging:Operation: X: -1.48569999999998, Z: 27.0934, A: -2.506606999999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 67.92875523981296 for X: -1.48569999999998, Z: 27.0934, A: -2.506606999999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X164.6228Z27.0934A-25.0940251F1600.0
+
+DEBUG:local_logging:New line: G01X164.6228Z27.0934A-25.0940251F3877.5
+
+DEBUG:local_logging:I: G01X163.2270Z27.1125A-26.9516332F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X163.2270', 'Z': 'Z27.1125', 'A': 'A-26.9516332', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-26.9516332 global_A: -25.0940251
+DEBUG:local_logging:Global A: -25.0940251, local A: -1.8576081000000002
+DEBUG:local_logging:Operation: X: -1.3958000000000084, Z: 27.1125, A: -1.8576081000000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 50.38373751362318 for X: -1.3958000000000084, Z: 27.1125, A: -1.8576081000000002, F: 1600.0
+DEBUG:local_logging:Old line: G01X163.2270Z27.1125A-26.9516332F1600.0
+
+DEBUG:local_logging:New line: G01X163.2270Z27.1125A-26.9516332F5183.5
+
+DEBUG:local_logging:I: G01X161.5607Z27.1257A-28.6576609F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X161.5607', 'Z': 'Z27.1257', 'A': 'A-28.6576609', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-28.6576609 global_A: -26.9516332
+DEBUG:local_logging:Global A: -26.9516332, local A: -1.7060277
+DEBUG:local_logging:Operation: X: -1.6663000000000068, Z: 27.1257, A: -1.7060277, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 46.30718504308482 for X: -1.6663000000000068, Z: 27.1257, A: -1.7060277, F: 1600.0
+DEBUG:local_logging:Old line: G01X161.5607Z27.1257A-28.6576609F1600.0
+
+DEBUG:local_logging:New line: G01X161.5607Z27.1257A-28.6576609F5582.2
+
+DEBUG:local_logging:I: G01X160.0379Z27.1290A-29.790064F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X160.0379', 'Z': 'Z27.1290', 'A': 'A-29.790064', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-29.790064 global_A: -28.6576609
+DEBUG:local_logging:Global A: -28.6576609, local A: -1.1324031000000012
+DEBUG:local_logging:Operation: X: -1.5227999999999895, Z: 27.129, A: -1.1324031000000012, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 30.758682196911096 for X: -1.5227999999999895, Z: 27.129, A: -1.1324031000000012, F: 1600.0
+DEBUG:local_logging:Old line: G01X160.0379Z27.1290A-29.790064F1600.0
+
+DEBUG:local_logging:New line: G01X160.0379Z27.1290A-29.790064F8324.8
+
+DEBUG:local_logging:I: G01X158.3470Z27.1352A-30.5969615F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X158.3470', 'Z': 'Z27.1352', 'A': 'A-30.5969615', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-30.5969615 global_A: -29.790064
+DEBUG:local_logging:Global A: -29.790064, local A: -0.806897499999998
+DEBUG:local_logging:Operation: X: -1.6908999999999992, Z: 27.1352, A: -0.806897499999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 21.96051915380941 for X: -1.6908999999999992, Z: 27.1352, A: -0.806897499999998, F: 1600.0
+DEBUG:local_logging:Old line: G01X158.3470Z27.1352A-30.5969615F1600.0
+
+DEBUG:local_logging:New line: G01X158.3470Z27.1352A-30.5969615F11536.8
+
+DEBUG:local_logging:I: G01X156.8641Z27.1380A-30.9380492F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X156.8641', 'Z': 'Z27.1380', 'A': 'A-30.9380492', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-30.9380492 global_A: -30.5969615
+DEBUG:local_logging:Global A: -30.5969615, local A: -0.3410876999999992
+DEBUG:local_logging:Operation: X: -1.4829000000000008, Z: 27.138, A: -0.3410876999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 9.374467286516984 for X: -1.4829000000000008, Z: 27.138, A: -0.3410876999999992, F: 1600.0
+DEBUG:local_logging:Old line: G01X156.8641Z27.1380A-30.9380492F1600.0
+
+DEBUG:local_logging:New line: G01X156.8641Z27.1380A-30.9380492F26773.0
+
+DEBUG:local_logging:I: G01X155.3942Z27.1381A-30.9461035F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X155.3942', 'Z': 'Z27.1381', 'A': 'A-30.9461035', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-30.9461035 global_A: -30.9380492
+DEBUG:local_logging:Global A: -30.9380492, local A: -0.008054300000001291
+DEBUG:local_logging:Operation: X: -1.4698999999999955, Z: 27.1381, A: -0.008054300000001291, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 1.4860627599247245 for X: -1.4698999999999955, Z: 27.1381, A: -0.008054300000001291, F: 1600.0
+DEBUG:local_logging:Old line: G01X155.3942Z27.1381A-30.9461035F1600.0
+
+DEBUG:local_logging:New line: G01X155.3942Z27.1381A-30.9461035F167308.4
+
+DEBUG:local_logging:I: G01X153.9084Z27.1353A-30.6204848F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X153.9084', 'Z': 'Z27.1353', 'A': 'A-30.6204848', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-30.6204848 global_A: -30.9461035
+DEBUG:local_logging:Global A: -30.9461035, local A: 0.3256186999999997
+DEBUG:local_logging:Operation: X: -1.4858000000000118, Z: 27.1353, A: 0.3256186999999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 8.959814508957884 for X: -1.4858000000000118, Z: 27.1353, A: 0.3256186999999997, F: 1600.0
+DEBUG:local_logging:Old line: G01X153.9084Z27.1353A-30.6204848F1600.0
+
+DEBUG:local_logging:New line: G01X153.9084Z27.1353A-30.6204848F27484.2
+
+DEBUG:local_logging:I: G01X152.2116Z27.1293A-29.828619F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X152.2116', 'Z': 'Z27.1293', 'A': 'A-29.828619', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-29.828619 global_A: -30.6204848
+DEBUG:local_logging:Global A: -30.6204848, local A: 0.7918658000000001
+DEBUG:local_logging:Operation: X: -1.696799999999996, Z: 27.1293, A: 0.7918658000000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 21.54967089660273 for X: -1.696799999999996, Z: 27.1293, A: 0.7918658000000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X152.2116Z27.1293A-29.828619F1600.0
+
+DEBUG:local_logging:New line: G01X152.2116Z27.1293A-29.828619F11301.3
+
+DEBUG:local_logging:I: G01X150.6788Z27.1261A-28.7040688F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X150.6788', 'Z': 'Z27.1261', 'A': 'A-28.7040688', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-28.7040688 global_A: -29.828619
+DEBUG:local_logging:Global A: -29.828619, local A: 1.124550199999998
+DEBUG:local_logging:Operation: X: -1.5328000000000088, Z: 27.1261, A: 1.124550199999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 30.54314701467447 for X: -1.5328000000000088, Z: 27.1261, A: 1.124550199999998, F: 1600.0
+DEBUG:local_logging:Old line: G01X150.6788Z27.1261A-28.7040688F1600.0
+
+DEBUG:local_logging:New line: G01X150.6788Z27.1261A-28.7040688F7893.3
+
+DEBUG:local_logging:I: G01X149.0044Z27.1129A-27.00535F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X149.0044', 'Z': 'Z27.1129', 'A': 'A-27.00535', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-27.00535 global_A: -28.7040688
+DEBUG:local_logging:Global A: -28.7040688, local A: 1.6987188000000017
+DEBUG:local_logging:Operation: X: -1.6743999999999915, Z: 27.1129, A: 1.6987188000000017, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 46.08761914034682 for X: -1.6743999999999915, Z: 27.1129, A: 1.6987188000000017, F: 1600.0
+DEBUG:local_logging:Old line: G01X149.0044Z27.1129A-27.00535F1600.0
+
+DEBUG:local_logging:New line: G01X149.0044Z27.1129A-27.00535F5172.9
+
+DEBUG:local_logging:I: G01X147.6033Z27.0938A-25.1537557F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X147.6033', 'Z': 'Z27.0938', 'A': 'A-25.1537557', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-25.1537557 global_A: -27.00535
+DEBUG:local_logging:Global A: -27.00535, local A: 1.8515942999999986
+DEBUG:local_logging:Operation: X: -1.4011000000000138, Z: 27.0938, A: 1.8515942999999986, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 50.186287401887085 for X: -1.4011000000000138, Z: 27.0938, A: 1.8515942999999986, F: 1600.0
+DEBUG:local_logging:Old line: G01X147.6033Z27.0938A-25.1537557F1600.0
+
+DEBUG:local_logging:New line: G01X147.6033Z27.0938A-25.1537557F4705.8
+
+DEBUG:local_logging:I: G01X146.5053Z27.0791A-23.3724508F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X146.5053', 'Z': 'Z27.0791', 'A': 'A-23.3724508', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-23.3724508 global_A: -25.1537557
+DEBUG:local_logging:Global A: -25.1537557, local A: 1.781304900000002
+DEBUG:local_logging:Operation: X: -1.0979999999999848, Z: 27.0791, A: 1.781304900000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 48.24862879633756 for X: -1.0979999999999848, Z: 27.0791, A: 1.781304900000002, F: 1600.0
+DEBUG:local_logging:Old line: G01X146.5053Z27.0791A-23.3724508F1600.0
+
+DEBUG:local_logging:New line: G01X146.5053Z27.0791A-23.3724508F4858.3
+
+DEBUG:local_logging:I: G01X145.3919Z27.0577A-21.2069399F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X145.3919', 'Z': 'Z27.0577', 'A': 'A-21.2069399', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-21.2069399 global_A: -23.3724508
+DEBUG:local_logging:Global A: -23.3724508, local A: 2.165510900000001
+DEBUG:local_logging:Operation: X: -1.1134000000000128, Z: 27.0577, A: 2.165510900000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 58.604321753473485 for X: -1.1134000000000128, Z: 27.0577, A: 2.165510900000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X145.3919Z27.0577A-21.2069399F1600.0
+
+DEBUG:local_logging:New line: G01X145.3919Z27.0577A-21.2069399F3969.5
+
+DEBUG:local_logging:I: G01X144.2471Z27.0336A-18.4781281F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X144.2471', 'Z': 'Z27.0336', 'A': 'A-18.4781281', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-18.4781281 global_A: -21.2069399
+DEBUG:local_logging:Global A: -21.2069399, local A: 2.728811799999999
+DEBUG:local_logging:Operation: X: -1.1448000000000036, Z: 27.0336, A: 2.728811799999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 73.7784889804783 for X: -1.1448000000000036, Z: 27.0336, A: 2.728811799999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X144.2471Z27.0336A-18.4781281F1600.0
+
+DEBUG:local_logging:New line: G01X144.2471Z27.0336A-18.4781281F3128.2
+
+DEBUG:local_logging:I: G01X143.2679Z27.0247A-15.5466257F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X143.2679', 'Z': 'Z27.0247', 'A': 'A-15.5466257', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-15.5466257 global_A: -18.4781281
+DEBUG:local_logging:Global A: -18.4781281, local A: 2.9315023999999994
+DEBUG:local_logging:Operation: X: -0.9791999999999916, Z: 27.0247, A: 2.9315023999999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 79.22902415923417 for X: -0.9791999999999916, Z: 27.0247, A: 2.9315023999999994, F: 1600.0
+DEBUG:local_logging:Old line: G01X143.2679Z27.0247A-15.5466257F1600.0
+
+DEBUG:local_logging:New line: G01X143.2679Z27.0247A-15.5466257F2893.2
+
+DEBUG:local_logging:I: G01X142.5641Z27.0244A-12.8974487F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X142.5641', 'Z': 'Z27.0244', 'A': 'A-12.8974487', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-12.8974487 global_A: -15.5466257
+DEBUG:local_logging:Global A: -15.5466257, local A: 2.649177
+DEBUG:local_logging:Operation: X: -0.7038000000000011, Z: 27.0244, A: 2.649177, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 71.59587824089422 for X: -0.7038000000000011, Z: 27.0244, A: 2.649177, F: 1600.0
+DEBUG:local_logging:Old line: G01X142.5641Z27.0244A-12.8974487F1600.0
+
+DEBUG:local_logging:New line: G01X142.5641Z27.0244A-12.8974487F3186.0
+
+DEBUG:local_logging:I: G01X141.9650Z27.0129A-10.0036112F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.9650', 'Z': 'Z27.0129', 'A': 'A-10.0036112', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-10.0036112 global_A: -12.8974487
+DEBUG:local_logging:Global A: -12.8974487, local A: 2.8938375
+DEBUG:local_logging:Operation: X: -0.5990999999999929, Z: 27.0129, A: 2.8938375, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 78.17323871316533 for X: -0.5990999999999929, Z: 27.0129, A: 2.8938375, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.9650Z27.0129A-10.0036112F1600.0
+
+DEBUG:local_logging:New line: G01X141.9650Z27.0129A-10.0036112F2905.6
+
+DEBUG:local_logging:I: G01X141.5279Z27.0040A-7.1019566F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.5279', 'Z': 'Z27.0040', 'A': 'A-7.1019566', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-7.1019566 global_A: -10.0036112
+DEBUG:local_logging:Global A: -10.0036112, local A: 2.9016545999999996
+DEBUG:local_logging:Operation: X: -0.43710000000001514, Z: 27.004, A: 2.9016545999999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 78.35749996076929 for X: -0.43710000000001514, Z: 27.004, A: 2.9016545999999996, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.5279Z27.0040A-7.1019566F1600.0
+
+DEBUG:local_logging:New line: G01X141.5279Z27.0040A-7.1019566F2889.9
+
+DEBUG:local_logging:I: G01X141.2457Z27.0001A-4.2222282F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.2457', 'Z': 'Z27.0001', 'A': 'A-4.2222282', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-4.2222282 global_A: -7.1019566
+DEBUG:local_logging:Global A: -7.1019566, local A: 2.8797284000000003
+DEBUG:local_logging:Operation: X: -0.2821999999999889, Z: 27.0001, A: 2.8797284000000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 77.75346688571067 for X: -0.2821999999999889, Z: 27.0001, A: 2.8797284000000003, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.2457Z27.0001A-4.2222282F1600.0
+
+DEBUG:local_logging:New line: G01X141.2457Z27.0001A-4.2222282F2906.5
+
+DEBUG:local_logging:I: G01X141.1095Z26.9998A-1.3906861F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.1095', 'Z': 'Z26.9998', 'A': 'A-1.3906861', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A-1.3906861 global_A: -4.2222282
+DEBUG:local_logging:Global A: -4.2222282, local A: 2.8315421
+DEBUG:local_logging:Operation: X: -0.13620000000000232, Z: 26.9998, A: 2.8315421, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.4511917137877 for X: -0.13620000000000232, Z: 26.9998, A: 2.8315421, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.1095Z26.9998A-1.3906861F1600.0
+
+DEBUG:local_logging:New line: G01X141.1095Z26.9998A-1.3906861F2953.2
+
+DEBUG:local_logging:I: G01X141.0930Z27.0000A0.F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.0930', 'Z': 'Z27.0000', 'A': 'A0', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A0 global_A: -1.3906861
+DEBUG:local_logging:Global A: -1.3906861, local A: 1.3906861
+DEBUG:local_logging:Operation: X: -0.01650000000000773, Z: 27.0, A: 1.3906861, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 37.54852832530871 for X: -0.01650000000000773, Z: 27.0, A: 1.3906861, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.0930Z27.0000A0.F1600.0
+
+DEBUG:local_logging:New line: G01X141.0930Z27.0000A0.F6012.2
+
+DEBUG:local_logging:I: G01X141.1597Z26.9997A2.7938066F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.1597', 'Z': 'Z26.9997', 'A': 'A2.7938066', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A2.7938066 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: 2.7938066
+DEBUG:local_logging:Operation: X: 0.06669999999999732, Z: 26.9997, A: 2.7938066, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.43196954744535 for X: 0.06669999999999732, Z: 26.9997, A: 2.7938066, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.1597Z26.9997A2.7938066F1600.0
+
+DEBUG:local_logging:New line: G01X141.1597Z26.9997A2.7938066F2994.2
+
+DEBUG:local_logging:I: G01X141.3669Z27.0015A5.6468568F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.3669', 'Z': 'Z27.0015', 'A': 'A5.6468568', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A5.6468568 global_A: 2.7938066
+DEBUG:local_logging:Global A: 2.7938066, local A: 2.8530502
+DEBUG:local_logging:Operation: X: 0.20720000000000027, Z: 27.0015, A: 2.8530502, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 77.03691362040419 for X: 0.20720000000000027, Z: 27.0015, A: 2.8530502, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.3669Z27.0015A5.6468568F1600.0
+
+DEBUG:local_logging:New line: G01X141.3669Z27.0015A5.6468568F2936.1
+
+DEBUG:local_logging:I: G01X141.7241Z27.0079A8.5351675F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X141.7241', 'Z': 'Z27.0079', 'A': 'A8.5351675', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A8.5351675 global_A: 5.6468568
+DEBUG:local_logging:Global A: 5.6468568, local A: 2.8883107
+DEBUG:local_logging:Operation: X: 0.35720000000000596, Z: 27.0079, A: 2.8883107, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 78.00802437109344 for X: 0.35720000000000596, Z: 27.0079, A: 2.8883107, F: 1600.0
+DEBUG:local_logging:Old line: G01X141.7241Z27.0079A8.5351675F1600.0
+
+DEBUG:local_logging:New line: G01X141.7241Z27.0079A8.5351675F2906.9
+
+DEBUG:local_logging:I: G01X142.2392Z27.0185A11.4308073F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X142.2392', 'Z': 'Z27.0185', 'A': 'A11.4308073', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A11.4308073 global_A: 8.5351675
+DEBUG:local_logging:Global A: 8.5351675, local A: 2.8956397999999997
+DEBUG:local_logging:Operation: X: 0.5151000000000181, Z: 27.0185, A: 2.8956397999999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 78.2375396113342 for X: 0.5151000000000181, Z: 27.0185, A: 2.8956397999999997, F: 1600.0
+DEBUG:local_logging:Old line: G01X142.2392Z27.0185A11.4308073F1600.0
+
+DEBUG:local_logging:New line: G01X142.2392Z27.0185A11.4308073F2908.9
+
+DEBUG:local_logging:I: G01X142.9858Z27.0255A14.5542028F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X142.9858', 'Z': 'Z27.0255', 'A': 'A14.5542028', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A14.5542028 global_A: 11.4308073
+DEBUG:local_logging:Global A: 11.4308073, local A: 3.123395500000001
+DEBUG:local_logging:Operation: X: 0.7466000000000008, Z: 27.0255, A: 3.123395500000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 84.4146267788217 for X: 0.7466000000000008, Z: 27.0255, A: 3.123395500000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X142.9858Z27.0255A14.5542028F1600.0
+
+DEBUG:local_logging:New line: G01X142.9858Z27.0255A14.5542028F2710.2
+
+DEBUG:local_logging:I: G01X143.7964Z27.0276A17.2137127F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X143.7964', 'Z': 'Z27.0276', 'A': 'A17.2137127', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A17.2137127 global_A: 14.5542028
+DEBUG:local_logging:Global A: 14.5542028, local A: 2.659509899999998
+DEBUG:local_logging:Operation: X: 0.8105999999999938, Z: 27.0276, A: 2.659509899999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 71.88474023733964 for X: 0.8105999999999938, Z: 27.0276, A: 2.659509899999998, F: 1600.0
+DEBUG:local_logging:Old line: G01X143.7964Z27.0276A17.2137127F1600.0
+
+DEBUG:local_logging:New line: G01X143.7964Z27.0276A17.2137127F3200.6
+
+DEBUG:local_logging:I: G01X144.7649Z27.0441A19.7873873F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X144.7649', 'Z': 'Z27.0441', 'A': 'A19.7873873', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A19.7873873 global_A: 17.2137127
+DEBUG:local_logging:Global A: 17.2137127, local A: 2.5736746000000004
+DEBUG:local_logging:Operation: X: 0.9685000000000059, Z: 27.0441, A: 2.5736746000000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 69.60945111112599 for X: 0.9685000000000059, Z: 27.0441, A: 2.5736746000000004, F: 1600.0
+DEBUG:local_logging:Old line: G01X144.7649Z27.0441A19.7873873F1600.0
+
+DEBUG:local_logging:New line: G01X144.7649Z27.0441A19.7873873F3327.5
+
+DEBUG:local_logging:I: G01X146.0893Z27.0724A22.6100089F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X146.0893', 'Z': 'Z27.0724', 'A': 'A22.6100089', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A22.6100089 global_A: 19.7873873
+DEBUG:local_logging:Global A: 19.7873873, local A: 2.8226216000000015
+DEBUG:local_logging:Operation: X: 1.3243999999999971, Z: 27.0724, A: 2.8226216000000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 76.42661715656892 for X: 1.3243999999999971, Z: 27.0724, A: 2.8226216000000015, F: 1600.0
+DEBUG:local_logging:Old line: G01X146.0893Z27.0724A22.6100089F1600.0
+
+DEBUG:local_logging:New line: G01X146.0893Z27.0724A22.6100089F3058.4
+
+DEBUG:local_logging:I: G01X147.5770Z27.0936A25.1147286F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X147.5770', 'Z': 'Z27.0936', 'A': 'A25.1147286', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A25.1147286 global_A: 22.6100089
+DEBUG:local_logging:Global A: 22.6100089, local A: 2.504719699999999
+DEBUG:local_logging:Operation: X: 1.4876999999999896, Z: 27.0936, A: 2.504719699999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 67.87817873564254 for X: 1.4876999999999896, Z: 27.0936, A: 2.504719699999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X147.5770Z27.0936A25.1147286F1600.0
+
+DEBUG:local_logging:New line: G01X147.5770Z27.0936A25.1147286F3478.6
+
+DEBUG:local_logging:I: G01X148.9739Z27.1127A26.9692812F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X148.9739', 'Z': 'Z27.1127', 'A': 'A26.9692812', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A26.9692812 global_A: 25.1147286
+DEBUG:local_logging:Global A: 25.1147286, local A: 1.8545526000000017
+DEBUG:local_logging:Operation: X: 1.396899999999988, Z: 27.1127, A: 1.8545526000000017, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 50.30132842148358 for X: 1.396899999999988, Z: 27.1127, A: 1.8545526000000017, F: 1600.0
+DEBUG:local_logging:Old line: G01X148.9739Z27.1127A26.9692812F1600.0
+
+DEBUG:local_logging:New line: G01X148.9739Z27.1127A26.9692812F4738.6
+
+DEBUG:local_logging:I: G01X150.6424Z27.1259A28.6725305F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X150.6424', 'Z': 'Z27.1259', 'A': 'A28.6725305', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A28.6725305 global_A: 26.9692812
+DEBUG:local_logging:Global A: 26.9692812, local A: 1.7032492999999995
+DEBUG:local_logging:Operation: X: 1.668500000000023, Z: 27.1259, A: 1.7032492999999995, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 46.23228765945395 for X: 1.668500000000023, Z: 27.1259, A: 1.7032492999999995, F: 1600.0
+DEBUG:local_logging:Old line: G01X150.6424Z27.1259A28.6725305F1600.0
+
+DEBUG:local_logging:New line: G01X150.6424Z27.1259A28.6725305F5213.4
+
+DEBUG:local_logging:I: G01X152.1688Z27.1291A29.8026528F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X152.1688', 'Z': 'Z27.1291', 'A': 'A29.8026528', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A29.8026528 global_A: 28.6725305
+DEBUG:local_logging:Global A: 28.6725305, local A: 1.1301223
+DEBUG:local_logging:Operation: X: 1.5263999999999953, Z: 27.1291, A: 1.1301223, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 30.697174073646686 for X: 1.5263999999999953, Z: 27.1291, A: 1.1301223, F: 1600.0
+DEBUG:local_logging:Old line: G01X152.1688Z27.1291A29.8026528F1600.0
+
+DEBUG:local_logging:New line: G01X152.1688Z27.1291A29.8026528F7931.4
+
+DEBUG:local_logging:I: G01X153.8535Z27.1352A30.6020041F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X153.8535', 'Z': 'Z27.1352', 'A': 'A30.6020041', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A30.6020041 global_A: 29.8026528
+DEBUG:local_logging:Global A: 29.8026528, local A: 0.7993512999999979
+DEBUG:local_logging:Operation: X: 1.6846999999999923, Z: 27.1352, A: 0.7993512999999979, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 21.75588412886859 for X: 1.6846999999999923, Z: 27.1352, A: 0.7993512999999979, F: 1600.0
+DEBUG:local_logging:Old line: G01X153.8535Z27.1352A30.6020041F1600.0
+
+DEBUG:local_logging:New line: G01X153.8535Z27.1352A30.6020041F11314.9
+
+DEBUG:local_logging:I: G01X155.3275Z27.1380A30.9387196F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X155.3275', 'Z': 'Z27.1380', 'A': 'A30.9387196', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A30.9387196 global_A: 30.6020041
+DEBUG:local_logging:Global A: 30.6020041, local A: 0.3367155000000004
+DEBUG:local_logging:Operation: X: 1.4739999999999895, Z: 27.138, A: 0.3367155000000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 9.255905956419744 for X: 1.4739999999999895, Z: 27.138, A: 0.3367155000000004, F: 1600.0
+DEBUG:local_logging:Old line: G01X155.3275Z27.1380A30.9387196F1600.0
+
+DEBUG:local_logging:New line: G01X155.3275Z27.1380A30.9387196F26850.3
+
+DEBUG:local_logging:I: G01X156.7931Z27.1381A30.9459566F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X156.7931', 'Z': 'Z27.1381', 'A': 'A30.9459566', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A30.9459566 global_A: 30.9387196
+DEBUG:local_logging:Global A: 30.9387196, local A: 0.007236999999999938
+DEBUG:local_logging:Operation: X: 1.4656000000000233, Z: 27.1381, A: 0.007236999999999938, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 1.4787006807290966 for X: 1.4656000000000233, Z: 27.1381, A: 0.007236999999999938, F: 1600.0
+DEBUG:local_logging:Old line: G01X156.7931Z27.1381A30.9459566F1600.0
+
+DEBUG:local_logging:New line: G01X156.7931Z27.1381A30.9459566F169655.0
+
+DEBUG:local_logging:I: G01X158.2783Z27.1353A30.6202352F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X158.2783', 'Z': 'Z27.1353', 'A': 'A30.6202352', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A30.6202352 global_A: 30.9459566
+DEBUG:local_logging:Global A: 30.9459566, local A: -0.32572139999999905
+DEBUG:local_logging:Operation: X: 1.4851999999999919, Z: 27.1353, A: -0.32572139999999905, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 8.962463283964057 for X: 1.4851999999999919, Z: 27.1353, A: -0.32572139999999905, F: 1600.0
+DEBUG:local_logging:Old line: G01X158.2783Z27.1353A30.6202352F1600.0
+
+DEBUG:local_logging:New line: G01X158.2783Z27.1353A30.6202352F28256.2
+
+DEBUG:local_logging:I: G01X159.9745Z27.1293A29.8284781F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X159.9745', 'Z': 'Z27.1293', 'A': 'A29.8284781', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A29.8284781 global_A: 30.6202352
+DEBUG:local_logging:Global A: 30.6202352, local A: -0.7917570999999981
+DEBUG:local_logging:Operation: X: 1.6962000000000046, Z: 27.1293, A: -0.7917570999999981, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 21.546683857115045 for X: 1.6962000000000046, Z: 27.1293, A: -0.7917570999999981, F: 1600.0
+DEBUG:local_logging:Old line: G01X159.9745Z27.1293A29.8284781F1600.0
+
+DEBUG:local_logging:New line: G01X159.9745Z27.1293A29.8284781F11879.3
+
+DEBUG:local_logging:I: G01X161.5075Z27.1261A28.7036592F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X161.5075', 'Z': 'Z27.1261', 'A': 'A28.7036592', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A28.7036592 global_A: 29.8284781
+DEBUG:local_logging:Global A: 29.8284781, local A: -1.124818900000001
+DEBUG:local_logging:Operation: X: 1.532999999999987, Z: 27.1261, A: -1.124818900000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 30.55043665092717 for X: 1.532999999999987, Z: 27.1261, A: -1.124818900000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X161.5075Z27.1261A28.7036592F1600.0
+
+DEBUG:local_logging:New line: G01X161.5075Z27.1261A28.7036592F8458.5
+
+DEBUG:local_logging:I: G01X163.1822Z27.1130A27.0044401F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X163.1822', 'Z': 'Z27.1130', 'A': 'A27.0044401', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A27.0044401 global_A: 28.7036592
+DEBUG:local_logging:Global A: 28.7036592, local A: -1.6992191000000005
+DEBUG:local_logging:Operation: X: 1.6747000000000014, Z: 27.113, A: -1.6992191000000005, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 46.101355478531666 for X: 1.6747000000000014, Z: 27.113, A: -1.6992191000000005, F: 1600.0
+DEBUG:local_logging:Old line: G01X163.1822Z27.1130A27.0044401F1600.0
+
+DEBUG:local_logging:New line: G01X163.1822Z27.1130A27.0044401F5663.4
+
+DEBUG:local_logging:I: G01X164.5837Z27.0938A25.1522183F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X164.5837', 'Z': 'Z27.0938', 'A': 'A25.1522183', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A25.1522183 global_A: 27.0044401
+DEBUG:local_logging:Global A: 27.0044401, local A: -1.8522217999999988
+DEBUG:local_logging:Operation: X: 1.4014999999999986, Z: 27.0938, A: -1.8522217999999988, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 50.203293301797494 for X: 1.4014999999999986, Z: 27.0938, A: -1.8522217999999988, F: 1600.0
+DEBUG:local_logging:Old line: G01X164.5837Z27.0938A25.1522183F1600.0
+
+DEBUG:local_logging:New line: G01X164.5837Z27.0938A25.1522183F5245.4
+
+DEBUG:local_logging:I: G01X165.6814Z27.0791A23.3710816F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X165.6814', 'Z': 'Z27.0791', 'A': 'A23.3710816', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A23.3710816 global_A: 25.1522183
+DEBUG:local_logging:Global A: 25.1522183, local A: -1.7811367000000011
+DEBUG:local_logging:Operation: X: 1.0977000000000032, Z: 27.0791, A: -1.7811367000000011, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 48.24406844454289 for X: 1.0977000000000032, Z: 27.0791, A: -1.7811367000000011, F: 1600.0
+DEBUG:local_logging:Old line: G01X165.6814Z27.0791A23.3710816F1600.0
+
+DEBUG:local_logging:New line: G01X165.6814Z27.0791A23.3710816F5494.8
+
+DEBUG:local_logging:I: G01X166.7929Z27.0578A21.2093621F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X166.7929', 'Z': 'Z27.0578', 'A': 'A21.2093621', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A21.2093621 global_A: 23.3710816
+DEBUG:local_logging:Global A: 23.3710816, local A: -2.1617195000000002
+DEBUG:local_logging:Operation: X: 1.1115000000000066, Z: 27.0578, A: -2.1617195000000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 58.501933741121114 for X: 1.1115000000000066, Z: 27.0578, A: -2.1617195000000002, F: 1600.0
+DEBUG:local_logging:Old line: G01X166.7929Z27.0578A21.2093621F1600.0
+
+DEBUG:local_logging:New line: G01X166.7929Z27.0578A21.2093621F4561.7
+
+DEBUG:local_logging:I: G01X167.9358Z27.0337A18.4859891F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X167.9358', 'Z': 'Z27.0337', 'A': 'A18.4859891', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A18.4859891 global_A: 21.2093621
+DEBUG:local_logging:Global A: 21.2093621, local A: -2.7233729999999987
+DEBUG:local_logging:Operation: X: 1.1428999999999974, Z: 27.0337, A: -2.7233729999999987, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 73.63171916172024 for X: 1.1428999999999974, Z: 27.0337, A: -2.7233729999999987, F: 1600.0
+DEBUG:local_logging:Old line: G01X167.9358Z27.0337A18.4859891F1600.0
+
+DEBUG:local_logging:New line: G01X167.9358Z27.0337A18.4859891F3649.2
+
+DEBUG:local_logging:I: G01X168.9137Z27.0248A15.5611753F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X168.9137', 'Z': 'Z27.0248', 'A': 'A15.5611753', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A15.5611753 global_A: 18.4859891
+DEBUG:local_logging:Global A: 18.4859891, local A: -2.924813800000001
+DEBUG:local_logging:Operation: X: 0.9779000000000053, Z: 27.0248, A: -2.924813800000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 79.04855695414356 for X: 0.9779000000000053, Z: 27.0248, A: -2.924813800000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X168.9137Z27.0248A15.5611753F1600.0
+
+DEBUG:local_logging:New line: G01X168.9137Z27.0248A15.5611753F3418.9
+
+DEBUG:local_logging:I: G01X169.6157Z27.0245A12.9232608F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X169.6157', 'Z': 'Z27.0245', 'A': 'A12.9232608', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A12.9232608 global_A: 15.5611753
+DEBUG:local_logging:Global A: 15.5611753, local A: -2.637914500000001
+DEBUG:local_logging:Operation: X: 0.7019999999999982, Z: 27.0245, A: -2.637914500000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 71.29177673618176 for X: 0.7019999999999982, Z: 27.0245, A: -2.637914500000001, F: 1600.0
+DEBUG:local_logging:Old line: G01X169.6157Z27.0245A12.9232608F1600.0
+
+DEBUG:local_logging:New line: G01X169.6157Z27.0245A12.9232608F3806.7
+
+DEBUG:local_logging:I: G01X170.2002Z27.0147A10.11911F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X170.2002', 'Z': 'Z27.0147', 'A': 'A10.11911', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A10.11911 global_A: 12.9232608
+DEBUG:local_logging:Global A: 12.9232608, local A: -2.8041508000000004
+DEBUG:local_logging:Operation: X: 0.5844999999999914, Z: 27.0147, A: -2.8041508000000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 75.75554753633867 for X: 0.5844999999999914, Z: 27.0147, A: -2.8041508000000004, F: 1600.0
+DEBUG:local_logging:Old line: G01X170.2002Z27.0147A10.11911F1600.0
+
+DEBUG:local_logging:New line: G01X170.2002Z27.0147A10.11911F3594.7
+
+DEBUG:local_logging:I: G01X170.7098Z27.0065A6.6694496F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X170.7098', 'Z': 'Z27.0065', 'A': 'A6.6694496', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A6.6694496 global_A: 10.11911
+DEBUG:local_logging:Global A: 10.11911, local A: -3.449660399999999
+DEBUG:local_logging:Operation: X: 0.509600000000006, Z: 27.0065, A: -3.449660399999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 93.16464732997754 for X: 0.509600000000006, Z: 27.0065, A: -3.449660399999999, F: 1600.0
+DEBUG:local_logging:Old line: G01X170.7098Z27.0065A6.6694496F1600.0
+
+DEBUG:local_logging:New line: G01X170.7098Z27.0065A6.6694496F2931.8
+
+DEBUG:local_logging:I: G01X170.9217Z27.0028A4.4691449F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X170.9217', 'Z': 'Z27.0028', 'A': 'A4.4691449', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A4.4691449 global_A: 6.6694496
+DEBUG:local_logging:Global A: 6.6694496, local A: -2.2003047000000002
+DEBUG:local_logging:Operation: X: 0.21189999999998577, Z: 27.0028, A: -2.2003047000000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 59.41476562011206 for X: 0.21189999999998577, Z: 27.0028, A: -2.2003047000000002, F: 1600.0
+DEBUG:local_logging:Old line: G01X170.9217Z27.0028A4.4691449F1600.0
+
+DEBUG:local_logging:New line: G01X170.9217Z27.0028A4.4691449F4602.8
+
+DEBUG:local_logging:I: G01X171.0727Z27.0003A1.5391222F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X171.0727', 'Z': 'Z27.0003', 'A': 'A1.5391222', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A1.5391222 global_A: 4.4691449
+DEBUG:local_logging:Global A: 4.4691449, local A: -2.9300227
+DEBUG:local_logging:Operation: X: 0.15100000000001046, Z: 27.0003, A: -2.9300227, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 79.1116360134289 for X: 0.15100000000001046, Z: 27.0003, A: -2.9300227, F: 1600.0
+DEBUG:local_logging:Old line: G01X171.0727Z27.0003A1.5391222F1600.0
+
+DEBUG:local_logging:New line: G01X171.0727Z27.0003A1.5391222F3459.9
+
+DEBUG:local_logging:I: G01X171.0930Z27.0000A0.0F1600.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': 'X171.0930', 'Z': 'Z27.0000', 'A': 'A0.0', 'F': 'F1600.0'}
+DEBUG:local_logging:Detected A: A0.0 global_A: 1.5391222
+DEBUG:local_logging:Global A: 1.5391222, local A: -1.5391222
+DEBUG:local_logging:Operation: X: 0.02029999999999177, Z: 27.0, A: -1.5391222, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 41.55630435821309 for X: 0.02029999999999177, Z: 27.0, A: -1.5391222, F: 1600.0
+DEBUG:local_logging:Old line: G01X171.0930Z27.0000A0.0F1600.0
+
+DEBUG:local_logging:New line: G01X171.0930Z27.0000A0.0F6587.4
+
+DEBUG:local_logging:NI: F2500.0
+
+DEBUG:local_logging:I: G01Z36.0084A0.0F2500.0
+
+DEBUG:local_logging:Dict of values: {'operation': 'G01', 'X': None, 'Z': 'Z36.0084', 'A': 'A0.0', 'F': 'F2500.0'}
+DEBUG:local_logging:Detected A: A0.0 global_A: 0.0
+DEBUG:local_logging:Global A: 0.0, local A: 0.0
+DEBUG:local_logging:Operation: X: None, Z: 36.0084, A: 0.0, F: 2500.0, Operation: G01
+DEBUG:local_logging:Old line: G01Z36.0084A0.0F2500.0
+
+DEBUG:local_logging:New line: G01Z36.0084A0.0F2500.0
+
+DEBUG:local_logging:NI: ()
+
+DEBUG:local_logging:NI: M5 M9
+
+DEBUG:local_logging:NI: G53 G00 G90 Z0.0
+
+DEBUG:local_logging:NI: G53 G00 X100.0 Y250.0
+
+DEBUG:local_logging:NI: A0 F8000
+
+DEBUG:local_logging:NI: M30
+
+DEBUG:local_logging:NI: 
+
+DEBUG:local_logging:File files/Test_4_osie.nc processed
