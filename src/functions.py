@@ -37,8 +37,10 @@ def calculate_F(line):
     effective_radius = Z
     if X is None or X == 0:
         distance = arc_length
+        if distance != 0:
+            adjusted_F = F / distance * abs(A)
+            return round(adjusted_F,1)
     else:
-        effective_radius = Z
         distance = math.sqrt(X**2 + (arc_length)**2)
     if distance != 0:
         adjusted_F = F / distance * global_vars.global_X
