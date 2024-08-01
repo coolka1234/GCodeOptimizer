@@ -22,6 +22,8 @@ def get_and_write(file_path):
 def is_line_of_interest(line):
     if '(' in line or ')' in line:
         return False
+    if not('G01' in line or 'G02' in line or 'G03' in line):
+        return False
     pattern = r'[AXYZ]'
     return bool(re.search(pattern, line))
  
