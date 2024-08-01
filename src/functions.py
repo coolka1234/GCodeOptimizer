@@ -25,21 +25,6 @@ def is_line_of_interest(line):
     pattern = r'[AXYZ]'
     return bool(re.search(pattern, line))
  
-# def calcualte_F(line):
-#     operation_line=Operation(line)
-#     A=operation_line.A
-#     F=operation_line.F
-#     X=operation_line.X
-#     Z=operation_line.Z
-#     effective_radius = Z
-# #     distance = math.sqrt(X**2 + (effective_radius * A)**2)
-#     logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}")
-#     if F is not None:
-#         original_F = F
-#         F = original_F / distance * X if distance != 0 else original_F
-#         logger.debug(f"Original F: {original_F}, New F: {F}")
-#     return F
-
 def calculate_F(line):
     operation_line=Operation(line)
     A=operation_line.A
@@ -59,7 +44,7 @@ def calculate_F(line):
     else:
         adjusted_F = F
     
-    return round(adjusted_F,4)
+    return round(adjusted_F,1)
 
 def replace_f_in_line(f_value, line):
     output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)

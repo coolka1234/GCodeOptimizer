@@ -1,4 +1,4 @@
-DEBUG:local_logging:Operation: X: 0, Z: None, A: 18.8177674, F: 1600.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: 0, A: 18.8177674, F: 1600.0, Operation: G01
 DEBUG:local_logging:Processing file files/Test_4_osie.nc
 DEBUG:local_logging:Reading file files/Test_4_osie.nc
 DEBUG:local_logging:NI: G21
@@ -111,7 +111,7 @@ DEBUG:local_logging:NI: F1500.0
 
 DEBUG:local_logging:I: G01Z28.0000A0.0F1500.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 0.0, F: 1500.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 0.0, F: 1500.0, Operation: G01
 DEBUG:local_logging:Old line: G01Z28.0000A0.0F1500.0
 
 DEBUG:local_logging:New line: G01Z28.0000A0.0F1500.0
@@ -126,568 +126,570 @@ DEBUG:local_logging:NI: F1600.0
 
 DEBUG:local_logging:I: G01A-1.7647059F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 49.411765200000005 for X: 0, Z: 28.0, A: -1.7647059, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 14.132470729560003 for X: 0, Z: -8.008400000000002, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-1.7647059F1600.0
 
 DEBUG:local_logging:New line: G01A-1.7647059F0.0
 
 DEBUG:local_logging:I: G01A-3.5294118F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -3.5294118, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 98.82353040000001 for X: 0, Z: 28.0, A: -3.5294118, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -1.7647059, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 14.132470729560003 for X: 0, Z: -8.008400000000002, A: -1.7647059, F: 1600.0
 DEBUG:local_logging:Old line: G01A-3.5294118F1600.0
 
 DEBUG:local_logging:New line: G01A-3.5294118F0.0
 
 DEBUG:local_logging:I: G01A-5.2941177F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -5.2941177, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 148.2352956 for X: 0, Z: 28.0, A: -5.2941177, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -3.5294118, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 28.264941459120006 for X: 0, Z: -8.008400000000002, A: -3.5294118, F: 1600.0
 DEBUG:local_logging:Old line: G01A-5.2941177F1600.0
 
 DEBUG:local_logging:New line: G01A-5.2941177F0.0
 
 DEBUG:local_logging:I: G01A-7.0588235F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -7.0588235, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 197.647058 for X: 0, Z: 28.0, A: -7.0588235, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -3.5294117, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 28.264940658280004 for X: 0, Z: -8.008400000000002, A: -3.5294117, F: 1600.0
 DEBUG:local_logging:Old line: G01A-7.0588235F1600.0
 
 DEBUG:local_logging:New line: G01A-7.0588235F0.0
 
 DEBUG:local_logging:I: G01A-8.8235294F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -8.8235294, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 247.0588232 for X: 0, Z: 28.0, A: -8.8235294, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -5.2941177, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 42.39741218868001 for X: 0, Z: -8.008400000000002, A: -5.2941177, F: 1600.0
 DEBUG:local_logging:Old line: G01A-8.8235294F1600.0
 
 DEBUG:local_logging:New line: G01A-8.8235294F0.0
 
 DEBUG:local_logging:I: G01A-10.5882353F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -10.5882353, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 296.4705884 for X: 0, Z: 28.0, A: -10.5882353, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -5.294117599999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 42.39741138784 for X: 0, Z: -8.008400000000002, A: -5.294117599999999, F: 1600.0
 DEBUG:local_logging:Old line: G01A-10.5882353F1600.0
 
 DEBUG:local_logging:New line: G01A-10.5882353F0.0
 
 DEBUG:local_logging:I: G01A-12.3529412F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -12.3529412, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 345.8823536 for X: 0, Z: 28.0, A: -12.3529412, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -7.058823600000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 56.52988291824002 for X: 0, Z: -8.008400000000002, A: -7.058823600000001, F: 1600.0
 DEBUG:local_logging:Old line: G01A-12.3529412F1600.0
 
 DEBUG:local_logging:New line: G01A-12.3529412F0.0
 
 DEBUG:local_logging:I: G01A-14.1176471F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -14.1176471, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 395.2941188 for X: 0, Z: 28.0, A: -14.1176471, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -7.058823499999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 56.5298821174 for X: 0, Z: -8.008400000000002, A: -7.058823499999998, F: 1600.0
 DEBUG:local_logging:Old line: G01A-14.1176471F1600.0
 
 DEBUG:local_logging:New line: G01A-14.1176471F0.0
 
 DEBUG:local_logging:I: G01A-15.8823529F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -15.8823529, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 444.7058812 for X: 0, Z: 28.0, A: -15.8823529, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -8.823529400000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 70.66235284696003 for X: 0, Z: -8.008400000000002, A: -8.823529400000002, F: 1600.0
 DEBUG:local_logging:Old line: G01A-15.8823529F1600.0
 
 DEBUG:local_logging:New line: G01A-15.8823529F0.0
 
 DEBUG:local_logging:I: G01A-17.6470588F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -17.6470588, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 494.1176464 for X: 0, Z: 28.0, A: -17.6470588, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -8.823529399999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 70.66235284696 for X: 0, Z: -8.008400000000002, A: -8.823529399999998, F: 1600.0
 DEBUG:local_logging:Old line: G01A-17.6470588F1600.0
 
 DEBUG:local_logging:New line: G01A-17.6470588F0.0
 
 DEBUG:local_logging:I: G01A-19.4117647F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -19.4117647, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 543.5294116 for X: 0, Z: 28.0, A: -19.4117647, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -10.588235300000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 84.79482357652003 for X: 0, Z: -8.008400000000002, A: -10.588235300000001, F: 1600.0
 DEBUG:local_logging:Old line: G01A-19.4117647F1600.0
 
 DEBUG:local_logging:New line: G01A-19.4117647F0.0
 
 DEBUG:local_logging:I: G01A-21.1764706F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -21.1764706, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 592.9411768 for X: 0, Z: 28.0, A: -21.1764706, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -10.588235299999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 84.79482357652 for X: 0, Z: -8.008400000000002, A: -10.588235299999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A-21.1764706F1600.0
 
 DEBUG:local_logging:New line: G01A-21.1764706F0.0
 
 DEBUG:local_logging:I: G01A-22.9411765F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -22.9411765, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 642.352942 for X: 0, Z: 28.0, A: -22.9411765, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -12.352941200000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 98.92729430608006 for X: 0, Z: -8.008400000000002, A: -12.352941200000004, F: 1600.0
 DEBUG:local_logging:Old line: G01A-22.9411765F1600.0
 
 DEBUG:local_logging:New line: G01A-22.9411765F0.0
 
 DEBUG:local_logging:I: G01A-24.7058824F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -24.7058824, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 691.7647072 for X: 0, Z: 28.0, A: -24.7058824, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -12.352941199999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 98.92729430608 for X: 0, Z: -8.008400000000002, A: -12.352941199999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A-24.7058824F1600.0
 
 DEBUG:local_logging:New line: G01A-24.7058824F0.0
 
 DEBUG:local_logging:I: G01A-26.4705882F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -26.4705882, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 741.1764696 for X: 0, Z: 28.0, A: -26.4705882, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -14.117647000000005, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.05976423480007 for X: 0, Z: -8.008400000000002, A: -14.117647000000005, F: 1600.0
 DEBUG:local_logging:Old line: G01A-26.4705882F1600.0
 
 DEBUG:local_logging:New line: G01A-26.4705882F0.0
 
 DEBUG:local_logging:I: G01A-28.2352941F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -28.2352941, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 790.5882348 for X: 0, Z: 28.0, A: -28.2352941, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -14.117647099999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.05976503563998 for X: 0, Z: -8.008400000000002, A: -14.117647099999996, F: 1600.0
 DEBUG:local_logging:Old line: G01A-28.2352941F1600.0
 
 DEBUG:local_logging:New line: G01A-28.2352941F0.0
 
 DEBUG:local_logging:I: G01A-30.F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 0, F: 1600.0, Operation: G01
 DEBUG:local_logging:Old line: G01A-30.F1600.0
 
 DEBUG:local_logging:New line: G01A-30.F1600.0
 
 DEBUG:local_logging:I: G01X60.0000A-30.F1600.0
 
-DEBUG:local_logging:Operation: X: 60.0, Z: 28.0, A: 0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 60.0 for X: 60.0, Z: 28.0, A: 0, F: 1600.0
+DEBUG:local_logging:Operation: X: 60.0, Z: -8.008400000000002, A: 0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 60.0 for X: 60.0, Z: -8.008400000000002, A: 0, F: 1600.0
 DEBUG:local_logging:Old line: G01X60.0000A-30.F1600.0
 
 DEBUG:local_logging:New line: G01X60.0000A-30.F1600.0
 
 DEBUG:local_logging:I: G01A-28.2352941F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -28.2352941, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 790.5882348 for X: 0, Z: 28.0, A: -28.2352941, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -28.2352941, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 226.11952927044007 for X: 0, Z: -8.008400000000002, A: -28.2352941, F: 1600.0
 DEBUG:local_logging:Old line: G01A-28.2352941F1600.0
 
 DEBUG:local_logging:New line: G01A-28.2352941F0.0
 
 DEBUG:local_logging:I: G01A-26.4705882F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -26.4705882, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 741.1764696 for X: 0, Z: 28.0, A: -26.4705882, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 14.132470729559996 for X: 0, Z: -8.008400000000002, A: 1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-26.4705882F1600.0
 
 DEBUG:local_logging:New line: G01A-26.4705882F0.0
 
 DEBUG:local_logging:I: G01A-24.7058824F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -24.7058824, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 691.7647072 for X: 0, Z: 28.0, A: -24.7058824, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -26.4705883, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 211.98705934172003 for X: 0, Z: -8.008400000000002, A: -26.4705883, F: 1600.0
 DEBUG:local_logging:Old line: G01A-24.7058824F1600.0
 
 DEBUG:local_logging:New line: G01A-24.7058824F0.0
 
 DEBUG:local_logging:I: G01A-22.9411765F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -22.9411765, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 642.352942 for X: 0, Z: 28.0, A: -22.9411765, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 3.5294117999999983, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 28.264941459119992 for X: 0, Z: -8.008400000000002, A: 3.5294117999999983, F: 1600.0
 DEBUG:local_logging:Old line: G01A-22.9411765F1600.0
 
 DEBUG:local_logging:New line: G01A-22.9411765F0.0
 
 DEBUG:local_logging:I: G01A-21.1764706F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -21.1764706, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 592.9411768 for X: 0, Z: 28.0, A: -21.1764706, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -24.705882399999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 197.85458861216003 for X: 0, Z: -8.008400000000002, A: -24.705882399999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A-21.1764706F1600.0
 
 DEBUG:local_logging:New line: G01A-21.1764706F0.0
 
 DEBUG:local_logging:I: G01A-19.4117647F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -19.4117647, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 543.5294116 for X: 0, Z: 28.0, A: -19.4117647, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 5.2941176999999975, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 42.397412188679986 for X: 0, Z: -8.008400000000002, A: 5.2941176999999975, F: 1600.0
 DEBUG:local_logging:Old line: G01A-19.4117647F1600.0
 
 DEBUG:local_logging:New line: G01A-19.4117647F0.0
 
 DEBUG:local_logging:I: G01A-17.6470588F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -17.6470588, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 494.1176464 for X: 0, Z: 28.0, A: -17.6470588, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -22.941176499999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 183.72211788260003 for X: 0, Z: -8.008400000000002, A: -22.941176499999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A-17.6470588F1600.0
 
 DEBUG:local_logging:New line: G01A-17.6470588F0.0
 
 DEBUG:local_logging:I: G01A-15.8823529F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -15.8823529, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 444.7058812 for X: 0, Z: 28.0, A: -15.8823529, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 7.058823599999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 56.529882918239984 for X: 0, Z: -8.008400000000002, A: 7.058823599999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A-15.8823529F1600.0
 
 DEBUG:local_logging:New line: G01A-15.8823529F0.0
 
 DEBUG:local_logging:I: G01A-14.1176471F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -14.1176471, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 395.2941188 for X: 0, Z: 28.0, A: -14.1176471, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -21.176470699999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 169.58964795388002 for X: 0, Z: -8.008400000000002, A: -21.176470699999996, F: 1600.0
 DEBUG:local_logging:Old line: G01A-14.1176471F1600.0
 
 DEBUG:local_logging:New line: G01A-14.1176471F0.0
 
 DEBUG:local_logging:I: G01A-12.3529412F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -12.3529412, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 345.8823536 for X: 0, Z: 28.0, A: -12.3529412, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 8.823529499999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 70.66235364779997 for X: 0, Z: -8.008400000000002, A: 8.823529499999996, F: 1600.0
 DEBUG:local_logging:Old line: G01A-12.3529412F1600.0
 
 DEBUG:local_logging:New line: G01A-12.3529412F0.0
 
 DEBUG:local_logging:I: G01A-10.5882353F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -10.5882353, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 296.4705884 for X: 0, Z: 28.0, A: -10.5882353, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -19.411764799999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 155.45717722432 for X: 0, Z: -8.008400000000002, A: -19.411764799999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A-10.5882353F1600.0
 
 DEBUG:local_logging:New line: G01A-10.5882353F0.0
 
 DEBUG:local_logging:I: G01A-8.8235294F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -8.8235294, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 247.0588232 for X: 0, Z: 28.0, A: -8.8235294, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 10.588235399999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 84.79482437735996 for X: 0, Z: -8.008400000000002, A: 10.588235399999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A-8.8235294F1600.0
 
 DEBUG:local_logging:New line: G01A-8.8235294F0.0
 
 DEBUG:local_logging:I: G01A-7.0588235F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -7.0588235, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 197.647058 for X: 0, Z: 28.0, A: -7.0588235, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -17.647058899999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 141.32470649476 for X: 0, Z: -8.008400000000002, A: -17.647058899999994, F: 1600.0
 DEBUG:local_logging:Old line: G01A-7.0588235F1600.0
 
 DEBUG:local_logging:New line: G01A-7.0588235F0.0
 
 DEBUG:local_logging:I: G01A-5.2941177F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -5.2941177, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 148.2352956 for X: 0, Z: 28.0, A: -5.2941177, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 12.352941199999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 98.92729430607997 for X: 0, Z: -8.008400000000002, A: 12.352941199999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A-5.2941177F1600.0
 
 DEBUG:local_logging:New line: G01A-5.2941177F0.0
 
 DEBUG:local_logging:I: G01A-3.5294118F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -3.5294118, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 98.82353040000001 for X: 0, Z: 28.0, A: -3.5294118, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -15.882352999999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 127.19223576519997 for X: 0, Z: -8.008400000000002, A: -15.882352999999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A-3.5294118F1600.0
 
 DEBUG:local_logging:New line: G01A-3.5294118F0.0
 
 DEBUG:local_logging:I: G01A-1.7647059F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: -1.7647059, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 49.411765200000005 for X: 0, Z: 28.0, A: -1.7647059, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 14.117647099999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.05976503563996 for X: 0, Z: -8.008400000000002, A: 14.117647099999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A-1.7647059F1600.0
 
 DEBUG:local_logging:New line: G01A-1.7647059F0.0
 
 DEBUG:local_logging:I: G01A0.0F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 0.0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -14.117647099999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.05976503563996 for X: 0, Z: -8.008400000000002, A: -14.117647099999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A0.0F1600.0
 
-DEBUG:local_logging:New line: G01A0.0F1600.0
+DEBUG:local_logging:New line: G01A0.0F0.0
 
 DEBUG:local_logging:I: G01A1.7647059F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 49.411765200000005 for X: 0, Z: 28.0, A: 1.7647059, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 15.882352999999991, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 127.19223576519995 for X: 0, Z: -8.008400000000002, A: 15.882352999999991, F: 1600.0
 DEBUG:local_logging:Old line: G01A1.7647059F1600.0
 
 DEBUG:local_logging:New line: G01A1.7647059F0.0
 
 DEBUG:local_logging:I: G01A3.5294118F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 3.5294118, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 98.82353040000001 for X: 0, Z: 28.0, A: 3.5294118, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -12.352941199999991, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 98.92729430607996 for X: 0, Z: -8.008400000000002, A: -12.352941199999991, F: 1600.0
 DEBUG:local_logging:Old line: G01A3.5294118F1600.0
 
 DEBUG:local_logging:New line: G01A3.5294118F0.0
 
 DEBUG:local_logging:I: G01A5.2941177F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 5.2941177, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 148.2352956 for X: 0, Z: 28.0, A: 5.2941177, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 17.64705889999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 141.32470649475997 for X: 0, Z: -8.008400000000002, A: 17.64705889999999, F: 1600.0
 DEBUG:local_logging:Old line: G01A5.2941177F1600.0
 
 DEBUG:local_logging:New line: G01A5.2941177F0.0
 
 DEBUG:local_logging:I: G01A7.0588235F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 7.0588235, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 197.647058 for X: 0, Z: 28.0, A: 7.0588235, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -10.588235399999991, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 84.79482437735994 for X: 0, Z: -8.008400000000002, A: -10.588235399999991, F: 1600.0
 DEBUG:local_logging:Old line: G01A7.0588235F1600.0
 
 DEBUG:local_logging:New line: G01A7.0588235F0.0
 
 DEBUG:local_logging:I: G01A8.8235294F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 8.8235294, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 247.0588232 for X: 0, Z: 28.0, A: 8.8235294, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 19.411764799999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 155.45717722432 for X: 0, Z: -8.008400000000002, A: 19.411764799999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A8.8235294F1600.0
 
 DEBUG:local_logging:New line: G01A8.8235294F0.0
 
 DEBUG:local_logging:I: G01A10.5882353F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 10.5882353, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 296.4705884 for X: 0, Z: 28.0, A: 10.5882353, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -8.823529499999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 70.66235364779996 for X: 0, Z: -8.008400000000002, A: -8.823529499999994, F: 1600.0
 DEBUG:local_logging:Old line: G01A10.5882353F1600.0
 
 DEBUG:local_logging:New line: G01A10.5882353F0.0
 
 DEBUG:local_logging:I: G01A12.3529412F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 12.3529412, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 345.8823536 for X: 0, Z: 28.0, A: 12.3529412, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 21.176470699999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 169.58964795388002 for X: 0, Z: -8.008400000000002, A: 21.176470699999996, F: 1600.0
 DEBUG:local_logging:Old line: G01A12.3529412F1600.0
 
 DEBUG:local_logging:New line: G01A12.3529412F0.0
 
 DEBUG:local_logging:I: G01A14.1176471F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 14.1176471, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 395.2941188 for X: 0, Z: 28.0, A: 14.1176471, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -7.058823599999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 56.529882918239984 for X: 0, Z: -8.008400000000002, A: -7.058823599999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A14.1176471F1600.0
 
 DEBUG:local_logging:New line: G01A14.1176471F0.0
 
 DEBUG:local_logging:I: G01A15.8823529F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 15.8823529, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 444.7058812 for X: 0, Z: 28.0, A: 15.8823529, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 22.941176499999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 183.72211788260003 for X: 0, Z: -8.008400000000002, A: 22.941176499999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A15.8823529F1600.0
 
 DEBUG:local_logging:New line: G01A15.8823529F0.0
 
 DEBUG:local_logging:I: G01A17.6470588F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 17.6470588, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 494.1176464 for X: 0, Z: 28.0, A: 17.6470588, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -5.2941176999999975, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 42.397412188679986 for X: 0, Z: -8.008400000000002, A: -5.2941176999999975, F: 1600.0
 DEBUG:local_logging:Old line: G01A17.6470588F1600.0
 
 DEBUG:local_logging:New line: G01A17.6470588F0.0
 
 DEBUG:local_logging:I: G01A19.4117647F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 19.4117647, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 543.5294116 for X: 0, Z: 28.0, A: 19.4117647, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 24.705882399999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 197.85458861216003 for X: 0, Z: -8.008400000000002, A: 24.705882399999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A19.4117647F1600.0
 
 DEBUG:local_logging:New line: G01A19.4117647F0.0
 
 DEBUG:local_logging:I: G01A21.1764706F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 21.1764706, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 592.9411768 for X: 0, Z: 28.0, A: 21.1764706, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -3.5294117999999983, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 28.264941459119992 for X: 0, Z: -8.008400000000002, A: -3.5294117999999983, F: 1600.0
 DEBUG:local_logging:Old line: G01A21.1764706F1600.0
 
 DEBUG:local_logging:New line: G01A21.1764706F0.0
 
 DEBUG:local_logging:I: G01A22.9411765F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 22.9411765, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 642.352942 for X: 0, Z: 28.0, A: 22.9411765, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 26.4705883, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 211.98705934172003 for X: 0, Z: -8.008400000000002, A: 26.4705883, F: 1600.0
 DEBUG:local_logging:Old line: G01A22.9411765F1600.0
 
 DEBUG:local_logging:New line: G01A22.9411765F0.0
 
 DEBUG:local_logging:I: G01A24.7058824F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 24.7058824, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 691.7647072 for X: 0, Z: 28.0, A: 24.7058824, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 14.132470729559996 for X: 0, Z: -8.008400000000002, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A24.7058824F1600.0
 
 DEBUG:local_logging:New line: G01A24.7058824F0.0
 
 DEBUG:local_logging:I: G01A26.4705882F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 26.4705882, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 741.1764696 for X: 0, Z: 28.0, A: 26.4705882, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 28.2352941, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 226.11952927044007 for X: 0, Z: -8.008400000000002, A: 28.2352941, F: 1600.0
 DEBUG:local_logging:Old line: G01A26.4705882F1600.0
 
 DEBUG:local_logging:New line: G01A26.4705882F0.0
 
 DEBUG:local_logging:I: G01A28.2352941F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 28.2352941, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 790.5882348 for X: 0, Z: 28.0, A: 28.2352941, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 0.0, F: 1600.0, Operation: G01
 DEBUG:local_logging:Old line: G01A28.2352941F1600.0
 
-DEBUG:local_logging:New line: G01A28.2352941F0.0
+DEBUG:local_logging:New line: G01A28.2352941F1600.0
 
 DEBUG:local_logging:I: G01A30.F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 0, F: 1600.0, Operation: G01
 DEBUG:local_logging:Old line: G01A30.F1600.0
 
 DEBUG:local_logging:New line: G01A30.F1600.0
 
 DEBUG:local_logging:I: G01X20.0000A30.F1600.0
 
-DEBUG:local_logging:Operation: X: 20.0, Z: 28.0, A: 0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 20.0 for X: 20.0, Z: 28.0, A: 0, F: 1600.0
+DEBUG:local_logging:Operation: X: 20.0, Z: -8.008400000000002, A: 0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 20.0 for X: 20.0, Z: -8.008400000000002, A: 0, F: 1600.0
 DEBUG:local_logging:Old line: G01X20.0000A30.F1600.0
 
 DEBUG:local_logging:New line: G01X20.0000A30.F1600.0
 
 DEBUG:local_logging:I: G01A28.2352941F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 28.2352941, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 790.5882348 for X: 0, Z: 28.0, A: 28.2352941, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 28.2352941, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 226.11952927044007 for X: 0, Z: -8.008400000000002, A: 28.2352941, F: 1600.0
 DEBUG:local_logging:Old line: G01A28.2352941F1600.0
 
 DEBUG:local_logging:New line: G01A28.2352941F0.0
 
 DEBUG:local_logging:I: G01A26.4705882F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 26.4705882, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 741.1764696 for X: 0, Z: 28.0, A: 26.4705882, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -1.7647058999999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 14.132470729559996 for X: 0, Z: -8.008400000000002, A: -1.7647058999999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A26.4705882F1600.0
 
 DEBUG:local_logging:New line: G01A26.4705882F0.0
 
 DEBUG:local_logging:I: G01A24.7058824F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 24.7058824, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 691.7647072 for X: 0, Z: 28.0, A: 24.7058824, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 26.4705883, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 211.98705934172003 for X: 0, Z: -8.008400000000002, A: 26.4705883, F: 1600.0
 DEBUG:local_logging:Old line: G01A24.7058824F1600.0
 
 DEBUG:local_logging:New line: G01A24.7058824F0.0
 
 DEBUG:local_logging:I: G01A22.9411765F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 22.9411765, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 642.352942 for X: 0, Z: 28.0, A: 22.9411765, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -3.5294117999999983, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 28.264941459119992 for X: 0, Z: -8.008400000000002, A: -3.5294117999999983, F: 1600.0
 DEBUG:local_logging:Old line: G01A22.9411765F1600.0
 
 DEBUG:local_logging:New line: G01A22.9411765F0.0
 
 DEBUG:local_logging:I: G01A21.1764706F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 21.1764706, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 592.9411768 for X: 0, Z: 28.0, A: 21.1764706, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 24.705882399999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 197.85458861216003 for X: 0, Z: -8.008400000000002, A: 24.705882399999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A21.1764706F1600.0
 
 DEBUG:local_logging:New line: G01A21.1764706F0.0
 
 DEBUG:local_logging:I: G01A19.4117647F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 19.4117647, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 543.5294116 for X: 0, Z: 28.0, A: 19.4117647, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -5.2941176999999975, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 42.397412188679986 for X: 0, Z: -8.008400000000002, A: -5.2941176999999975, F: 1600.0
 DEBUG:local_logging:Old line: G01A19.4117647F1600.0
 
 DEBUG:local_logging:New line: G01A19.4117647F0.0
 
 DEBUG:local_logging:I: G01A17.6470588F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 17.6470588, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 494.1176464 for X: 0, Z: 28.0, A: 17.6470588, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 22.941176499999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 183.72211788260003 for X: 0, Z: -8.008400000000002, A: 22.941176499999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A17.6470588F1600.0
 
 DEBUG:local_logging:New line: G01A17.6470588F0.0
 
 DEBUG:local_logging:I: G01A15.8823529F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 15.8823529, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 444.7058812 for X: 0, Z: 28.0, A: 15.8823529, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -7.058823599999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 56.529882918239984 for X: 0, Z: -8.008400000000002, A: -7.058823599999997, F: 1600.0
 DEBUG:local_logging:Old line: G01A15.8823529F1600.0
 
 DEBUG:local_logging:New line: G01A15.8823529F0.0
 
 DEBUG:local_logging:I: G01A14.1176471F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 14.1176471, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 395.2941188 for X: 0, Z: 28.0, A: 14.1176471, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 21.176470699999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 169.58964795388002 for X: 0, Z: -8.008400000000002, A: 21.176470699999996, F: 1600.0
 DEBUG:local_logging:Old line: G01A14.1176471F1600.0
 
 DEBUG:local_logging:New line: G01A14.1176471F0.0
 
 DEBUG:local_logging:I: G01A12.3529412F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 12.3529412, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 345.8823536 for X: 0, Z: 28.0, A: 12.3529412, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -8.823529499999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 70.66235364779997 for X: 0, Z: -8.008400000000002, A: -8.823529499999996, F: 1600.0
 DEBUG:local_logging:Old line: G01A12.3529412F1600.0
 
 DEBUG:local_logging:New line: G01A12.3529412F0.0
 
 DEBUG:local_logging:I: G01A10.5882353F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 10.5882353, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 296.4705884 for X: 0, Z: 28.0, A: 10.5882353, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 19.411764799999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 155.45717722432 for X: 0, Z: -8.008400000000002, A: 19.411764799999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A10.5882353F1600.0
 
 DEBUG:local_logging:New line: G01A10.5882353F0.0
 
 DEBUG:local_logging:I: G01A8.8235294F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 8.8235294, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 247.0588232 for X: 0, Z: 28.0, A: 8.8235294, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -10.588235399999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 84.79482437735996 for X: 0, Z: -8.008400000000002, A: -10.588235399999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A8.8235294F1600.0
 
 DEBUG:local_logging:New line: G01A8.8235294F0.0
 
 DEBUG:local_logging:I: G01A7.0588235F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 7.0588235, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 197.647058 for X: 0, Z: 28.0, A: 7.0588235, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 17.647058899999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 141.32470649476 for X: 0, Z: -8.008400000000002, A: 17.647058899999994, F: 1600.0
 DEBUG:local_logging:Old line: G01A7.0588235F1600.0
 
 DEBUG:local_logging:New line: G01A7.0588235F0.0
 
 DEBUG:local_logging:I: G01A5.2941177F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 5.2941177, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 148.2352956 for X: 0, Z: 28.0, A: 5.2941177, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -12.352941199999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 98.92729430607997 for X: 0, Z: -8.008400000000002, A: -12.352941199999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A5.2941177F1600.0
 
 DEBUG:local_logging:New line: G01A5.2941177F0.0
 
 DEBUG:local_logging:I: G01A3.5294118F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 3.5294118, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 98.82353040000001 for X: 0, Z: 28.0, A: 3.5294118, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 15.882352999999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 127.19223576519997 for X: 0, Z: -8.008400000000002, A: 15.882352999999993, F: 1600.0
 DEBUG:local_logging:Old line: G01A3.5294118F1600.0
 
 DEBUG:local_logging:New line: G01A3.5294118F0.0
 
 DEBUG:local_logging:I: G01A1.7647059F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 1.7647059, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 49.411765200000005 for X: 0, Z: 28.0, A: 1.7647059, F: 1600.0
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: -14.117647099999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.05976503563996 for X: 0, Z: -8.008400000000002, A: -14.117647099999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A1.7647059F1600.0
 
 DEBUG:local_logging:New line: G01A1.7647059F0.0
 
 DEBUG:local_logging:I: G01A0.0F1600.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 28.0, A: 0.0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: -8.008400000000002, A: 14.117647099999992, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.05976503563996 for X: 0, Z: -8.008400000000002, A: 14.117647099999992, F: 1600.0
 DEBUG:local_logging:Old line: G01A0.0F1600.0
 
-DEBUG:local_logging:New line: G01A0.0F1600.0
+DEBUG:local_logging:New line: G01A0.0F0.0
 
 DEBUG:local_logging:NI: F2500.0
 
 DEBUG:local_logging:I: G01Z36.0084A0.0F2500.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 36.0084, A: 0.0, F: 2500.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: 44.0168, A: -14.117647099999992, F: 2500.0, Operation: G01
+DEBUG:local_logging:Distance: 621.4136488712797 for X: 0, Z: 44.0168, A: -14.117647099999992, F: 2500.0
 DEBUG:local_logging:Old line: G01Z36.0084A0.0F2500.0
 
-DEBUG:local_logging:New line: G01Z36.0084A0.0F2500.0
+DEBUG:local_logging:New line: G01Z36.0084A0.0F0.0
 
 DEBUG:local_logging:NI: (Prostok?t obrócony 20st)
 
@@ -705,15 +707,15 @@ DEBUG:local_logging:NI: M01 M05
 
 DEBUG:local_logging:I: G53 G00 G90 Z0.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Operation: X: 0, Z: -44.0168, A: 0, F: 2500.0, Operation: G53
 DEBUG:local_logging:Old line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:New line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:I: G53 G00 X50.0 Y0.0
 
-DEBUG:local_logging:Operation: X: 50.0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
-DEBUG:local_logging:Distance: 50.0 for X: 50.0, Z: 0.0, A: 0, F: 2500.0
+DEBUG:local_logging:Operation: X: 50.0, Z: -44.0168, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Distance: 50.0 for X: 50.0, Z: -44.0168, A: 0, F: 2500.0
 DEBUG:local_logging:Old line: G53 G00 X50.0 Y0.0
 
 DEBUG:local_logging:New line: G53 G00 X50.0 Y0.0
@@ -722,7 +724,7 @@ DEBUG:local_logging:NI: M6 T11
 
 DEBUG:local_logging:I: G53 G00 G90 Z0.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Operation: X: 0, Z: 44.0168, A: 0, F: 2500.0, Operation: G53
 DEBUG:local_logging:Old line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:New line: G53 G00 G90 Z0.0
@@ -731,7 +733,7 @@ DEBUG:local_logging:NI: S18000 M03
 
 DEBUG:local_logging:I: G00 X0.0 Y0.0
 
-DEBUG:local_logging:Operation: X: 0.0, Z: 0.0, A: 0, F: 2500.0, Operation: G00
+DEBUG:local_logging:Operation: X: 0.0, Z: 44.0168, A: 0, F: 2500.0, Operation: G00
 DEBUG:local_logging:Old line: G00 X0.0 Y0.0
 
 DEBUG:local_logging:New line: G00 X0.0 Y0.0
@@ -740,21 +742,20 @@ DEBUG:local_logging:NI: ()
 
 DEBUG:local_logging:I: G00X121.1759Y-0.0000Z36.0084A-3.9542578F2500.0
 
-DEBUG:local_logging:Operation: X: 121.1759, Z: 36.0084, A: -3.9542578, F: 2500.0, Operation: G00
-DEBUG:local_logging:Distance: 186.96928396133106 for X: 121.1759, Z: 36.0084, A: -3.9542578, F: 2500.0
+DEBUG:local_logging:Operation: X: 121.1759, Z: -8.008400000000002, A: -3.9542578, F: 2500.0, Operation: G00
+DEBUG:local_logging:Distance: 125.24542006485675 for X: 121.1759, Z: -8.008400000000002, A: -3.9542578, F: 2500.0
 DEBUG:local_logging:Old line: G00X121.1759Y-0.0000Z36.0084A-3.9542578F2500.0
 
-DEBUG:local_logging:New line: G00X121.1759Y-0.0000Z36.0084A-3.9542578F1620.2648027611526
+DEBUG:local_logging:New line: G00X121.1759Y-0.0000Z36.0084A-3.9542578F2418.8
 
 DEBUG:local_logging:NI: F1500.0
 
 DEBUG:local_logging:I: G01Z27.0023A-3.9542578F1500.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 27.0023, A: -3.9542578, F: 1500.0, Operation: G01
-DEBUG:local_logging:Distance: 106.77405539294001 for X: 0, Z: 27.0023, A: -3.9542578, F: 1500.0
+DEBUG:local_logging:Operation: X: 0, Z: 35.0107, A: 0.0, F: 1500.0, Operation: G01
 DEBUG:local_logging:Old line: G01Z27.0023A-3.9542578F1500.0
 
-DEBUG:local_logging:New line: G01Z27.0023A-3.9542578F0.0
+DEBUG:local_logging:New line: G01Z27.0023A-3.9542578F1500.0
 
 DEBUG:local_logging:NI: ()
 
@@ -766,458 +767,458 @@ DEBUG:local_logging:NI: F1600.0
 
 DEBUG:local_logging:I: G01X118.7770Z27.0066A-6.7015563F1600.0
 
-DEBUG:local_logging:Operation: X: 118.777, Z: 27.0066, A: -6.7015563, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 216.4809427006549 for X: 118.777, Z: 27.0066, A: -6.7015563, F: 1600.0
+DEBUG:local_logging:Operation: X: 118.777, Z: -8.004100000000001, A: -6.7015563, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 130.32734737595484 for X: 118.777, Z: -8.004100000000001, A: -6.7015563, F: 1600.0
 DEBUG:local_logging:Old line: G01X118.7770Z27.0066A-6.7015563F1600.0
 
-DEBUG:local_logging:New line: G01X118.7770Z27.0066A-6.7015563F877.8749650161473
+DEBUG:local_logging:New line: G01X118.7770Z27.0066A-6.7015563F1458.2
 
 DEBUG:local_logging:I: G01X116.3721Z27.0132A-9.4698126F1600.0
 
-DEBUG:local_logging:Operation: X: 116.3721, Z: 27.0132, A: -9.4698126, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 281.0359264301154 for X: 116.3721, Z: 27.0132, A: -9.4698126, F: 1600.0
+DEBUG:local_logging:Operation: X: -2.404899999999998, Z: 35.017300000000006, A: -2.768256299999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 96.96668824547532 for X: -2.404899999999998, Z: 35.017300000000006, A: -2.768256299999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X116.3721Z27.0132A-9.4698126F1600.0
 
-DEBUG:local_logging:New line: G01X116.3721Z27.0132A-9.4698126F662.5322333879643
+DEBUG:local_logging:New line: G01X116.3721Z27.0132A-9.4698126F-39.7
 
 DEBUG:local_logging:I: G01X113.9692Z27.0220A-12.2559926F1600.0
 
-DEBUG:local_logging:Operation: X: 113.9692, Z: 27.022, A: -12.2559926, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 350.2429435047201 for X: 113.9692, Z: 27.022, A: -12.2559926, F: 1600.0
+DEBUG:local_logging:Operation: X: 116.3741, Z: -7.995300000000007, A: -9.487736300000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 138.91458100806716 for X: 116.3741, Z: -7.995300000000007, A: -9.487736300000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X113.9692Z27.0220A-12.2559926F1600.0
 
-DEBUG:local_logging:New line: G01X113.9692Z27.0220A-12.2559926F520.6406678041824
+DEBUG:local_logging:New line: G01X113.9692Z27.0220A-12.2559926F1340.4
 
 DEBUG:local_logging:I: G01X111.5765Z27.0332A-15.0569381F1600.0
 
-DEBUG:local_logging:Operation: X: 111.5765, Z: 27.0332, A: -15.0569381, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 422.05285574211223 for X: 111.5765, Z: 27.0332, A: -15.0569381, F: 1600.0
+DEBUG:local_logging:Operation: X: -4.797600000000003, Z: 35.02850000000001, A: -5.569201799999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 195.1397697549729 for X: -4.797600000000003, Z: 35.02850000000001, A: -5.569201799999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X111.5765Z27.0332A-15.0569381F1600.0
 
-DEBUG:local_logging:New line: G01X111.5765Z27.0332A-15.0569381F422.98588333467615
+DEBUG:local_logging:New line: G01X111.5765Z27.0332A-15.0569381F-39.3
 
 DEBUG:local_logging:I: G01X109.2023Z27.0467A-17.8693874F1600.0
 
-DEBUG:local_logging:Operation: X: 109.2023, Z: 27.0467, A: -17.8693874, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 495.491399228923 for X: 109.2023, Z: 27.0467, A: -17.8693874, F: 1600.0
+DEBUG:local_logging:Operation: X: 113.9999, Z: -7.981800000000007, A: -12.300185600000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 150.44873727654638 for X: 113.9999, Z: -7.981800000000007, A: -12.300185600000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X109.2023Z27.0467A-17.8693874F1600.0
 
-DEBUG:local_logging:New line: G01X109.2023Z27.0467A-17.8693874F352.62706935358034
+DEBUG:local_logging:New line: G01X109.2023Z27.0467A-17.8693874F1212.4
 
 DEBUG:local_logging:I: G01X106.8551Z27.0624A-20.6899967F1600.0
 
-DEBUG:local_logging:Operation: X: 106.8551, Z: 27.0624, A: -20.6899967, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 570.0258777806873 for X: 106.8551, Z: 27.0624, A: -20.6899967, F: 1600.0
+DEBUG:local_logging:Operation: X: -7.144800000000004, Z: 35.044200000000004, A: -8.389811099999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 294.1010177502966 for X: -7.144800000000004, Z: 35.044200000000004, A: -8.389811099999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X106.8551Z27.0624A-20.6899967F1600.0
 
-DEBUG:local_logging:New line: G01X106.8551Z27.0624A-20.6899967F299.9305236205058
+DEBUG:local_logging:New line: G01X106.8551Z27.0624A-20.6899967F-38.9
 
 DEBUG:local_logging:I: G01X104.5431Z27.0804A-23.5153641F1600.0
 
-DEBUG:local_logging:Operation: X: 104.5431, Z: 27.0804, A: -23.5153641, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 645.3297306428046 for X: 104.5431, Z: 27.0804, A: -23.5153641, F: 1600.0
+DEBUG:local_logging:Operation: X: 111.6879, Z: -7.963800000000003, A: -15.125553000000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 164.26821573374949 for X: 111.6879, Z: -7.963800000000003, A: -15.125553000000004, F: 1600.0
 DEBUG:local_logging:Old line: G01X104.5431Z27.0804A-23.5153641F1600.0
 
-DEBUG:local_logging:New line: G01X104.5431Z27.0804A-23.5153641F259.1992156217342
+DEBUG:local_logging:New line: G01X104.5431Z27.0804A-23.5153641F1087.9
 
 DEBUG:local_logging:I: G01X102.2744Z27.1006A-26.3420538F1600.0
 
-DEBUG:local_logging:Operation: X: 102.2744, Z: 27.1006, A: -26.3420538, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 721.1743946377821 for X: 102.2744, Z: 27.1006, A: -26.3420538, F: 1600.0
+DEBUG:local_logging:Operation: X: -9.413499999999999, Z: 35.064400000000006, A: -11.216500799999995, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 393.41250899882715 for X: -9.413499999999999, Z: 35.064400000000006, A: -11.216500799999995, F: 1600.0
 DEBUG:local_logging:Old line: G01X102.2744Z27.1006A-26.3420538F1600.0
 
-DEBUG:local_logging:New line: G01X102.2744Z27.1006A-26.3420538F226.9063366873827
+DEBUG:local_logging:New line: G01X102.2744Z27.1006A-26.3420538F-38.3
 
 DEBUG:local_logging:I: G01X100.0569Z27.1228A-29.1666211F1600.0
 
-DEBUG:local_logging:Operation: X: 100.0569, Z: 27.1228, A: -29.1666211, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 797.3829890250779 for X: 100.0569, Z: 27.1228, A: -29.1666211, F: 1600.0
+DEBUG:local_logging:Operation: X: 109.4704, Z: -7.941600000000005, A: -17.950120300000005, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 179.73601122919666 for X: 109.4704, Z: -7.941600000000005, A: -17.950120300000005, F: 1600.0
 DEBUG:local_logging:Old line: G01X100.0569Z27.1228A-29.1666211F1600.0
 
-DEBUG:local_logging:New line: G01X100.0569Z27.1228A-29.1666211F200.7705734928402
+DEBUG:local_logging:New line: G01X100.0569Z27.1228A-29.1666211F974.5
 
 DEBUG:local_logging:I: G01X97.8981Z27.1471A-31.9856376F1600.0
 
-DEBUG:local_logging:Operation: X: 97.8981, Z: 27.1471, A: -31.9856376, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 873.8186172134278 for X: 97.8981, Z: 27.1471, A: -31.9856376, F: 1600.0
+DEBUG:local_logging:Operation: X: -11.572299999999998, Z: 35.0887, A: -14.035517299999995, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 492.6239979093529 for X: -11.572299999999998, Z: 35.0887, A: -14.035517299999995, F: 1600.0
 DEBUG:local_logging:Old line: G01X97.8981Z27.1471A-31.9856376F1600.0
 
-DEBUG:local_logging:New line: G01X97.8981Z27.1471A-31.9856376F179.25569095736245
+DEBUG:local_logging:New line: G01X97.8981Z27.1471A-31.9856376F-37.6
 
 DEBUG:local_logging:I: G01X95.8050Z27.1734A-34.7957164F1600.0
 
-DEBUG:local_logging:Operation: X: 95.805, Z: 27.1734, A: -34.7957164, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 950.359266336188 for X: 95.805, Z: 27.1734, A: -34.7957164, F: 1600.0
+DEBUG:local_logging:Operation: X: 107.3773, Z: -7.915300000000002, A: -20.76019910000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 196.2956950805541 for X: 107.3773, Z: -7.915300000000002, A: -20.76019910000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X95.8050Z27.1734A-34.7957164F1600.0
 
-DEBUG:local_logging:New line: G01X95.8050Z27.1734A-34.7957164F161.29479180116147
+DEBUG:local_logging:New line: G01X95.8050Z27.1734A-34.7957164F875.2
 
 DEBUG:local_logging:I: G01X93.7843Z27.2014A-37.5935357F1600.0
 
-DEBUG:local_logging:Operation: X: 93.7843, Z: 27.2014, A: -37.5935357, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1026.8883650945822 for X: 93.7843, Z: 27.2014, A: -37.5935357, F: 1600.0
+DEBUG:local_logging:Operation: X: -13.593000000000004, Z: 35.1167, A: -16.83333659999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 591.2874955241969 for X: -13.593000000000004, Z: 35.1167, A: -16.83333659999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X93.7843Z27.2014A-37.5935357F1600.0
 
-DEBUG:local_logging:New line: G01X93.7843Z27.2014A-37.5935357F146.12579624093715
+DEBUG:local_logging:New line: G01X93.7843Z27.2014A-37.5935357F-36.8
 
 DEBUG:local_logging:I: G01X91.8420Z27.2312A-40.3758623F1600.0
 
-DEBUG:local_logging:Operation: X: 91.842, Z: 27.2312, A: -40.3758623, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1103.312385177322 for X: 91.842, Z: 27.2312, A: -40.3758623, F: 1600.0
+DEBUG:local_logging:Operation: X: 105.435, Z: -7.8855, A: -23.542525700000013, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 213.49578845344018 for X: 105.435, Z: -7.8855, A: -23.542525700000013, F: 1600.0
 DEBUG:local_logging:Old line: G01X91.8420Z27.2312A-40.3758623F1600.0
 
-DEBUG:local_logging:New line: G01X91.8420Z27.2312A-40.3758623F133.18730214052925
+DEBUG:local_logging:New line: G01X91.8420Z27.2312A-40.3758623F790.2
 
 DEBUG:local_logging:I: G01X89.9833Z27.2625A-43.1395726F1600.0
 
-DEBUG:local_logging:Operation: X: 89.9833, Z: 27.2625, A: -43.1395726, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1179.5299035492578 for X: 89.9833, Z: 27.2625, A: -43.1395726, F: 1600.0
+DEBUG:local_logging:Operation: X: -15.451700000000002, Z: 35.147999999999996, A: -19.597046899999988, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 688.9702957022602 for X: -15.451700000000002, Z: 35.147999999999996, A: -19.597046899999988, F: 1600.0
 DEBUG:local_logging:Old line: G01X89.9833Z27.2625A-43.1395726F1600.0
 
-DEBUG:local_logging:New line: G01X89.9833Z27.2625A-43.1395726F122.0598812855681
+DEBUG:local_logging:New line: G01X89.9833Z27.2625A-43.1395726F-35.9
 
 DEBUG:local_logging:I: G01X87.3621Z27.3121A-47.2437216F1600.0
 
-DEBUG:local_logging:Operation: X: 87.3621, Z: 27.3121, A: -47.2437216, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1293.2793139838134 for X: 87.3621, Z: 27.3121, A: -47.2437216, F: 1600.0
+DEBUG:local_logging:Operation: X: 102.8138, Z: -7.835899999999995, A: -27.646674700000013, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 239.79592265102445 for X: 102.8138, Z: -7.835899999999995, A: -27.646674700000013, F: 1600.0
 DEBUG:local_logging:Old line: G01X87.3621Z27.3121A-47.2437216F1600.0
 
-DEBUG:local_logging:New line: G01X87.3621Z27.3121A-47.2437216F108.08133903373441
+DEBUG:local_logging:New line: G01X87.3621Z27.3121A-47.2437216F686.0
 
 DEBUG:local_logging:I: G01X86.5349Z27.3293A-48.5993127F1600.0
 
-DEBUG:local_logging:Operation: X: 86.5349, Z: 27.3293, A: -48.5993127, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1331.0012040983677 for X: 86.5349, Z: 27.3293, A: -48.5993127, F: 1600.0
+DEBUG:local_logging:Operation: X: -16.278900000000007, Z: 35.1652, A: -20.952637999999986, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 736.9835164115176 for X: -16.278900000000007, Z: 35.1652, A: -20.952637999999986, F: 1600.0
 DEBUG:local_logging:Old line: G01X86.5349Z27.3293A-48.5993127F1600.0
 
-DEBUG:local_logging:New line: G01X86.5349Z27.3293A-48.5993127F104.02382775738451
+DEBUG:local_logging:New line: G01X86.5349Z27.3293A-48.5993127F-35.3
 
 DEBUG:local_logging:I: G01X85.9353Z27.2929A-45.6910303F1600.0
 
-DEBUG:local_logging:Operation: X: 85.9353, Z: 27.2929, A: -45.6910303, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1249.9981741211486 for X: 85.9353, Z: 27.2929, A: -45.6910303, F: 1600.0
+DEBUG:local_logging:Operation: X: 102.2142, Z: -7.872299999999999, A: -24.738392300000015, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 219.94213781558724 for X: 102.2142, Z: -7.872299999999999, A: -24.738392300000015, F: 1600.0
 DEBUG:local_logging:Old line: G01X85.9353Z27.2929A-45.6910303F1600.0
 
-DEBUG:local_logging:New line: G01X85.9353Z27.2929A-45.6910303F109.99734467346028
+DEBUG:local_logging:New line: G01X85.9353Z27.2929A-45.6910303F743.6
 
 DEBUG:local_logging:I: G01X85.2989Z27.2580A-42.7473499F1600.0
 
-DEBUG:local_logging:Operation: X: 85.2989, Z: 27.258, A: -42.7473499, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1168.3252412865543 for X: 85.2989, Z: 27.258, A: -42.7473499, F: 1600.0
+DEBUG:local_logging:Operation: X: -16.915300000000002, Z: 35.1303, A: -18.008957599999988, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 632.8861731918636 for X: -16.915300000000002, Z: 35.1303, A: -18.008957599999988, F: 1600.0
 DEBUG:local_logging:Old line: G01X85.2989Z27.2580A-42.7473499F1600.0
 
-DEBUG:local_logging:New line: G01X85.2989Z27.2580A-42.7473499F116.81527983569953
+DEBUG:local_logging:New line: G01X85.2989Z27.2580A-42.7473499F-42.8
 
 DEBUG:local_logging:I: G01X84.2785Z27.2085A-38.2727486F1600.0
 
-DEBUG:local_logging:Operation: X: 84.2785, Z: 27.2085, A: -38.2727486, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1044.74894549021 for X: 84.2785, Z: 27.2085, A: -38.2727486, F: 1600.0
+DEBUG:local_logging:Operation: X: 101.1938, Z: -7.9217999999999975, A: -20.263791000000012, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 189.75954619588015 for X: 101.1938, Z: -7.9217999999999975, A: -20.263791000000012, F: 1600.0
 DEBUG:local_logging:Old line: G01X84.2785Z27.2085A-38.2727486F1600.0
 
-DEBUG:local_logging:New line: G01X84.2785Z27.2085A-38.2727486F129.06985987598068
+DEBUG:local_logging:New line: G01X84.2785Z27.2085A-38.2727486F853.2
 
 DEBUG:local_logging:I: G01X83.1846Z27.1633A-33.7381515F1600.0
 
-DEBUG:local_logging:Operation: X: 83.1846, Z: 27.1633, A: -33.7381515, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 920.2070913640755 for X: 83.1846, Z: 27.1633, A: -33.7381515, F: 1600.0
+DEBUG:local_logging:Operation: X: -18.009199999999993, Z: 35.0851, A: -13.474360499999989, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 473.0921879503709 for X: -18.009199999999993, Z: 35.0851, A: -13.474360499999989, F: 1600.0
 DEBUG:local_logging:Old line: G01X83.1846Z27.1633A-33.7381515F1600.0
 
-DEBUG:local_logging:New line: G01X83.1846Z27.1633A-33.7381515F144.63631203135498
+DEBUG:local_logging:New line: G01X83.1846Z27.1633A-33.7381515F-60.9
 
 DEBUG:local_logging:I: G01X82.0250Z27.1228A-29.1568047F1600.0
 
-DEBUG:local_logging:Operation: X: 82.025, Z: 27.1228, A: -29.1568047, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 795.0567098611797 for X: 82.025, Z: 27.1228, A: -29.1568047, F: 1600.0
+DEBUG:local_logging:Operation: X: 100.0342, Z: -7.9622999999999955, A: -15.68244420000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 159.99668706333003 for X: 100.0342, Z: -7.9622999999999955, A: -15.68244420000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X82.0250Z27.1228A-29.1568047F1600.0
 
-DEBUG:local_logging:New line: G01X82.0250Z27.1228A-29.1568047F165.0699860427756
+DEBUG:local_logging:New line: G01X82.0250Z27.1228A-29.1568047F1000.4
 
 DEBUG:local_logging:I: G01X80.8088Z27.0875A-24.5428307F1600.0
 
-DEBUG:local_logging:Operation: X: 80.8088, Z: 27.0875, A: -24.5428307, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 669.6971875123384 for X: 80.8088, Z: 27.0875, A: -24.5428307, F: 1600.0
+DEBUG:local_logging:Operation: X: -19.225399999999993, Z: 35.04979999999999, A: -8.86038649999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 311.1492955540064 for X: -19.225399999999993, Z: 35.04979999999999, A: -8.86038649999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X80.8088Z27.0875A-24.5428307F1600.0
 
-DEBUG:local_logging:New line: G01X80.8088Z27.0875A-24.5428307F193.06349557816822
+DEBUG:local_logging:New line: G01X80.8088Z27.0875A-24.5428307F-98.9
 
 DEBUG:local_logging:I: G01X79.5466Z27.0578A-19.9109819F1600.0
 
-DEBUG:local_logging:Operation: X: 79.5466, Z: 27.0578, A: -19.9109819, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 544.5882720014164 for X: 79.5466, Z: 27.0578, A: -19.9109819, F: 1600.0
+DEBUG:local_logging:Operation: X: 98.77199999999999, Z: -7.99199999999999, A: -11.05059540000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 132.49787602651344 for X: 98.77199999999999, Z: -7.99199999999999, A: -11.05059540000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X79.5466Z27.0578A-19.9109819F1600.0
 
-DEBUG:local_logging:New line: G01X79.5466Z27.0578A-19.9109819F233.70786067840433
+DEBUG:local_logging:New line: G01X79.5466Z27.0578A-19.9109819F1192.7
 
 DEBUG:local_logging:I: G01X78.2498Z27.0342A-15.276364F1600.0
 
-DEBUG:local_logging:Operation: X: 78.2498, Z: 27.0342, A: -15.276364, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 420.3320668674687 for X: 78.2498, Z: 27.0342, A: -15.276364, F: 1600.0
+DEBUG:local_logging:Operation: X: -20.522199999999998, Z: 35.02619999999999, A: -4.22576859999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 149.42856229199796 for X: -20.522199999999998, Z: 35.02619999999999, A: -4.22576859999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X78.2498Z27.0342A-15.276364F1600.0
 
-DEBUG:local_logging:New line: G01X78.2498Z27.0342A-15.276364F297.8589783383708
+DEBUG:local_logging:New line: G01X78.2498Z27.0342A-15.276364F-219.7
 
 DEBUG:local_logging:I: G01X77.3719Z27.0218A-12.1925757F1600.0
 
-DEBUG:local_logging:Operation: X: 77.3719, Z: 27.0218, A: -12.1925757, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 338.4284599762627 for X: 77.3719, Z: 27.0218, A: -12.1925757, F: 1600.0
+DEBUG:local_logging:Operation: X: 97.8941, Z: -8.00439999999999, A: -7.966807100000011, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 116.83238128302665 for X: 97.8941, Z: -8.00439999999999, A: -7.966807100000011, F: 1600.0
 DEBUG:local_logging:Old line: G01X77.3719Z27.0218A-12.1925757F1600.0
 
-DEBUG:local_logging:New line: G01X77.3719Z27.0218A-12.1925757F365.7938224482745
+DEBUG:local_logging:New line: G01X77.3719Z27.0218A-12.1925757F1340.6
 
 DEBUG:local_logging:I: G01X76.4877Z27.0122A-9.1187481F1600.0
 
-DEBUG:local_logging:Operation: X: 76.4877, Z: 27.0122, A: -9.1187481, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 257.91985801437283 for X: 76.4877, Z: 27.0122, A: -9.1187481, F: 1600.0
+DEBUG:local_logging:Operation: X: -21.40639999999999, Z: 35.01659999999999, A: -1.1519409999999883, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 45.66521812252652 for X: -21.40639999999999, Z: 35.01659999999999, A: -1.1519409999999883, F: 1600.0
 DEBUG:local_logging:Old line: G01X76.4877Z27.0122A-9.1187481F1600.0
 
-DEBUG:local_logging:New line: G01X76.4877Z27.0122A-9.1187481F474.4897153021085
+DEBUG:local_logging:New line: G01X76.4877Z27.0122A-9.1187481F-750.0
 
 DEBUG:local_logging:I: G01X75.6008Z27.0054A-6.0592426F1600.0
 
-DEBUG:local_logging:Operation: X: 75.6008, Z: 27.0054, A: -6.0592426, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 180.2526027052178 for X: 75.6008, Z: 27.0054, A: -6.0592426, F: 1600.0
+DEBUG:local_logging:Operation: X: 97.0072, Z: -8.011199999999988, A: -4.907301600000012, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 104.67061800020026 for X: 97.0072, Z: -8.011199999999988, A: -4.907301600000012, F: 1600.0
 DEBUG:local_logging:Old line: G01X75.6008Z27.0054A-6.0592426F1600.0
 
-DEBUG:local_logging:New line: G01X75.6008Z27.0054A-6.0592426F671.0653726194353
+DEBUG:local_logging:New line: G01X75.6008Z27.0054A-6.0592426F1482.9
 
 DEBUG:local_logging:I: G01X74.7148Z27.0013A-3.0182986F1600.0
 
-DEBUG:local_logging:Operation: X: 74.7148, Z: 27.0013, A: -3.0182986, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 110.56320843377142 for X: 74.7148, Z: 27.0013, A: -3.0182986, F: 1600.0
+DEBUG:local_logging:Operation: X: -22.2924, Z: 35.01249999999999, A: 1.8890030000000118, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 69.7945632213947 for X: -22.2924, Z: 35.01249999999999, A: 1.8890030000000118, F: 1600.0
 DEBUG:local_logging:Old line: G01X74.7148Z27.0013A-3.0182986F1600.0
 
-DEBUG:local_logging:New line: G01X74.7148Z27.0013A-3.0182986F1081.2247735340277
+DEBUG:local_logging:New line: G01X74.7148Z27.0013A-3.0182986F-511.0
 
 DEBUG:local_logging:I: G01X73.8331Z27.0000A0.F1600.0
 
-DEBUG:local_logging:Operation: X: 73.8331, Z: 27.0, A: 0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 73.8331 for X: 73.8331, Z: 27.0, A: 0, F: 1600.0
+DEBUG:local_logging:Operation: X: 96.1255, Z: -8.012499999999989, A: 0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 96.1255 for X: 96.1255, Z: -8.012499999999989, A: 0, F: 1600.0
 DEBUG:local_logging:Old line: G01X73.8331Z27.0000A0.F1600.0
 
 DEBUG:local_logging:New line: G01X73.8331Z27.0000A0.F1600.0
 
 DEBUG:local_logging:I: G01X72.6735Z27.0023A3.9713657F1600.0
 
-DEBUG:local_logging:Operation: X: 72.6735, Z: 27.0023, A: 3.9713657, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 129.54149537056847 for X: 72.6735, Z: 27.0023, A: 3.9713657, F: 1600.0
+DEBUG:local_logging:Operation: X: -23.451999999999998, Z: 35.014799999999994, A: 3.9713657, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 141.0203090084804 for X: -23.451999999999998, Z: 35.014799999999994, A: 3.9713657, F: 1600.0
 DEBUG:local_logging:Old line: G01X72.6735Z27.0023A3.9713657F1600.0
 
-DEBUG:local_logging:New line: G01X72.6735Z27.0023A3.9713657F897.6089064540629
+DEBUG:local_logging:New line: G01X72.6735Z27.0023A3.9713657F-266.1
 
 DEBUG:local_logging:I: G01X71.5349Z27.0091A7.8872648F1600.0
 
-DEBUG:local_logging:Operation: X: 71.5349, Z: 27.0091, A: 7.8872648, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 224.71790804933022 for X: 71.5349, Z: 27.0091, A: 7.8872648, F: 1600.0
+DEBUG:local_logging:Operation: X: 94.98689999999999, Z: -8.005699999999994, A: 3.9158990999999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 100.02651230341934 for X: 94.98689999999999, Z: -8.005699999999994, A: 3.9158990999999994, F: 1600.0
 DEBUG:local_logging:Old line: G01X71.5349Z27.0091A7.8872648F1600.0
 
-DEBUG:local_logging:New line: G01X71.5349Z27.0091A7.8872648F509.33119213122336
+DEBUG:local_logging:New line: G01X71.5349Z27.0091A7.8872648F1519.4
 
 DEBUG:local_logging:I: G01X74.0240Z27.0170A10.761093F1600.0
 
-DEBUG:local_logging:Operation: X: 74.024, Z: 27.017, A: 10.761093, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 300.0081829140144 for X: 74.024, Z: 27.017, A: 10.761093, F: 1600.0
+DEBUG:local_logging:Operation: X: -20.96289999999999, Z: 35.02269999999999, A: 6.845193900000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 240.6519374688077 for X: -20.96289999999999, Z: 35.02269999999999, A: 6.845193900000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X74.0240Z27.0170A10.761093F1600.0
 
-DEBUG:local_logging:New line: G01X74.0240Z27.0170A10.761093F394.7838983910173
+DEBUG:local_logging:New line: G01X74.0240Z27.0170A10.761093F-139.4
 
 DEBUG:local_logging:I: G01X76.5122Z27.0274A13.658697F1600.0
 
-DEBUG:local_logging:Operation: X: 76.5122, Z: 27.0274, A: 13.658697, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 377.0046865982194 for X: 76.5122, Z: 27.0274, A: 13.658697, F: 1600.0
+DEBUG:local_logging:Operation: X: 97.4751, Z: -7.995299999999993, A: 6.813503099999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 111.6648102201753 for X: 97.4751, Z: -7.995299999999993, A: 6.813503099999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X76.5122Z27.0274A13.658697F1600.0
 
-DEBUG:local_logging:New line: G01X76.5122Z27.0274A13.658697F324.7161755590181
+DEBUG:local_logging:New line: G01X76.5122Z27.0274A13.658697F1396.7
 
 DEBUG:local_logging:I: G01X78.9902Z27.0402A16.5766148F1600.0
 
-DEBUG:local_logging:Operation: X: 78.9902, Z: 27.0402, A: 16.5766148, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 455.14178950829887 for X: 78.9902, Z: 27.0402, A: 16.5766148, F: 1600.0
+DEBUG:local_logging:Operation: X: -18.484899999999996, Z: 35.03549999999999, A: 9.763111700000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 342.5546037999717 for X: -18.484899999999996, Z: 35.03549999999999, A: 9.763111700000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X78.9902Z27.0402A16.5766148F1600.0
 
-DEBUG:local_logging:New line: G01X78.9902Z27.0402A16.5766148F277.6812037772584
+DEBUG:local_logging:New line: G01X78.9902Z27.0402A16.5766148F-86.3
 
 DEBUG:local_logging:I: G01X81.4483Z27.0556A19.5112305F1600.0
 
-DEBUG:local_logging:Operation: X: 81.4483, Z: 27.0556, A: 19.5112305, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 534.1344556431872 for X: 81.4483, Z: 27.0556, A: 19.5112305, F: 1600.0
+DEBUG:local_logging:Operation: X: 99.9332, Z: -7.9798999999999936, A: 9.748118799999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 126.64033732881228 for X: 99.9332, Z: -7.9798999999999936, A: 9.748118799999997, F: 1600.0
 DEBUG:local_logging:Old line: G01X81.4483Z27.0556A19.5112305F1600.0
 
-DEBUG:local_logging:New line: G01X81.4483Z27.0556A19.5112305F243.9784189602152
+DEBUG:local_logging:New line: G01X81.4483Z27.0556A19.5112305F1262.6
 
 DEBUG:local_logging:I: G01X83.8772Z27.0734A22.4588002F1600.0
 
-DEBUG:local_logging:Operation: X: 83.8772, Z: 27.0734, A: 22.4588002, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 613.7941518821058 for X: 83.8772, Z: 27.0734, A: 22.4588002, F: 1600.0
+DEBUG:local_logging:Operation: X: -16.055999999999997, Z: 35.05329999999999, A: 12.710681400000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 445.84053348981934 for X: -16.055999999999997, Z: 35.05329999999999, A: 12.710681400000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X83.8772Z27.0734A22.4588002F1600.0
 
-DEBUG:local_logging:New line: G01X83.8772Z27.0734A22.4588002F218.645810795827
+DEBUG:local_logging:New line: G01X83.8772Z27.0734A22.4588002F-57.6
 
 DEBUG:local_logging:I: G01X86.2671Z27.0937A25.4154789F1600.0
 
-DEBUG:local_logging:Operation: X: 86.2671, Z: 27.0937, A: 25.4154789, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 693.9820545673914 for X: 86.2671, Z: 27.0937, A: 25.4154789, F: 1600.0
+DEBUG:local_logging:Operation: X: 102.3231, Z: -7.959599999999995, A: 12.704797499999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 143.8621002687244 for X: 102.3231, Z: -7.959599999999995, A: 12.704797499999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X86.2671Z27.0937A25.4154789F1600.0
 
-DEBUG:local_logging:New line: G01X86.2671Z27.0937A25.4154789F198.8918288183148
+DEBUG:local_logging:New line: G01X86.2671Z27.0937A25.4154789F1138.0
 
 DEBUG:local_logging:I: G01X89.7585Z27.1286A29.8589974F1600.0
 
-DEBUG:local_logging:Operation: X: 89.7585, Z: 27.1286, A: 29.8589974, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 814.9906259094157 for X: 89.7585, Z: 27.1286, A: 29.8589974, F: 1600.0
+DEBUG:local_logging:Operation: X: -12.564599999999999, Z: 35.08819999999999, A: 17.154199900000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 602.0411228303703 for X: -12.564599999999999, Z: 35.08819999999999, A: 17.154199900000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X89.7585Z27.1286A29.8589974F1600.0
 
-DEBUG:local_logging:New line: G01X89.7585Z27.1286A29.8589974F176.2150329517561
+DEBUG:local_logging:New line: G01X89.7585Z27.1286A29.8589974F-33.4
 
 DEBUG:local_logging:I: G01X93.1108Z27.1686A34.3008351F1600.0
 
-DEBUG:local_logging:Operation: X: 93.1108, Z: 27.1686, A: 34.3008351, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 936.5456721671844 for X: 93.1108, Z: 27.1686, A: 34.3008351, F: 1600.0
+DEBUG:local_logging:Operation: X: 105.6754, Z: -7.919599999999992, A: 17.1466352, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 172.06810935784372 for X: 105.6754, Z: -7.919599999999992, A: 17.1466352, F: 1600.0
 DEBUG:local_logging:Old line: G01X93.1108Z27.1686A34.3008351F1600.0
 
-DEBUG:local_logging:New line: G01X93.1108Z27.1686A34.3008351F159.07102496695515
+DEBUG:local_logging:New line: G01X93.1108Z27.1686A34.3008351F982.6
 
 DEBUG:local_logging:I: G01X96.2957Z27.2133A38.7276734F1600.0
 
-DEBUG:local_logging:Operation: X: 96.2957, Z: 27.2133, A: 38.7276734, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1058.297926494562 for X: 96.2957, Z: 27.2133, A: 38.7276734, F: 1600.0
+DEBUG:local_logging:Operation: X: -9.3797, Z: 35.13289999999999, A: 21.581038200000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 758.2624725987325 for X: -9.3797, Z: 35.13289999999999, A: 21.581038200000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X96.2957Z27.2133A38.7276734F1600.0
 
-DEBUG:local_logging:New line: G01X96.2957Z27.2133A38.7276734F145.58577140025386
+DEBUG:local_logging:New line: G01X96.2957Z27.2133A38.7276734F-19.8
 
 DEBUG:local_logging:I: G01X99.2880Z27.2624A43.1264679F1600.0
 
-DEBUG:local_logging:Operation: X: 99.288, Z: 27.2624, A: 43.1264679, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1179.9159015594587 for X: 99.288, Z: 27.2624, A: 43.1264679, F: 1600.0
+DEBUG:local_logging:Operation: X: 108.6677, Z: -7.870499999999993, A: 21.5454297, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 201.40450493146386 for X: 108.6677, Z: -7.870499999999993, A: 21.5454297, F: 1600.0
 DEBUG:local_logging:Old line: G01X99.2880Z27.2624A43.1264679F1600.0
 
-DEBUG:local_logging:New line: G01X99.2880Z27.2624A43.1264679F134.63739219891735
+DEBUG:local_logging:New line: G01X99.2880Z27.2624A43.1264679F863.3
 
 DEBUG:local_logging:I: G01X102.0663Z27.3152A47.4846744F1600.0
 
-DEBUG:local_logging:Operation: X: 102.0663, Z: 27.3152, A: 47.4846744, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1301.063025152964 for X: 102.0663, Z: 27.3152, A: 47.4846744, F: 1600.0
+DEBUG:local_logging:Operation: X: -6.601399999999998, Z: 35.1857, A: 25.939244700000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 912.714355565248 for X: -6.601399999999998, Z: 35.1857, A: 25.939244700000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X102.0663Z27.3152A47.4846744F1600.0
 
-DEBUG:local_logging:New line: G01X102.0663Z27.3152A47.4846744F125.51742447741941
+DEBUG:local_logging:New line: G01X102.0663Z27.3152A47.4846744F-11.6
 
 DEBUG:local_logging:I: G01X104.6131Z27.3712A51.7904526F1600.0
 
-DEBUG:local_logging:Operation: X: 104.6131, Z: 27.3712, A: 51.7904526, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1421.4216952756153 for X: 104.6131, Z: 27.3712, A: 51.7904526, F: 1600.0
+DEBUG:local_logging:Operation: X: 111.2145, Z: -7.814499999999995, A: 25.8512079, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 230.6044837466819 for X: 111.2145, Z: -7.814499999999995, A: 25.8512079, F: 1600.0
 DEBUG:local_logging:Old line: G01X104.6131Z27.3712A51.7904526F1600.0
 
-DEBUG:local_logging:New line: G01X104.6131Z27.3712A51.7904526F117.75601889032983
+DEBUG:local_logging:New line: G01X104.6131Z27.3712A51.7904526F771.6
 
 DEBUG:local_logging:I: G01X106.1759Z27.4100A54.6263904F1600.0
 
-DEBUG:local_logging:Operation: X: 106.1759, Z: 27.41, A: 54.6263904, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1501.069166917957 for X: 106.1759, Z: 27.41, A: 54.6263904, F: 1600.0
+DEBUG:local_logging:Operation: X: -5.038600000000002, Z: 35.22449999999999, A: 28.7751825, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 1013.6039394263239 for X: -5.038600000000002, Z: 35.22449999999999, A: 28.7751825, F: 1600.0
 DEBUG:local_logging:Old line: G01X106.1759Z27.4100A54.6263904F1600.0
 
-DEBUG:local_logging:New line: G01X106.1759Z27.4100A54.6263904F113.17362566896632
+DEBUG:local_logging:New line: G01X106.1759Z27.4100A54.6263904F-8.0
 
 DEBUG:local_logging:I: G01X107.0972Z27.3437A49.716491F1600.0
 
-DEBUG:local_logging:Operation: X: 107.0972, Z: 27.3437, A: 49.716491, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1363.644890955463 for X: 107.0972, Z: 27.3437, A: 49.716491, F: 1600.0
+DEBUG:local_logging:Operation: X: 112.1358, Z: -7.880799999999994, A: 20.941308499999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 199.52630389126014 for X: 112.1358, Z: -7.880799999999994, A: 20.941308499999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X107.0972Z27.3437A49.716491F1600.0
 
-DEBUG:local_logging:New line: G01X107.0972Z27.3437A49.716491F125.65992886897158
+DEBUG:local_logging:New line: G01X107.0972Z27.3437A49.716491F899.2
 
 DEBUG:local_logging:I: G01X108.1284Z27.2810A44.7076248F1600.0
 
-DEBUG:local_logging:Operation: X: 108.1284, Z: 27.281, A: 44.7076248, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1224.4523340375724 for X: 108.1284, Z: 27.281, A: 44.7076248, F: 1600.0
+DEBUG:local_logging:Operation: X: -4.007400000000004, Z: 35.16179999999999, A: 23.7663163, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 835.67606907311 for X: -4.007400000000004, Z: 35.16179999999999, A: 23.7663163, F: 1600.0
 DEBUG:local_logging:Old line: G01X108.1284Z27.2810A44.7076248F1600.0
 
-DEBUG:local_logging:New line: G01X108.1284Z27.2810A44.7076248F141.29209867200214
+DEBUG:local_logging:New line: G01X108.1284Z27.2810A44.7076248F-7.7
 
 DEBUG:local_logging:I: G01X109.2629Z27.2229A39.61642F1600.0
 
-DEBUG:local_logging:Operation: X: 109.2629, Z: 27.2229, A: 39.61642, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 1083.9945594510982 for X: 109.2629, Z: 27.2229, A: 39.61642, F: 1600.0
+DEBUG:local_logging:Operation: X: 113.2703, Z: -7.938899999999993, A: 15.850103699999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 169.3043141750806 for X: 113.2703, Z: -7.938899999999993, A: 15.850103699999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X109.2629Z27.2229A39.61642F1600.0
 
-DEBUG:local_logging:New line: G01X109.2629Z27.2229A39.61642F161.27446256605185
+DEBUG:local_logging:New line: G01X109.2629Z27.2229A39.61642F1070.5
 
 DEBUG:local_logging:I: G01X110.4915Z27.1702A34.4613589F1600.0
 
-DEBUG:local_logging:Operation: X: 110.4915, Z: 27.1702, A: 34.4613589, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 942.8187973813988 for X: 110.4915, Z: 27.1702, A: 34.4613589, F: 1600.0
+DEBUG:local_logging:Operation: X: -2.778800000000004, Z: 35.1091, A: 18.611255200000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 653.430328578646 for X: -2.778800000000004, Z: 35.1091, A: 18.611255200000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X110.4915Z27.1702A34.4613589F1600.0
 
-DEBUG:local_logging:New line: G01X110.4915Z27.1702A34.4613589F187.5083531331891
+DEBUG:local_logging:New line: G01X110.4915Z27.1702A34.4613589F-6.8
 
 DEBUG:local_logging:I: G01X111.8020Z27.1236A29.2624288F1600.0
 
-DEBUG:local_logging:Operation: X: 111.802, Z: 27.1236, A: 29.2624288, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 801.5380270925631 for X: 111.802, Z: 27.1236, A: 29.2624288, F: 1600.0
+DEBUG:local_logging:Operation: X: 114.58080000000001, Z: -7.985499999999998, A: 10.651173599999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 142.69934723349274 for X: 114.58080000000001, Z: -7.985499999999998, A: 10.651173599999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X111.8020Z27.1236A29.2624288F1600.0
 
-DEBUG:local_logging:New line: G01X111.8020Z27.1236A29.2624288F223.17493862252184
+DEBUG:local_logging:New line: G01X111.8020Z27.1236A29.2624288F1284.7
 
 DEBUG:local_logging:I: G01X113.1805Z27.0840A24.040688F1600.0
 
-DEBUG:local_logging:Operation: X: 113.1805, Z: 27.084, A: 24.040688, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 660.881583507945 for X: 113.1805, Z: 27.084, A: 24.040688, F: 1600.0
+DEBUG:local_logging:Operation: X: -1.4003000000000156, Z: 35.0695, A: 13.389514400000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 469.5656631850372 for X: -1.4003000000000156, Z: 35.0695, A: 13.389514400000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X113.1805Z27.0840A24.040688F1600.0
 
-DEBUG:local_logging:New line: G01X113.1805Z27.0840A24.040688F274.0109643225108
+DEBUG:local_logging:New line: G01X113.1805Z27.0840A24.040688F-4.8
 
 DEBUG:local_logging:I: G01X114.6109Z27.0517A18.8177674F1600.0
 
-DEBUG:local_logging:Operation: X: 114.6109, Z: 27.0517, A: 18.8177674, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 521.7951765882102 for X: 114.6109, Z: 27.0517, A: 18.8177674, F: 1600.0
+DEBUG:local_logging:Operation: X: 116.01120000000002, Z: -8.017799999999998, A: 5.428252999999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 123.90649425642724 for X: 116.01120000000002, Z: -8.017799999999998, A: 5.428252999999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X114.6109Z27.0517A18.8177674F1600.0
 
-DEBUG:local_logging:New line: G01X114.6109Z27.0517A18.8177674F351.4356748159779
+DEBUG:local_logging:New line: G01X114.6109Z27.0517A18.8177674F1498.0
 
 DEBUG:local_logging:I: G01X116.0761Z27.0272A13.6153368F1600.0
 
-DEBUG:local_logging:Operation: X: 116.0761, Z: 27.0272, A: 13.6153368, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 385.85774875422385 for X: 116.0761, Z: 27.0272, A: 13.6153368, F: 1600.0
+DEBUG:local_logging:Operation: X: 0.0648999999999802, Z: 35.045, A: 8.187083800000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 286.9163591111358 for X: 0.0648999999999802, Z: 35.045, A: 8.187083800000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X116.0761Z27.0272A13.6153368F1600.0
 
-DEBUG:local_logging:New line: G01X116.0761Z27.0272A13.6153368F481.3218358310006
+DEBUG:local_logging:New line: G01X116.0761Z27.0272A13.6153368F0.4
 
 DEBUG:local_logging:I: G01X117.5586Z27.0105A8.4545683F1600.0
 
-DEBUG:local_logging:Operation: X: 117.5586, Z: 27.0105, A: 8.4545683, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 256.8448577358533 for X: 117.5586, Z: 27.0105, A: 8.4545683, F: 1600.0
+DEBUG:local_logging:Operation: X: 117.49370000000002, Z: -8.034500000000001, A: 0.26748449999999835, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 117.51335323535793 for X: 117.49370000000002, Z: -8.034500000000001, A: 0.26748449999999835, F: 1600.0
 DEBUG:local_logging:Old line: G01X117.5586Z27.0105A8.4545683F1600.0
 
-DEBUG:local_logging:New line: G01X117.5586Z27.0105A8.4545683F732.3244142712839
+DEBUG:local_logging:New line: G01X117.5586Z27.0105A8.4545683F1599.7
 
 DEBUG:local_logging:I: G01X119.0411Z27.0017A3.3556293F1600.0
 
-DEBUG:local_logging:Operation: X: 119.0411, Z: 27.0017, A: 3.3556293, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 149.60126337635958 for X: 119.0411, Z: 27.0017, A: 3.3556293, F: 1600.0
+DEBUG:local_logging:Operation: X: 1.547399999999982, Z: 35.0362, A: 3.0881448000000016, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 108.2079235083261 for X: 1.547399999999982, Z: 35.0362, A: 3.0881448000000016, F: 1600.0
 DEBUG:local_logging:Old line: G01X119.0411Z27.0017A3.3556293F1600.0
 
-DEBUG:local_logging:New line: G01X119.0411Z27.0017A3.3556293F1273.1560930794783
+DEBUG:local_logging:New line: G01X119.0411Z27.0017A3.3556293F22.9
 
 DEBUG:local_logging:I: G01X120.0212Z27.0000A0.0F1600.0
 
-DEBUG:local_logging:Operation: X: 120.0212, Z: 27.0, A: 0.0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 120.0212 for X: 120.0212, Z: 27.0, A: 0.0, F: 1600.0
+DEBUG:local_logging:Operation: X: 118.47380000000001, Z: -8.036200000000001, A: -3.0881448000000016, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 121.04512487542857 for X: 118.47380000000001, Z: -8.036200000000001, A: -3.0881448000000016, F: 1600.0
 DEBUG:local_logging:Old line: G01X120.0212Z27.0000A0.0F1600.0
 
-DEBUG:local_logging:New line: G01X120.0212Z27.0000A0.0F1600.0
+DEBUG:local_logging:New line: G01X120.0212Z27.0000A0.0F1566.0
 
 DEBUG:local_logging:I: G01X121.1759Z27.0023A-3.9542578F1600.0
 
-DEBUG:local_logging:Operation: X: 121.1759, Z: 27.0023, A: -3.9542578, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 161.50633933646264 for X: 121.1759, Z: 27.0023, A: -3.9542578, F: 1600.0
+DEBUG:local_logging:Operation: X: 2.7020999999999873, Z: 35.0385, A: -0.8661129999999986, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 30.467359304236627 for X: 2.7020999999999873, Z: 35.0385, A: -0.8661129999999986, F: 1600.0
 DEBUG:local_logging:Old line: G01X121.1759Z27.0023A-3.9542578F1600.0
 
-DEBUG:local_logging:New line: G01X121.1759Z27.0023A-3.9542578F1200.45715107251
+DEBUG:local_logging:New line: G01X121.1759Z27.0023A-3.9542578F141.9
 
 DEBUG:local_logging:NI: F2500.0
 
 DEBUG:local_logging:I: G01Z36.0084A-3.9542578F2500.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 36.0084, A: -3.9542578, F: 2500.0, Operation: G01
-DEBUG:local_logging:Distance: 142.38649656552002 for X: 0, Z: 36.0084, A: -3.9542578, F: 2500.0
+DEBUG:local_logging:Operation: X: 0, Z: 0.9699000000000026, A: -3.0881448000000016, F: 2500.0, Operation: G01
+DEBUG:local_logging:Distance: 2.9951916415200097 for X: 0, Z: 0.9699000000000026, A: -3.0881448000000016, F: 2500.0
 DEBUG:local_logging:Old line: G01Z36.0084A-3.9542578F2500.0
 
 DEBUG:local_logging:New line: G01Z36.0084A-3.9542578F0.0
@@ -1238,15 +1239,15 @@ DEBUG:local_logging:NI: M01 M05
 
 DEBUG:local_logging:I: G53 G00 G90 Z0.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Operation: X: 0, Z: -0.9699000000000026, A: 0, F: 2500.0, Operation: G53
 DEBUG:local_logging:Old line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:New line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:I: G53 G00 X50.0 Y0.0
 
-DEBUG:local_logging:Operation: X: 50.0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
-DEBUG:local_logging:Distance: 50.0 for X: 50.0, Z: 0.0, A: 0, F: 2500.0
+DEBUG:local_logging:Operation: X: 50.0, Z: -0.9699000000000026, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Distance: 50.0 for X: 50.0, Z: -0.9699000000000026, A: 0, F: 2500.0
 DEBUG:local_logging:Old line: G53 G00 X50.0 Y0.0
 
 DEBUG:local_logging:New line: G53 G00 X50.0 Y0.0
@@ -1255,7 +1256,7 @@ DEBUG:local_logging:NI: M6 T15
 
 DEBUG:local_logging:I: G53 G00 G90 Z0.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Operation: X: 0, Z: 0.9699000000000026, A: 0, F: 2500.0, Operation: G53
 DEBUG:local_logging:Old line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:New line: G53 G00 G90 Z0.0
@@ -1264,7 +1265,7 @@ DEBUG:local_logging:NI: S18000 M03
 
 DEBUG:local_logging:I: G00 X0.0 Y0.0
 
-DEBUG:local_logging:Operation: X: 0.0, Z: 0.0, A: 0, F: 2500.0, Operation: G00
+DEBUG:local_logging:Operation: X: 0.0, Z: 0.9699000000000026, A: 0, F: 2500.0, Operation: G00
 DEBUG:local_logging:Old line: G00 X0.0 Y0.0
 
 DEBUG:local_logging:New line: G00 X0.0 Y0.0
@@ -1273,8 +1274,8 @@ DEBUG:local_logging:NI: ()
 
 DEBUG:local_logging:I: G00X171.0930Y-0.0000Z36.0084A0.0F2500.0
 
-DEBUG:local_logging:Operation: X: 171.093, Z: 36.0084, A: 0.0, F: 2500.0, Operation: G00
-DEBUG:local_logging:Distance: 171.093 for X: 171.093, Z: 36.0084, A: 0.0, F: 2500.0
+DEBUG:local_logging:Operation: X: 171.093, Z: 35.0385, A: 0.0, F: 2500.0, Operation: G00
+DEBUG:local_logging:Distance: 171.093 for X: 171.093, Z: 35.0385, A: 0.0, F: 2500.0
 DEBUG:local_logging:Old line: G00X171.0930Y-0.0000Z36.0084A0.0F2500.0
 
 DEBUG:local_logging:New line: G00X171.0930Y-0.0000Z36.0084A0.0F2500.0
@@ -1283,7 +1284,7 @@ DEBUG:local_logging:NI: F1500.0
 
 DEBUG:local_logging:I: G01Z27.0000A0.0F1500.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 27.0, A: 0.0, F: 1500.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: -8.038499999999999, A: 0.0, F: 1500.0, Operation: G01
 DEBUG:local_logging:Old line: G01Z27.0000A0.0F1500.0
 
 DEBUG:local_logging:New line: G01Z27.0000A0.0F1500.0
@@ -1298,492 +1299,493 @@ DEBUG:local_logging:NI: F1600.0
 
 DEBUG:local_logging:I: G01X171.0234Z27.0010A-2.8516923F1600.0
 
-DEBUG:local_logging:Operation: X: 171.0234, Z: 27.001, A: -2.8516923, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 187.55740212984063 for X: 171.0234, Z: 27.001, A: -2.8516923, F: 1600.0
+DEBUG:local_logging:Operation: X: 171.0234, Z: 35.039500000000004, A: -2.8516923, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 198.07418792124415 for X: 171.0234, Z: 35.039500000000004, A: -2.8516923, F: 1600.0
 DEBUG:local_logging:Old line: G01X171.0234Z27.0010A-2.8516923F1600.0
 
-DEBUG:local_logging:New line: G01X171.0234Z27.0010A-2.8516923F1458.9530292735055
+DEBUG:local_logging:New line: G01X171.0234Z27.0010A-2.8516923F1381.5
 
 DEBUG:local_logging:I: G01X170.8037Z27.0049A-5.8006132F1600.0
 
-DEBUG:local_logging:Operation: X: 170.8037, Z: 27.0049, A: -5.8006132, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 231.75753171446794 for X: 170.8037, Z: 27.0049, A: -5.8006132, F: 1600.0
+DEBUG:local_logging:Operation: X: -0.21970000000001733, Z: -8.034600000000005, A: -2.9489209, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 23.694418439046846 for X: -0.21970000000001733, Z: -8.034600000000005, A: -2.9489209, F: 1600.0
 DEBUG:local_logging:Old line: G01X170.8037Z27.0049A-5.8006132F1600.0
 
-DEBUG:local_logging:New line: G01X170.8037Z27.0049A-5.8006132F1179.1889479419215
+DEBUG:local_logging:New line: G01X170.8037Z27.0049A-5.8006132F-14.8
 
 DEBUG:local_logging:I: G01X170.4504Z27.0107A-8.6099746F1600.0
 
-DEBUG:local_logging:Operation: X: 170.4504, Z: 27.0107, A: -8.6099746, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 288.3368909223548 for X: 170.4504, Z: 27.0107, A: -8.6099746, F: 1600.0
+DEBUG:local_logging:Operation: X: 170.67010000000002, Z: 35.045300000000005, A: -5.661053699999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 261.70249240475755 for X: 170.67010000000002, Z: 35.045300000000005, A: -5.661053699999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X170.4504Z27.0107A-8.6099746F1600.0
 
-DEBUG:local_logging:New line: G01X170.4504Z27.0107A-8.6099746F945.8402604245322
+DEBUG:local_logging:New line: G01X170.4504Z27.0107A-8.6099746F1043.4
 
 DEBUG:local_logging:I: G01X169.9502Z27.0190A-11.413735F1600.0
 
-DEBUG:local_logging:Operation: X: 169.9502, Z: 27.019, A: -11.413735, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 352.1165256990863 for X: 169.9502, Z: 27.019, A: -11.413735, F: 1600.0
+DEBUG:local_logging:Operation: X: -0.719900000000024, Z: -8.026300000000006, A: -5.752681300000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 46.17835771912786 for X: -0.719900000000024, Z: -8.026300000000006, A: -5.752681300000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X169.9502Z27.0190A-11.413735F1600.0
 
-DEBUG:local_logging:New line: G01X169.9502Z27.0190A-11.413735F772.2452658537793
+DEBUG:local_logging:New line: G01X169.9502Z27.0190A-11.413735F-24.9
 
 DEBUG:local_logging:I: G01X169.2097Z27.0254A-14.5191696F1600.0
 
-DEBUG:local_logging:Operation: X: 169.2097, Z: 27.0254, A: -14.5191696, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 427.3160222615177 for X: 169.2097, Z: 27.0254, A: -14.5191696, F: 1600.0
+DEBUG:local_logging:Operation: X: 169.92960000000002, Z: 35.05170000000001, A: -8.766488299999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 351.13709965283925 for X: 169.92960000000002, Z: 35.05170000000001, A: -8.766488299999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X169.2097Z27.0254A-14.5191696F1600.0
 
-DEBUG:local_logging:New line: G01X169.2097Z27.0254A-14.5191696F633.5721243663306
+DEBUG:local_logging:New line: G01X169.2097Z27.0254A-14.5191696F774.3
 
 DEBUG:local_logging:I: G01X168.3982Z27.0275A-17.1881369F1600.0
 
-DEBUG:local_logging:Operation: X: 168.3982, Z: 27.0275, A: -17.1881369, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 494.1324299173415 for X: 168.3982, Z: 27.0275, A: -17.1881369, F: 1600.0
+DEBUG:local_logging:Operation: X: -1.5314000000000192, Z: -8.024200000000011, A: -8.421648600000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 67.59434242458069 for X: -1.5314000000000192, Z: -8.024200000000011, A: -8.421648600000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X168.3982Z27.0275A-17.1881369F1600.0
 
-DEBUG:local_logging:New line: G01X168.3982Z27.0275A-17.1881369F545.2730962124293
+DEBUG:local_logging:New line: G01X168.3982Z27.0275A-17.1881369F-36.2
 
 DEBUG:local_logging:I: G01X167.4304Z27.0440A-19.7648221F1600.0
 
-DEBUG:local_logging:Operation: X: 167.4304, Z: 27.044, A: -19.7648221, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 560.128920591263 for X: 167.4304, Z: 27.044, A: -19.7648221, F: 1600.0
+DEBUG:local_logging:Operation: X: 168.9618, Z: 35.06820000000001, A: -11.343173499999999, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 432.18137287681964 for X: 168.9618, Z: 35.06820000000001, A: -11.343173499999999, F: 1600.0
 DEBUG:local_logging:Old line: G01X167.4304Z27.0440A-19.7648221F1600.0
 
-DEBUG:local_logging:New line: G01X167.4304Z27.0440A-19.7648221F478.2624680711382
+DEBUG:local_logging:New line: G01X167.4304Z27.0440A-19.7648221F625.5
 
 DEBUG:local_logging:I: G01X166.1085Z27.0722A-22.5874181F1600.0
 
-DEBUG:local_logging:Operation: X: 166.1085, Z: 27.0722, A: -22.5874181, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 633.6508498394331 for X: 166.1085, Z: 27.0722, A: -22.5874181, F: 1600.0
+DEBUG:local_logging:Operation: X: -2.8533000000000186, Z: -7.996000000000013, A: -11.244244600000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 89.95424377677189 for X: -2.8533000000000186, Z: -7.996000000000013, A: -11.244244600000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X166.1085Z27.0722A-22.5874181F1600.0
 
-DEBUG:local_logging:New line: G01X166.1085Z27.0722A-22.5874181F419.4322473762119
+DEBUG:local_logging:New line: G01X166.1085Z27.0722A-22.5874181F-50.8
 
 DEBUG:local_logging:I: G01X164.6228Z27.0934A-25.0940251F1600.0
 
-DEBUG:local_logging:Operation: X: 164.6228, Z: 27.0934, A: -25.0940251, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 699.5290024093908 for X: 164.6228, Z: 27.0934, A: -25.0940251, F: 1600.0
+DEBUG:local_logging:Operation: X: 167.47610000000003, Z: 35.08940000000001, A: -13.849780499999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 514.0284804055952 for X: 167.47610000000003, Z: 35.08940000000001, A: -13.849780499999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X164.6228Z27.0934A-25.0940251F1600.0
 
-DEBUG:local_logging:New line: G01X164.6228Z27.0934A-25.0940251F376.5340380352814
+DEBUG:local_logging:New line: G01X164.6228Z27.0934A-25.0940251F521.3
 
 DEBUG:local_logging:I: G01X163.2270Z27.1125A-26.9516332F1600.0
 
-DEBUG:local_logging:Operation: X: 163.227, Z: 27.1125, A: -26.9516332, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 748.7347776932631 for X: 163.227, Z: 27.1125, A: -26.9516332, F: 1600.0
+DEBUG:local_logging:Operation: X: -4.249100000000027, Z: -7.976900000000011, A: -13.101852700000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 104.5985099255217 for X: -4.249100000000027, Z: -7.976900000000011, A: -13.101852700000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X163.2270Z27.1125A-26.9516332F1600.0
 
-DEBUG:local_logging:New line: G01X163.2270Z27.1125A-26.9516332F348.80602288116455
+DEBUG:local_logging:New line: G01X163.2270Z27.1125A-26.9516332F-65.0
 
 DEBUG:local_logging:I: G01X161.5607Z27.1257A-28.6576609F1600.0
 
-DEBUG:local_logging:Operation: X: 161.5607, Z: 27.1257, A: -28.6576609, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 793.9704334681916 for X: 161.5607, Z: 27.1257, A: -28.6576609, F: 1600.0
+DEBUG:local_logging:Operation: X: 165.80980000000002, Z: 35.10260000000001, A: -15.555808199999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 570.6686796363417 for X: 165.80980000000002, Z: 35.10260000000001, A: -15.555808199999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X161.5607Z27.1257A-28.6576609F1600.0
 
-DEBUG:local_logging:New line: G01X161.5607Z27.1257A-28.6576609F325.575247016243
+DEBUG:local_logging:New line: G01X161.5607Z27.1257A-28.6576609F464.9
 
 DEBUG:local_logging:I: G01X160.0379Z27.1290A-29.790064F1600.0
 
-DEBUG:local_logging:Operation: X: 160.0379, Z: 27.129, A: -29.790064, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 823.8679434760287 for X: 160.0379, Z: 27.129, A: -29.790064, F: 1600.0
+DEBUG:local_logging:Operation: X: -5.7719000000000165, Z: -7.973600000000008, A: -14.234255800000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.64493089122925 for X: -5.7719000000000165, Z: -7.973600000000008, A: -14.234255800000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X160.0379Z27.1290A-29.790064F1600.0
 
-DEBUG:local_logging:New line: G01X160.0379Z27.1290A-29.790064F310.80301403601146
+DEBUG:local_logging:New line: G01X160.0379Z27.1290A-29.790064F-81.3
 
 DEBUG:local_logging:I: G01X158.3470Z27.1352A-30.5969615F1600.0
 
-DEBUG:local_logging:Operation: X: 158.347, Z: 27.1352, A: -30.5969615, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 845.2198465245722 for X: 158.347, Z: 27.1352, A: -30.5969615, F: 1600.0
+DEBUG:local_logging:Operation: X: 164.11890000000002, Z: 35.10880000000001, A: -16.362705699999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 597.4583627035622 for X: 164.11890000000002, Z: 35.10880000000001, A: -16.362705699999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X158.3470Z27.1352A-30.5969615F1600.0
 
-DEBUG:local_logging:New line: G01X158.3470Z27.1352A-30.5969615F299.750651906438
+DEBUG:local_logging:New line: G01X158.3470Z27.1352A-30.5969615F439.5
 
 DEBUG:local_logging:I: G01X156.8641Z27.1380A-30.9380492F1600.0
 
-DEBUG:local_logging:Operation: X: 156.8641, Z: 27.138, A: -30.9380492, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 854.1247552286258 for X: 156.8641, Z: 27.138, A: -30.9380492, F: 1600.0
+DEBUG:local_logging:Operation: X: -7.254800000000017, Z: -7.970800000000008, A: -14.575343500000002, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 116.40344425074731 for X: -7.254800000000017, Z: -7.970800000000008, A: -14.575343500000002, F: 1600.0
 DEBUG:local_logging:Old line: G01X156.8641Z27.1380A-30.9380492F1600.0
 
-DEBUG:local_logging:New line: G01X156.8641Z27.1380A-30.9380492F293.84765921322446
+DEBUG:local_logging:New line: G01X156.8641Z27.1380A-30.9380492F-99.7
 
 DEBUG:local_logging:I: G01X155.3942Z27.1381A-30.9461035F1600.0
 
-DEBUG:local_logging:Operation: X: 155.3942, Z: 27.1381, A: -30.9461035, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 854.0739948589728 for X: 155.3942, Z: 27.1381, A: -30.9461035, F: 1600.0
+DEBUG:local_logging:Operation: X: 162.64900000000003, Z: 35.108900000000006, A: -16.370759999999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 597.3299232665504 for X: 162.64900000000003, Z: 35.108900000000006, A: -16.370759999999997, F: 1600.0
 DEBUG:local_logging:Old line: G01X155.3942Z27.1381A-30.9461035F1600.0
 
-DEBUG:local_logging:New line: G01X155.3942Z27.1381A-30.9461035F291.1114511115101
+DEBUG:local_logging:New line: G01X155.3942Z27.1381A-30.9461035F435.7
 
 DEBUG:local_logging:I: G01X153.9084Z27.1353A-30.6204848F1600.0
 
-DEBUG:local_logging:Operation: X: 153.9084, Z: 27.1353, A: -30.6204848, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 845.0301928697523 for X: 153.9084, Z: 27.1353, A: -30.6204848, F: 1600.0
+DEBUG:local_logging:Operation: X: -8.740600000000029, Z: -7.973600000000005, A: -14.249724800000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.95730499760165 for X: -8.740600000000029, Z: -7.973600000000005, A: -14.249724800000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X153.9084Z27.1353A-30.6204848F1600.0
 
-DEBUG:local_logging:New line: G01X153.9084Z27.1353A-30.6204848F291.41377678318764
+DEBUG:local_logging:New line: G01X153.9084Z27.1353A-30.6204848F-122.7
 
 DEBUG:local_logging:I: G01X152.2116Z27.1293A-29.828619F1600.0
 
-DEBUG:local_logging:Operation: X: 152.2116, Z: 27.1293, A: -29.828619, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 823.420209449538 for X: 152.2116, Z: 27.1293, A: -29.828619, F: 1600.0
+DEBUG:local_logging:Operation: X: 160.95220000000003, Z: 35.102900000000005, A: -15.578894199999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 570.0581063583381 for X: 160.95220000000003, Z: 35.102900000000005, A: -15.578894199999997, F: 1600.0
 DEBUG:local_logging:Old line: G01X152.2116Z27.1293A-29.828619F1600.0
 
-DEBUG:local_logging:New line: G01X152.2116Z27.1293A-29.828619F295.76461350494077
+DEBUG:local_logging:New line: G01X152.2116Z27.1293A-29.828619F451.7
 
 DEBUG:local_logging:I: G01X150.6788Z27.1261A-28.7040688F1600.0
 
-DEBUG:local_logging:Operation: X: 150.6788, Z: 27.1261, A: -28.7040688, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 793.0749691273595 for X: 150.6788, Z: 27.1261, A: -28.7040688, F: 1600.0
+DEBUG:local_logging:Operation: X: -10.273400000000038, Z: -7.976800000000004, A: -13.125174600000005, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 105.19972480436563 for X: -10.273400000000038, Z: -7.976800000000004, A: -13.125174600000005, F: 1600.0
 DEBUG:local_logging:Old line: G01X150.6788Z27.1261A-28.7040688F1600.0
 
-DEBUG:local_logging:New line: G01X150.6788Z27.1261A-28.7040688F303.98901665661333
+DEBUG:local_logging:New line: G01X150.6788Z27.1261A-28.7040688F-156.2
 
 DEBUG:local_logging:I: G01X149.0044Z27.1129A-27.00535F1600.0
 
-DEBUG:local_logging:Operation: X: 149.0044, Z: 27.1129, A: -27.00535, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 747.2010565323734 for X: 149.0044, Z: 27.1129, A: -27.00535, F: 1600.0
+DEBUG:local_logging:Operation: X: 159.27780000000004, Z: 35.08970000000001, A: -13.880175399999995, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 512.4336834826954 for X: 159.27780000000004, Z: 35.08970000000001, A: -13.880175399999995, F: 1600.0
 DEBUG:local_logging:Old line: G01X149.0044Z27.1129A-27.00535F1600.0
 
-DEBUG:local_logging:New line: G01X149.0044Z27.1129A-27.00535F319.0667865305283
+DEBUG:local_logging:New line: G01X149.0044Z27.1129A-27.00535F497.3
 
 DEBUG:local_logging:I: G01X147.6033Z27.0938A-25.1537557F1600.0
 
-DEBUG:local_logging:Operation: X: 147.6033, Z: 27.0938, A: -25.1537557, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 697.3117956680412 for X: 147.6033, Z: 27.0938, A: -25.1537557, F: 1600.0
+DEBUG:local_logging:Operation: X: -11.674500000000052, Z: -7.995900000000006, A: -11.273580300000006, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 90.89526920390482 for X: -11.674500000000052, Z: -7.995900000000006, A: -11.273580300000006, F: 1600.0
 DEBUG:local_logging:Old line: G01X147.6033Z27.0938A-25.1537557F1600.0
 
-DEBUG:local_logging:New line: G01X147.6033Z27.0938A-25.1537557F338.6795999539174
+DEBUG:local_logging:New line: G01X147.6033Z27.0938A-25.1537557F-205.5
 
 DEBUG:local_logging:I: G01X146.5053Z27.0791A-23.3724508F1600.0
 
-DEBUG:local_logging:Operation: X: 146.5053, Z: 27.0791, A: -23.3724508, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 649.6402515685969 for X: 146.5053, Z: 27.0791, A: -23.3724508, F: 1600.0
+DEBUG:local_logging:Operation: X: 158.17980000000006, Z: 35.075, A: -12.098870499999993, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 452.88955504580275 for X: 158.17980000000006, Z: 35.075, A: -12.098870499999993, F: 1600.0
 DEBUG:local_logging:Old line: G01X146.5053Z27.0791A-23.3724508F1600.0
 
-DEBUG:local_logging:New line: G01X146.5053Z27.0791A-23.3724508F360.8281343928522
+DEBUG:local_logging:New line: G01X146.5053Z27.0791A-23.3724508F558.8
 
 DEBUG:local_logging:I: G01X145.3919Z27.0577A-21.2069399F1600.0
 
-DEBUG:local_logging:Operation: X: 145.3919, Z: 27.0577, A: -21.2069399, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 591.9441600831176 for X: 145.3919, Z: 27.0577, A: -21.2069399, F: 1600.0
+DEBUG:local_logging:Operation: X: -12.787900000000064, Z: -8.017300000000002, A: -9.108069400000005, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 74.13340068287258 for X: -12.787900000000064, Z: -8.017300000000002, A: -9.108069400000005, F: 1600.0
 DEBUG:local_logging:Old line: G01X145.3919Z27.0577A-21.2069399F1600.0
 
-DEBUG:local_logging:New line: G01X145.3919Z27.0577A-21.2069399F392.98814936756156
+DEBUG:local_logging:New line: G01X145.3919Z27.0577A-21.2069399F-276.0
 
 DEBUG:local_logging:I: G01X144.2471Z27.0336A-18.4781281F1600.0
 
-DEBUG:local_logging:Operation: X: 144.2471, Z: 27.0336, A: -18.4781281, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 519.940160266832 for X: 144.2471, Z: 27.0336, A: -18.4781281, F: 1600.0
+DEBUG:local_logging:Operation: X: 157.03500000000005, Z: 35.0509, A: -9.370058699999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 364.04064748027105 for X: 157.03500000000005, Z: 35.0509, A: -9.370058699999994, F: 1600.0
 DEBUG:local_logging:Old line: G01X144.2471Z27.0336A-18.4781281F1600.0
 
-DEBUG:local_logging:New line: G01X144.2471Z27.0336A-18.4781281F443.8883118425712
+DEBUG:local_logging:New line: G01X144.2471Z27.0336A-18.4781281F690.2
 
 DEBUG:local_logging:I: G01X143.2679Z27.0247A-15.5466257F1600.0
 
-DEBUG:local_logging:Operation: X: 143.2679, Z: 27.0247, A: -15.5466257, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 443.8983485614394 for X: 143.2679, Z: 27.0247, A: -15.5466257, F: 1600.0
+DEBUG:local_logging:Operation: X: -13.767100000000056, Z: -8.0262, A: -6.176567000000006, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 51.45046565007832 for X: -13.767100000000056, Z: -8.0262, A: -6.176567000000006, F: 1600.0
 DEBUG:local_logging:Old line: G01X143.2679Z27.0247A-15.5466257F1600.0
 
-DEBUG:local_logging:New line: G01X143.2679Z27.0247A-15.5466257F516.3989475132565
+DEBUG:local_logging:New line: G01X143.2679Z27.0247A-15.5466257F-428.1
 
 DEBUG:local_logging:I: G01X142.5641Z27.0244A-12.8974487F1600.0
 
-DEBUG:local_logging:Operation: X: 142.5641, Z: 27.0244, A: -12.8974487, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 376.5749674679132 for X: 142.5641, Z: 27.0244, A: -12.8974487, F: 1600.0
+DEBUG:local_logging:Operation: X: 156.33120000000005, Z: 35.0506, A: -6.720881699999994, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 282.724441877733 for X: 156.33120000000005, Z: 35.0506, A: -6.720881699999994, F: 1600.0
 DEBUG:local_logging:Old line: G01X142.5641Z27.0244A-12.8974487F1600.0
 
-DEBUG:local_logging:New line: G01X142.5641Z27.0244A-12.8974487F605.7294820570778
+DEBUG:local_logging:New line: G01X142.5641Z27.0244A-12.8974487F884.7
 
 DEBUG:local_logging:I: G01X141.9650Z27.0129A-10.0036112F1600.0
 
-DEBUG:local_logging:Operation: X: 141.965, Z: 27.0129, A: -10.0036112, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 305.2481760814658 for X: 141.965, Z: 27.0129, A: -10.0036112, F: 1600.0
+DEBUG:local_logging:Operation: X: -14.366200000000049, Z: -8.037700000000005, A: -3.2827295000000056, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 30.043091065673796 for X: -14.366200000000049, Z: -8.037700000000005, A: -3.2827295000000056, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.9650Z27.0129A-10.0036112F1600.0
 
-DEBUG:local_logging:New line: G01X141.9650Z27.0129A-10.0036112F744.1289344162337
+DEBUG:local_logging:New line: G01X141.9650Z27.0129A-10.0036112F-765.1
 
 DEBUG:local_logging:I: G01X141.5279Z27.0040A-7.1019566F1600.0
 
-DEBUG:local_logging:Operation: X: 141.5279, Z: 27.004, A: -7.1019566, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 238.34888078240215 for X: 141.5279, Z: 27.004, A: -7.1019566, F: 1600.0
+DEBUG:local_logging:Operation: X: 155.89410000000004, Z: 35.041700000000006, A: -3.8192270999999947, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 205.4605337299166 for X: 155.89410000000004, Z: 35.041700000000006, A: -3.8192270999999947, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.5279Z27.0040A-7.1019566F1600.0
 
-DEBUG:local_logging:New line: G01X141.5279Z27.0040A-7.1019566F950.0553946663168
+DEBUG:local_logging:New line: G01X141.5279Z27.0040A-7.1019566F1214.0
 
 DEBUG:local_logging:I: G01X141.2457Z27.0001A-4.2222282F1600.0
 
-DEBUG:local_logging:Operation: X: 141.2457, Z: 27.0001, A: -4.2222282, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 181.5116548181785 for X: 141.2457, Z: 27.0001, A: -4.2222282, F: 1600.0
+DEBUG:local_logging:Operation: X: -14.648400000000038, Z: -8.041600000000006, A: -0.40300110000000533, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 15.002607652773365 for X: -14.648400000000038, Z: -8.041600000000006, A: -0.40300110000000533, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.2457Z27.0001A-4.2222282F1600.0
 
-DEBUG:local_logging:New line: G01X141.2457Z27.0001A-4.2222282F1245.0612068210105
+DEBUG:local_logging:New line: G01X141.2457Z27.0001A-4.2222282F-1562.2
 
 DEBUG:local_logging:I: G01X141.1095Z26.9998A-1.3906861F1600.0
 
-DEBUG:local_logging:Operation: X: 141.1095, Z: 26.9998, A: -1.3906861, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 146.01973089342863 for X: 141.1095, Z: 26.9998, A: -1.3906861, F: 1600.0
+DEBUG:local_logging:Operation: X: 155.75790000000003, Z: 35.04140000000001, A: -0.9876849999999946, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 159.55678042231287 for X: 155.75790000000003, Z: 35.04140000000001, A: -0.9876849999999946, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.1095Z26.9998A-1.3906861F1600.0
 
-DEBUG:local_logging:New line: G01X141.1095Z26.9998A-1.3906861F1546.1965216521342
+DEBUG:local_logging:New line: G01X141.1095Z26.9998A-1.3906861F1561.9
 
 DEBUG:local_logging:I: G01X141.0930Z27.0000A0.F1600.0
 
-DEBUG:local_logging:Operation: X: 141.093, Z: 27.0, A: 0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 141.093 for X: 141.093, Z: 27.0, A: 0, F: 1600.0
+DEBUG:local_logging:Operation: X: -14.664900000000046, Z: -8.04140000000001, A: 0, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 14.664900000000046 for X: -14.664900000000046, Z: -8.04140000000001, A: 0, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.0930Z27.0000A0.F1600.0
 
-DEBUG:local_logging:New line: G01X141.0930Z27.0000A0.F1600.0
+DEBUG:local_logging:New line: G01X141.0930Z27.0000A0.F-1600.0
 
 DEBUG:local_logging:I: G01X141.1597Z26.9997A2.7938066F1600.0
 
-DEBUG:local_logging:Operation: X: 141.1597, Z: 26.9997, A: 2.7938066, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 160.05011241797587 for X: 141.1597, Z: 26.9997, A: 2.7938066, F: 1600.0
+DEBUG:local_logging:Operation: X: 155.82460000000003, Z: 35.041100000000014, A: 2.7938066, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 184.02536624632515 for X: 155.82460000000003, Z: 35.041100000000014, A: 2.7938066, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.1597Z26.9997A2.7938066F1600.0
 
-DEBUG:local_logging:New line: G01X141.1597Z26.9997A2.7938066F1411.1550225605042
+DEBUG:local_logging:New line: G01X141.1597Z26.9997A2.7938066F1354.8
 
 DEBUG:local_logging:I: G01X141.3669Z27.0015A5.6468568F1600.0
 
-DEBUG:local_logging:Operation: X: 141.3669, Z: 27.0015, A: 5.6468568, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 207.92498718853122 for X: 141.3669, Z: 27.0015, A: 5.6468568, F: 1600.0
+DEBUG:local_logging:Operation: X: -14.457700000000045, Z: -8.039600000000014, A: 2.8530502, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 27.113623883569417 for X: -14.457700000000045, Z: -8.039600000000014, A: 2.8530502, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.3669Z27.0015A5.6468568F1600.0
 
-DEBUG:local_logging:New line: G01X141.3669Z27.0015A5.6468568F1087.830005707347
+DEBUG:local_logging:New line: G01X141.3669Z27.0015A5.6468568F-853.2
 
 DEBUG:local_logging:I: G01X141.7241Z27.0079A8.5351675F1600.0
 
-DEBUG:local_logging:Operation: X: 141.7241, Z: 27.0079, A: 8.5351675, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 270.59893737252867 for X: 141.7241, Z: 27.0079, A: 8.5351675, F: 1600.0
+DEBUG:local_logging:Operation: X: 156.18180000000004, Z: 35.047500000000014, A: 5.6821173, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 253.0831677641665 for X: 156.18180000000004, Z: 35.047500000000014, A: 5.6821173, F: 1600.0
 DEBUG:local_logging:Old line: G01X141.7241Z27.0079A8.5351675F1600.0
 
-DEBUG:local_logging:New line: G01X141.7241Z27.0079A8.5351675F837.9876218354309
+DEBUG:local_logging:New line: G01X141.7241Z27.0079A8.5351675F987.4
 
 DEBUG:local_logging:I: G01X142.2392Z27.0185A11.4308073F1600.0
 
-DEBUG:local_logging:Operation: X: 142.2392, Z: 27.0185, A: 11.4308073, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 340.0237544783058 for X: 142.2392, Z: 27.0185, A: 11.4308073, F: 1600.0
+DEBUG:local_logging:Operation: X: -13.942600000000027, Z: -8.029000000000014, A: 5.74869, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 48.21611606217321 for X: -13.942600000000027, Z: -8.029000000000014, A: 5.74869, F: 1600.0
 DEBUG:local_logging:Old line: G01X142.2392Z27.0185A11.4308073F1600.0
 
-DEBUG:local_logging:New line: G01X142.2392Z27.0185A11.4308073F669.3141787966471
+DEBUG:local_logging:New line: G01X142.2392Z27.0185A11.4308073F-462.7
 
 DEBUG:local_logging:I: G01X142.9858Z27.0255A14.5542028F1600.0
 
-DEBUG:local_logging:Operation: X: 142.9858, Z: 27.0255, A: 14.5542028, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 418.517685017397 for X: 142.9858, Z: 27.0255, A: 14.5542028, F: 1600.0
+DEBUG:local_logging:Operation: X: 156.92840000000004, Z: 35.05450000000002, A: 8.8055128, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 346.2736635889527 for X: 156.92840000000004, Z: 35.05450000000002, A: 8.8055128, F: 1600.0
 DEBUG:local_logging:Old line: G01X142.9858Z27.0255A14.5542028F1600.0
 
-DEBUG:local_logging:New line: G01X142.9858Z27.0255A14.5542028F546.6370674168528
+DEBUG:local_logging:New line: G01X142.9858Z27.0255A14.5542028F725.1
 
 DEBUG:local_logging:I: G01X143.7964Z27.0276A17.2137127F1600.0
 
-DEBUG:local_logging:Operation: X: 143.7964, Z: 27.0276, A: 17.2137127, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 486.9606065380768 for X: 143.7964, Z: 27.0276, A: 17.2137127, F: 1600.0
+DEBUG:local_logging:Operation: X: -13.132000000000033, Z: -8.026900000000019, A: 8.408199899999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 68.75747058690374 for X: -13.132000000000033, Z: -8.026900000000019, A: 8.408199899999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X143.7964Z27.0276A17.2137127F1600.0
 
-DEBUG:local_logging:New line: G01X143.7964Z27.0276A17.2137127F472.4699224351115
+DEBUG:local_logging:New line: G01X143.7964Z27.0276A17.2137127F-305.6
 
 DEBUG:local_logging:I: G01X144.7649Z27.0441A19.7873873F1600.0
 
-DEBUG:local_logging:Operation: X: 144.7649, Z: 27.0441, A: 19.7873873, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 554.3674054802409 for X: 144.7649, Z: 27.0441, A: 19.7873873, F: 1600.0
+DEBUG:local_logging:Operation: X: 157.89690000000004, Z: 35.07100000000002, A: 11.379187400000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 429.18045555290297 for X: 157.89690000000004, Z: 35.07100000000002, A: 11.379187400000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X144.7649Z27.0441A19.7873873F1600.0
 
-DEBUG:local_logging:New line: G01X144.7649Z27.0441A19.7873873F417.81648363569906
+DEBUG:local_logging:New line: G01X144.7649Z27.0441A19.7873873F588.6
 
 DEBUG:local_logging:I: G01X146.0893Z27.0724A22.6100089F1600.0
 
-DEBUG:local_logging:Operation: X: 146.0893, Z: 27.0724, A: 22.6100089, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 629.2990655636529 for X: 146.0893, Z: 27.0724, A: 22.6100089, F: 1600.0
+DEBUG:local_logging:Operation: X: -11.807600000000036, Z: -7.998600000000021, A: 11.2308215, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 90.60353648094329 for X: -11.807600000000036, Z: -7.998600000000021, A: 11.2308215, F: 1600.0
 DEBUG:local_logging:Old line: G01X146.0893Z27.0724A22.6100089F1600.0
 
-DEBUG:local_logging:New line: G01X146.0893Z27.0724A22.6100089F371.43369947743423
+DEBUG:local_logging:New line: G01X146.0893Z27.0724A22.6100089F-208.5
 
 DEBUG:local_logging:I: G01X147.5770Z27.0936A25.1147286F1600.0
 
-DEBUG:local_logging:Operation: X: 147.577, Z: 27.0936, A: 25.1147286, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 696.267915880883 for X: 147.577, Z: 27.0936, A: 25.1147286, F: 1600.0
+DEBUG:local_logging:Operation: X: 159.38460000000003, Z: 35.09220000000002, A: 13.8839071, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 512.6243307826103 for X: 159.38460000000003, Z: 35.09220000000002, A: 13.8839071, F: 1600.0
 DEBUG:local_logging:Old line: G01X147.5770Z27.0936A25.1147286F1600.0
 
-DEBUG:local_logging:New line: G01X147.5770Z27.0936A25.1147286F339.1269288938423
+DEBUG:local_logging:New line: G01X147.5770Z27.0936A25.1147286F497.5
 
 DEBUG:local_logging:I: G01X148.9739Z27.1127A26.9692812F1600.0
 
-DEBUG:local_logging:Operation: X: 148.9739, Z: 27.1127, A: 26.9692812, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 746.2314194845779 for X: 148.9739, Z: 27.1127, A: 26.9692812, F: 1600.0
+DEBUG:local_logging:Operation: X: -10.410700000000048, Z: -7.979500000000019, A: 13.085374100000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 104.93245995962157 for X: -10.410700000000048, Z: -7.979500000000019, A: 13.085374100000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X148.9739Z27.1127A26.9692812F1600.0
 
-DEBUG:local_logging:New line: G01X148.9739Z27.1127A26.9692812F319.41597978363603
+DEBUG:local_logging:New line: G01X148.9739Z27.1127A26.9692812F-158.7
 
 DEBUG:local_logging:I: G01X150.6424Z27.1259A28.6725305F1600.0
 
-DEBUG:local_logging:Operation: X: 150.6424, Z: 27.1259, A: 28.6725305, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 792.2225053425575 for X: 150.6424, Z: 27.1259, A: 28.6725305, F: 1600.0
+DEBUG:local_logging:Operation: X: 161.05310000000006, Z: 35.10540000000002, A: 15.5871564, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 570.4022042025422 for X: 161.05310000000006, Z: 35.10540000000002, A: 15.5871564, F: 1600.0
 DEBUG:local_logging:Old line: G01X150.6424Z27.1259A28.6725305F1600.0
 
-DEBUG:local_logging:New line: G01X150.6424Z27.1259A28.6725305F304.2426065588473
+DEBUG:local_logging:New line: G01X150.6424Z27.1259A28.6725305F451.8
 
 DEBUG:local_logging:I: G01X152.1688Z27.1291A29.8026528F1600.0
 
-DEBUG:local_logging:Operation: X: 152.1688, Z: 27.1291, A: 29.8026528, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 822.7141402089532 for X: 152.1688, Z: 27.1291, A: 29.8026528, F: 1600.0
+DEBUG:local_logging:Operation: X: -8.884300000000053, Z: -7.976300000000016, A: 14.215496400000001, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.73459040398572 for X: -8.884300000000053, Z: -7.976300000000016, A: 14.215496400000001, F: 1600.0
 DEBUG:local_logging:Old line: G01X152.1688Z27.1291A29.8026528F1600.0
 
-DEBUG:local_logging:New line: G01X152.1688Z27.1291A29.8026528F295.9352077480562
+DEBUG:local_logging:New line: G01X152.1688Z27.1291A29.8026528F-125.0
 
 DEBUG:local_logging:I: G01X153.8535Z27.1352A30.6020041F1600.0
 
-DEBUG:local_logging:Operation: X: 153.8535, Z: 27.1352, A: 30.6020041, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 844.5240940801905 for X: 153.8535, Z: 27.1352, A: 30.6020041, F: 1600.0
+DEBUG:local_logging:Operation: X: 162.73780000000005, Z: 35.11150000000002, A: 16.386507699999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 597.9270961855784 for X: 162.73780000000005, Z: 35.11150000000002, A: 16.386507699999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X153.8535Z27.1352A30.6020041F1600.0
 
-DEBUG:local_logging:New line: G01X153.8535Z27.1352A30.6020041F291.4844013634805
+DEBUG:local_logging:New line: G01X153.8535Z27.1352A30.6020041F435.5
 
 DEBUG:local_logging:I: G01X155.3275Z27.1380A30.9387196F1600.0
 
-DEBUG:local_logging:Operation: X: 155.3275, Z: 27.138, A: 30.9387196, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 853.8617770520508 for X: 155.3275, Z: 27.138, A: 30.9387196, F: 1600.0
+DEBUG:local_logging:Operation: X: -7.410300000000063, Z: -7.973500000000019, A: 14.552211900000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 116.26844740373066 for X: -7.410300000000063, Z: -7.973500000000019, A: 14.552211900000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X155.3275Z27.1380A30.9387196F1600.0
 
-DEBUG:local_logging:New line: G01X155.3275Z27.1380A30.9387196F291.05881851044626
+DEBUG:local_logging:New line: G01X155.3275Z27.1380A30.9387196F-102.0
 
 DEBUG:local_logging:I: G01X156.7931Z27.1381A30.9459566F1600.0
 
-DEBUG:local_logging:Operation: X: 156.7931, Z: 27.1381, A: 30.9459566, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 854.3257057503133 for X: 156.7931, Z: 27.1381, A: 30.9459566, F: 1600.0
+DEBUG:local_logging:Operation: X: 164.20340000000007, Z: 35.111600000000024, A: 16.393744699999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 598.5735767485435 for X: 164.20340000000007, Z: 35.111600000000024, A: 16.393744699999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X156.7931Z27.1381A30.9459566F1600.0
 
-DEBUG:local_logging:New line: G01X156.7931Z27.1381A30.9459566F293.6455713686782
+DEBUG:local_logging:New line: G01X156.7931Z27.1381A30.9459566F438.9
 
 DEBUG:local_logging:I: G01X158.2783Z27.1353A30.6202352F1600.0
 
-DEBUG:local_logging:Operation: X: 158.2783, Z: 27.1353, A: 30.6202352, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 845.8303590545278 for X: 158.2783, Z: 27.1353, A: 30.6202352, F: 1600.0
+DEBUG:local_logging:Operation: X: -5.9251000000000715, Z: -7.976300000000023, A: 14.226490500000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 113.62934083686231 for X: -5.9251000000000715, Z: -7.976300000000023, A: 14.226490500000004, F: 1600.0
 DEBUG:local_logging:Old line: G01X158.2783Z27.1353A30.6202352F1600.0
 
-DEBUG:local_logging:New line: G01X158.2783Z27.1353A30.6202352F299.4043395215543
+DEBUG:local_logging:New line: G01X158.2783Z27.1353A30.6202352F-83.4
 
 DEBUG:local_logging:I: G01X159.9745Z27.1293A29.8284781F1600.0
 
-DEBUG:local_logging:Operation: X: 159.9745, Z: 27.1293, A: 29.8284781, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 824.8867341826729 for X: 159.9745, Z: 27.1293, A: 29.8284781, F: 1600.0
+DEBUG:local_logging:Operation: X: 165.89960000000008, Z: 35.105600000000024, A: 15.601987599999998, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 572.2907811841096 for X: 165.89960000000008, Z: 35.105600000000024, A: 15.601987599999998, F: 1600.0
 DEBUG:local_logging:Old line: G01X159.9745Z27.1293A29.8284781F1600.0
 
-DEBUG:local_logging:New line: G01X159.9745Z27.1293A29.8284781F310.2961769092014
+DEBUG:local_logging:New line: G01X159.9745Z27.1293A29.8284781F463.8
 
 DEBUG:local_logging:I: G01X161.5075Z27.1261A28.7036592F1600.0
 
-DEBUG:local_logging:Operation: X: 161.5075, Z: 27.1261, A: 28.7036592, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 795.1925402667642 for X: 161.5075, Z: 27.1261, A: 28.7036592, F: 1600.0
+DEBUG:local_logging:Operation: X: -4.3921000000000845, Z: -7.979500000000023, A: 13.101671600000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 104.63700756258508 for X: -4.3921000000000845, Z: -7.979500000000023, A: 13.101671600000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X161.5075Z27.1261A28.7036592F1600.0
 
-DEBUG:local_logging:New line: G01X161.5075Z27.1261A28.7036592F324.967837240161
+DEBUG:local_logging:New line: G01X161.5075Z27.1261A28.7036592F-67.2
 
 DEBUG:local_logging:I: G01X163.1822Z27.1130A27.0044401F1600.0
 
-DEBUG:local_logging:Operation: X: 163.1822, Z: 27.113, A: 27.0044401, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 750.1355654659274 for X: 163.1822, Z: 27.113, A: 27.0044401, F: 1600.0
+DEBUG:local_logging:Operation: X: 167.57430000000008, Z: 35.09250000000002, A: 13.902768499999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 515.8593545068659 for X: 167.57430000000008, Z: 35.09250000000002, A: 13.902768499999997, F: 1600.0
 DEBUG:local_logging:Old line: G01X163.1822Z27.1130A27.0044401F1600.0
 
-DEBUG:local_logging:New line: G01X163.1822Z27.1130A27.0044401F348.0591136054584
+DEBUG:local_logging:New line: G01X163.1822Z27.1130A27.0044401F519.8
 
 DEBUG:local_logging:I: G01X164.5837Z27.0938A25.1522183F1600.0
 
-DEBUG:local_logging:Operation: X: 164.5837, Z: 27.0938, A: 25.1522183, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 701.0620706703999 for X: 164.5837, Z: 27.0938, A: 25.1522183, F: 1600.0
+DEBUG:local_logging:Operation: X: -2.990600000000086, Z: -7.998700000000021, A: 11.249449800000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 90.03065806207982 for X: -2.990600000000086, Z: -7.998700000000021, A: 11.249449800000004, F: 1600.0
 DEBUG:local_logging:Old line: G01X164.5837Z27.0938A25.1522183F1600.0
 
-DEBUG:local_logging:New line: G01X164.5837Z27.0938A25.1522183F375.6214050322013
+DEBUG:local_logging:New line: G01X164.5837Z27.0938A25.1522183F-53.1
 
 DEBUG:local_logging:I: G01X165.6814Z27.0791A23.3710816F1600.0
 
-DEBUG:local_logging:Operation: X: 165.6814, Z: 27.0791, A: 23.3710816, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 654.1957269451815 for X: 165.6814, Z: 27.0791, A: 23.3710816, F: 1600.0
+DEBUG:local_logging:Operation: X: 168.67200000000008, Z: 35.077800000000025, A: 12.121631799999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 457.43352873980143 for X: 168.67200000000008, Z: 35.077800000000025, A: 12.121631799999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X165.6814Z27.0791A23.3710816F1600.0
 
-DEBUG:local_logging:New line: G01X165.6814Z27.0791A23.3710816F405.21548686638437
+DEBUG:local_logging:New line: G01X165.6814Z27.0791A23.3710816F590.0
 
 DEBUG:local_logging:I: G01X166.7929Z27.0578A21.2093621F1600.0
 
-DEBUG:local_logging:Operation: X: 166.7929, Z: 27.0578, A: 21.2093621, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 597.6258096481504 for X: 166.7929, Z: 27.0578, A: 21.2093621, F: 1600.0
+DEBUG:local_logging:Operation: X: -1.8791000000000793, Z: -8.020000000000024, A: 9.087730300000004, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 72.90781665461564 for X: -1.8791000000000793, Z: -8.020000000000024, A: 9.087730300000004, F: 1600.0
 DEBUG:local_logging:Old line: G01X166.7929Z27.0578A21.2093621F1600.0
 
-DEBUG:local_logging:New line: G01X166.7929Z27.0578A21.2093621F446.5480501203885
+DEBUG:local_logging:New line: G01X166.7929Z27.0578A21.2093621F-41.2
 
 DEBUG:local_logging:I: G01X167.9358Z27.0337A18.4859891F1600.0
 
-DEBUG:local_logging:Operation: X: 167.9358, Z: 27.0337, A: 18.4859891, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 527.2069628151819 for X: 167.9358, Z: 27.0337, A: 18.4859891, F: 1600.0
+DEBUG:local_logging:Operation: X: 169.81490000000008, Z: 35.05370000000002, A: 9.398258799999997, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 370.63497008591037 for X: 169.81490000000008, Z: 35.05370000000002, A: 9.398258799999997, F: 1600.0
 DEBUG:local_logging:Old line: G01X167.9358Z27.0337A18.4859891F1600.0
 
-DEBUG:local_logging:New line: G01X167.9358Z27.0337A18.4859891F509.6618575847503
+DEBUG:local_logging:New line: G01X167.9358Z27.0337A18.4859891F733.1
 
 DEBUG:local_logging:I: G01X168.9137Z27.0248A15.5611753F1600.0
 
-DEBUG:local_logging:Operation: X: 168.9137, Z: 27.0248, A: 15.5611753, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 453.1928434158335 for X: 168.9137, Z: 27.0248, A: 15.5611753, F: 1600.0
+DEBUG:local_logging:Operation: X: -0.9012000000000739, Z: -8.028900000000021, A: 6.162916500000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 49.489646334370974 for X: -0.9012000000000739, Z: -8.028900000000021, A: 6.162916500000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X168.9137Z27.0248A15.5611753F1600.0
 
-DEBUG:local_logging:New line: G01X168.9137Z27.0248A15.5611753F596.350811638959
+DEBUG:local_logging:New line: G01X168.9137Z27.0248A15.5611753F-29.1
 
 DEBUG:local_logging:I: G01X169.6157Z27.0245A12.9232608F1600.0
 
-DEBUG:local_logging:Operation: X: 169.6157, Z: 27.0245, A: 12.9232608, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 388.25419413764905 for X: 169.6157, Z: 27.0245, A: 12.9232608, F: 1600.0
+DEBUG:local_logging:Operation: X: 170.51690000000008, Z: 35.053400000000025, A: 6.760344299999996, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 291.945613050686 for X: 170.51690000000008, Z: 35.053400000000025, A: 6.760344299999996, F: 1600.0
 DEBUG:local_logging:Old line: G01X169.6157Z27.0245A12.9232608F1600.0
 
-DEBUG:local_logging:New line: G01X169.6157Z27.0245A12.9232608F698.9882507329332
+DEBUG:local_logging:New line: G01X169.6157Z27.0245A12.9232608F934.5
 
 DEBUG:local_logging:I: G01X170.2002Z27.0147A10.11911F1600.0
 
-DEBUG:local_logging:Operation: X: 170.2002, Z: 27.0147, A: 10.11911, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 322.01922104444213 for X: 170.2002, Z: 27.0147, A: 10.11911, F: 1600.0
+DEBUG:local_logging:Operation: X: -0.3167000000000826, Z: -8.038700000000023, A: 3.358765700000003, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 27.00196714800477 for X: -0.3167000000000826, Z: -8.038700000000023, A: 3.358765700000003, F: 1600.0
 DEBUG:local_logging:Old line: G01X170.2002Z27.0147A10.11911F1600.0
 
-DEBUG:local_logging:New line: G01X170.2002Z27.0147A10.11911F845.6647995009491
+DEBUG:local_logging:New line: G01X170.2002Z27.0147A10.11911F-18.8
 
 DEBUG:local_logging:I: G01X170.7098Z27.0065A6.6694496F1600.0
 
-DEBUG:local_logging:Operation: X: 170.7098, Z: 27.0065, A: 6.6694496, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 248.16225837167826 for X: 170.7098, Z: 27.0065, A: 6.6694496, F: 1600.0
+DEBUG:local_logging:Operation: X: 171.02650000000008, Z: 35.04520000000002, A: 3.3106838999999972, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 206.6676914321338 for X: 171.02650000000008, Z: 35.04520000000002, A: 3.3106838999999972, F: 1600.0
 DEBUG:local_logging:Old line: G01X170.7098Z27.0065A6.6694496F1600.0
 
-DEBUG:local_logging:New line: G01X170.7098Z27.0065A6.6694496F1100.6334395575918
+DEBUG:local_logging:New line: G01X170.7098Z27.0065A6.6694496F1324.1
 
 DEBUG:local_logging:I: G01X170.9217Z27.0028A4.4691449F1600.0
 
-DEBUG:local_logging:Operation: X: 170.9217, Z: 27.0028, A: 4.4691449, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 209.23133457449475 for X: 170.9217, Z: 27.0028, A: 4.4691449, F: 1600.0
+DEBUG:local_logging:Operation: X: -0.10480000000009682, Z: -8.042400000000022, A: 1.1584610000000026, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 9.317396148590305 for X: -0.10480000000009682, Z: -8.042400000000022, A: 1.1584610000000026, F: 1600.0
 DEBUG:local_logging:Old line: G01X170.9217Z27.0028A4.4691449F1600.0
 
-DEBUG:local_logging:New line: G01X170.9217Z27.0028A4.4691449F1307.0447624690364
+DEBUG:local_logging:New line: G01X170.9217Z27.0028A4.4691449F-18.0
 
 DEBUG:local_logging:I: G01X171.0727Z27.0003A1.5391222F1600.0
 
-DEBUG:local_logging:Operation: X: 171.0727, Z: 27.0003, A: 1.5391222, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 176.0478147591143 for X: 171.0727, Z: 27.0003, A: 1.5391222, F: 1600.0
+DEBUG:local_logging:Operation: X: 171.1775000000001, Z: 35.042700000000025, A: 0.38066119999999737, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 171.69646472224582 for X: 171.1775000000001, Z: 35.042700000000025, A: 0.38066119999999737, F: 1600.0
 DEBUG:local_logging:Old line: G01X171.0727Z27.0003A1.5391222F1600.0
 
-DEBUG:local_logging:New line: G01X171.0727Z27.0003A1.5391222F1554.7839680630245
+DEBUG:local_logging:New line: G01X171.0727Z27.0003A1.5391222F1595.2
 
 DEBUG:local_logging:I: G01X171.0930Z27.0000A0.0F1600.0
 
-DEBUG:local_logging:Operation: X: 171.093, Z: 27.0, A: 0.0, F: 1600.0, Operation: G01
-DEBUG:local_logging:Distance: 171.093 for X: 171.093, Z: 27.0, A: 0.0, F: 1600.0
+DEBUG:local_logging:Operation: X: -0.08450000000010505, Z: -8.042700000000025, A: -0.38066119999999737, F: 1600.0, Operation: G01
+DEBUG:local_logging:Distance: 3.062709730426607 for X: -0.08450000000010505, Z: -8.042700000000025, A: -0.38066119999999737, F: 1600.0
 DEBUG:local_logging:Old line: G01X171.0930Z27.0000A0.0F1600.0
 
-DEBUG:local_logging:New line: G01X171.0930Z27.0000A0.0F1599.9999999999998
+DEBUG:local_logging:New line: G01X171.0930Z27.0000A0.0F-44.1
 
 DEBUG:local_logging:NI: F2500.0
 
 DEBUG:local_logging:I: G01Z36.0084A0.0F2500.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 36.0084, A: 0.0, F: 2500.0, Operation: G01
+DEBUG:local_logging:Operation: X: 0, Z: 44.05110000000003, A: 0.38066119999999737, F: 2500.0, Operation: G01
+DEBUG:local_logging:Distance: 16.768544587319894 for X: 0, Z: 44.05110000000003, A: 0.38066119999999737, F: 2500.0
 DEBUG:local_logging:Old line: G01Z36.0084A0.0F2500.0
 
-DEBUG:local_logging:New line: G01Z36.0084A0.0F2500.0
+DEBUG:local_logging:New line: G01Z36.0084A0.0F0.0
 
 DEBUG:local_logging:NI: ()
 
@@ -1791,22 +1793,22 @@ DEBUG:local_logging:NI: M5 M9
 
 DEBUG:local_logging:I: G53 G00 G90 Z0.0
 
-DEBUG:local_logging:Operation: X: 0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Operation: X: 0, Z: -44.05110000000003, A: 0, F: 2500.0, Operation: G53
 DEBUG:local_logging:Old line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:New line: G53 G00 G90 Z0.0
 
 DEBUG:local_logging:I: G53 G00 X100.0 Y250.0
 
-DEBUG:local_logging:Operation: X: 100.0, Z: 0.0, A: 0, F: 2500.0, Operation: G53
-DEBUG:local_logging:Distance: 100.0 for X: 100.0, Z: 0.0, A: 0, F: 2500.0
+DEBUG:local_logging:Operation: X: 100.0, Z: -44.05110000000003, A: 0, F: 2500.0, Operation: G53
+DEBUG:local_logging:Distance: 100.0 for X: 100.0, Z: -44.05110000000003, A: 0, F: 2500.0
 DEBUG:local_logging:Old line: G53 G00 X100.0 Y250.0
 
 DEBUG:local_logging:New line: G53 G00 X100.0 Y250.0
 
 DEBUG:local_logging:I: A0 F8000
 
-DEBUG:local_logging:Operation: X: 0, Z: 0.0, A: 0, F: 2500.0, Operation: A0
+DEBUG:local_logging:Operation: X: 0, Z: -44.05110000000003, A: 0, F: 2500.0, Operation: A0
 DEBUG:local_logging:Old line: A0 F8000
 
 DEBUG:local_logging:New line: A0 F2500.0
