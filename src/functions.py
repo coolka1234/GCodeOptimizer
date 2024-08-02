@@ -38,12 +38,10 @@ def calculate_F(line):
     F=operation_line.F
     X=operation_line.X
     Z=operation_line.Z
-    arc_length = abs(A)*Z+2*Z*sin(abs(A)/2)
-    effective_radius = Z
+    arc_length = abs(A)*Z*(math.pi/180)
     if X is None or X == 0:
-        distance = arc_length
-        if distance != 0:
-            adjusted_F = F / distance * abs(A)
+        adjusted_F = (F*180)/(math.pi*Z)
+        if adjusted_F != 0:
             return round(adjusted_F,1)
     else:
         distance = math.sqrt(X**2 + (arc_length)**2)
