@@ -46,7 +46,7 @@ def calculate_F(line):
     else:
         distance = math.sqrt(X**2 + (arc_length)**2)
     if distance != 0:
-        adjusted_F = F / distance * X
+        adjusted_F = F / distance * abs(X)
         logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}, arc_length: {arc_length}")
     else:
         adjusted_F = F
