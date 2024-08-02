@@ -1,3 +1,5 @@
+#functions.py
+#This file contains the functions that are used to process the g-code files. 
 from math import log, sin
 import math
 from file_operations import read_nc_file

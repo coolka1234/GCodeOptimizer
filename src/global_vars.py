@@ -1,3 +1,5 @@
+# global_vars.py
+# This file contains the global variables used in the program
 global_X=0
 global_Y=0
 global_Z=0

@@ -1,3 +1,5 @@
+# local_logging.py:
+# This file is used to create a logger object that can be used to log messages to a file and to the console.
 from fileinput import filename
 import logging
 from venv import logger

@@ -1,10 +1,11 @@
+# Operation.py
+# Class to handle each operation line
 import regex as re
 import global_vars
 from local_logging import logger
 class Operation:
     def __init__(self, line) -> None:
         dict_of_values= self.parse_line(line)
-        # print(dict_of_values)
         self.X=None if dict_of_values['X']==None else float(dict_of_values['X'][1:]) - global_vars.global_X
         self.Z=global_vars.global_Z if dict_of_values['Z']==None else float(dict_of_values['Z'][1:])
         logger.debug(f"Detected A: {dict_of_values['A']} global_A: {global_vars.global_A}")
@@ -23,6 +24,7 @@ class Operation:
         
         logger.debug(f"Operation: {self}")
     def parse_line(self,line):
+        """Parse the line and return a dictionary of values using regex"""
         dict_of_values = {}
         dict_of_values['operation'] = re.search(r'[A-Z]\d+', line).group(0)
         x_match = re.search(r'X-?\d+(\.\d+)?', line) 
