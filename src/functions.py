@@ -8,9 +8,10 @@ from local_logging import logger
 from Operation import Operation
 import regex as re
 def get_and_write(file_path):
+    """Get the file path and write the processed file using generator"""
     logger.debug(f"Processing file {file_path}")
     generator=read_nc_file(file_path=file_path)
-    with open(file_path.replace('.nc','processed.nc'),'w', encoding='cp1250') as file:
+    with open(file_path.replace('.nc','_processed.nc'),'w', encoding='cp1250') as file:
         for line in generator:
             if is_line_of_interest(line):
                 logger.debug(f"I: {line}")
@@ -22,6 +23,7 @@ def get_and_write(file_path):
     logger.debug(f"File {file_path} processed")
 
 def is_line_of_interest(line):
+    """Check if the line is of interest"""
     if '(' in line or ')' in line:
         return False
     if not('G01' in line or 'G02' in line or 'G03' in line):
@@ -30,6 +32,7 @@ def is_line_of_interest(line):
     return bool(re.search(pattern, line))
  
 def calculate_F(line):
+    """Calculate the optimized F value for the line"""
     operation_line=Operation(line)
     A=operation_line.A
     F=operation_line.F
@@ -45,20 +48,22 @@ def calculate_F(line):
     else:
         distance = math.sqrt(X**2 + (arc_length)**2)
     if distance != 0:
-        adjusted_F = F / distance * global_vars.global_X
-        logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}")
+        adjusted_F = F / distance * X
+        logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}, arc_length: {arc_length}")
     else:
         adjusted_F = F
     
     return round(adjusted_F,1)
 
 def replace_f_in_line(f_value, line):
+    """Replace the F value in the line"""
     output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
     logger.debug(f"Old line: {line}")
     logger.debug(f"New line: {output_string}")
     return output_string
 
 def handle_the_line(line):
+    """Handle the line and return the new line"""
     F=calculate_F(line)
     new_line=replace_f_in_line(F, line)
     return new_line

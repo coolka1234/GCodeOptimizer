@@ -5,6 +5,7 @@ import global_vars
 from local_logging import logger
 class Operation:
     def __init__(self, line) -> None:
+        """Initialize the object with the values from the line"""
         dict_of_values= self.parse_line(line)
         self.X=None if dict_of_values['X']==None else float(dict_of_values['X'][1:]) - global_vars.global_X
         self.Z=global_vars.global_Z if dict_of_values['Z']==None else float(dict_of_values['Z'][1:])
@@ -18,9 +19,13 @@ class Operation:
             global_vars.global_operation=self.operation
         if self.X is not None:
             global_vars.global_X=float(dict_of_values['X'][1:])
+            if(global_vars.global_X==0):
+                self.X=0
         if self.A is not None:
             logger.debug(f"Global A: {global_vars.global_A}, local A: {self.A}")
             global_vars.global_A=float(dict_of_values['A'][1:])
+            if(global_vars.global_A==0):
+                self.A=0
         
         logger.debug(f"Operation: {self}")
     def parse_line(self,line):
@@ -42,5 +47,6 @@ class Operation:
         return dict_of_values
 
     def __str__(self) -> str:
+        """Return the string representation of the object"""
         return f'X: {self.X}, Z: {self.Z}, A: {self.A}, F: {self.F}, Operation: {self.operation}'    
  
