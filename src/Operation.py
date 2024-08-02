@@ -19,13 +19,9 @@ class Operation:
             global_vars.global_operation=self.operation
         if self.X is not None:
             global_vars.global_X=float(dict_of_values['X'][1:])
-            if(global_vars.global_X==0):
-                self.X=0
         if self.A is not None:
             logger.debug(f"Global A: {global_vars.global_A}, local A: {self.A}")
             global_vars.global_A=float(dict_of_values['A'][1:])
-            if(global_vars.global_A==0):
-                self.A=0
         
         logger.debug(f"Operation: {self}")
     def parse_line(self,line):
