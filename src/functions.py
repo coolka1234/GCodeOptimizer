@@ -63,12 +63,12 @@ def calculate_F(line):
 def replace_f_in_line(f_value, line):
     """Replace the F value in the line"""
     output_string = ""
-    output_string += line.rstrip()
+    output_string += line
     logger.debug(f"String to replace F: {output_string}, F: {f_value}")
     if 'F' not in line:
         new_F= 'F'+str(f_value)
         logger.debug(f"New F: {new_F}")
-        output_string +=new_F
+        output_string = insert_after_last_digit(output_string, new_F)
         logger.debug(f"New F inputted: {output_string}")
     else:
         output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
@@ -82,3 +82,11 @@ def handle_the_line(line):
     F=calculate_F(line)
     new_line=replace_f_in_line(F, line)
     return new_line
+
+def insert_after_last_digit(input_string, string_to_insert):
+    match = re.search(r'\d(?!.*\d)', input_string)
+    if match:
+        position = match.end()
+        return input_string[:position] + string_to_insert + input_string[position:]
+    else:
+        return input_string
