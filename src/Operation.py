@@ -27,7 +27,9 @@ class Operation:
     def parse_line(self,line):
         """Parse the line and return a dictionary of values using regex"""
         dict_of_values = {}
-        dict_of_values['operation'] = re.search(r'[A-Z]\d+', line).group(0)
+        operation_match = re.search(r'[A-Z]\d+', line)
+        dict_of_values['operation'] = operation_match.group(0) if operation_match else None
+
         x_match = re.search(r'X-?\d+(\.\d+)?', line) 
         dict_of_values['X'] = x_match.group(0) if x_match else None
         

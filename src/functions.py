@@ -26,7 +26,7 @@ def is_line_of_interest(line):
     """Check if the line is of interest"""
     if '(' in line or ')' in line:
         return False
-    if not('G01' in line or 'G02' in line or 'G03' in line):
+    if not('G01' in line or 'G02' in line or 'G03' in line or global_vars.global_operation is not None):
         return False
     pattern = r'[AXYZ]'
     return bool(re.search(pattern, line))
@@ -38,7 +38,8 @@ def calculate_F(line):
     F=operation_line.F
     X=operation_line.X
     Z=operation_line.Z
-    arc_length = abs(A)*Z*(math.pi/180)
+    if A is not None:
+        arc_length = abs(A)*Z*(math.pi/180)
     if X is None or X == 0:
         #formula for straight line
         adjusted_F = (F*180)/(math.pi*Z)
