@@ -8,7 +8,7 @@ def get_logger():
     logger = logging.getLogger(__name__)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     if not os.path.exists('logs/log.log'):
-    os.makedirs("logs/log.log")
+        os.makedirs("logs/log.log")
     logging.basicConfig(filename='logs/log.log',level=logging.DEBUG, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
     logger.setLevel(logging.DEBUG)
     ch = logging.StreamHandler()
