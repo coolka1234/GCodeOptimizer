@@ -28,6 +28,8 @@ def is_line_of_interest(line):
         return False
     if not('G01' in line or 'G02' in line or 'G03' in line or global_vars.global_operation is not None):
         return False
+    if 'G53' in line:
+        return False
     pattern = r'[AXYZ]'
     return bool(re.search(pattern, line))
  
@@ -38,6 +40,9 @@ def calculate_F(line):
     F=operation_line.F
     X=operation_line.X
     Z=operation_line.Z
+    arc_length=0 
+    if Z==0 and A is None and X is None:
+        return F 
     if A is not None:
         arc_length = abs(A)*Z*(math.pi/180)
     if X is None or X == 0:
@@ -49,7 +54,7 @@ def calculate_F(line):
         distance = math.sqrt(X**2 + (arc_length)**2)
     if distance != 0:
         adjusted_F = F / distance * abs(X)
-        logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}, arc_length: {arc_length}")
+        logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}, arc_length: {arc_length}, new F: {adjusted_F}")
     else:
         adjusted_F = F
     
@@ -57,7 +62,13 @@ def calculate_F(line):
 
 def replace_f_in_line(f_value, line):
     """Replace the F value in the line"""
-    output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
+    output_string = line
+    if 'F' not in line:
+        output_string += 'F' + str(f_value)
+        logger.debug(f"New F inputted: {output_string}")
+    else:
+        output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
+        logger.debug(f"New F replaced: {output_string}")
     logger.debug(f"Old line: {line}")
     logger.debug(f"New line: {output_string}")
     return output_string
