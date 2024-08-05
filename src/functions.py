@@ -62,9 +62,13 @@ def calculate_F(line):
 
 def replace_f_in_line(f_value, line):
     """Replace the F value in the line"""
-    output_string = line
+    output_string = ""
+    output_string += line.rstrip()
+    logger.debug(f"String to replace F: {output_string}, F: {f_value}")
     if 'F' not in line:
-        output_string += 'F' + str(f_value)
+        new_F= 'F'+str(f_value)
+        logger.debug(f"New F: {new_F}")
+        output_string +=new_F
         logger.debug(f"New F inputted: {output_string}")
     else:
         output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
