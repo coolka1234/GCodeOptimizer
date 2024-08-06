@@ -69,10 +69,10 @@ def replace_f_in_line(f_value, line):
         new_F= 'F'+str(f_value)
         logger.debug(f"New F: {new_F}")
         output_string = insert_after_last_digit(output_string, new_F)
-        logger.debug(f"New F inputted: {output_string}")
+        # logger.debug(f"New F inputted: {output_string}")
     else:
         output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
-        logger.debug(f"New F replaced: {output_string}")
+        # logger.debug(f"New F replaced: {output_string}")
     logger.debug(f"Old line: {line.rstrip()}")
     logger.debug(f"New line: {output_string.rstrip()}")
     return output_string
