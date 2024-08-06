@@ -26,7 +26,7 @@ def is_line_of_interest(line):
     """Check if the line is of interest"""
     if '(' in line or ')' in line:
         return False
-    if not('G01' in line or 'G02' in line or 'G03' in line or global_vars.global_operation is not None):
+    if not('G01' in line or 'G02' in line or global_vars.global_operation is not None):
         return False
     if 'G53' in line:
         return False
