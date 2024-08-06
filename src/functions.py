@@ -14,12 +14,12 @@ def get_and_write(file_path):
     with open(file_path.replace('.nc','_processed.nc'),'w', encoding='cp1250') as file:
         for line in generator:
             if is_line_of_interest(line):
-                logger.debug(f"I: {line}")
+                logger.debug(f"I: {line.rstrip()}")
                 new_line=handle_the_line(line)
                 file.write(new_line)
             else:
                 file.write(line)
-                logger.debug(f"NI: {line}")
+                logger.debug(f"NI: {line.rstrip()}")
     logger.debug(f"File {file_path} processed")
 
 def is_line_of_interest(line):
@@ -64,7 +64,7 @@ def replace_f_in_line(f_value, line):
     """Replace the F value in the line"""
     output_string = ""
     output_string += line
-    logger.debug(f"String to replace F: {output_string}, F: {f_value}")
+    # logger.debug(f"String to replace F: {output_string}, F: {f_value}")
     if 'F' not in line:
         new_F= 'F'+str(f_value)
         logger.debug(f"New F: {new_F}")
@@ -73,8 +73,8 @@ def replace_f_in_line(f_value, line):
     else:
         output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
         logger.debug(f"New F replaced: {output_string}")
-    logger.debug(f"Old line: {line}")
-    logger.debug(f"New line: {output_string}")
+    logger.debug(f"Old line: {line.rstrip()}")
+    logger.debug(f"New line: {output_string.rstrip()}")
     return output_string
 
 def handle_the_line(line):
