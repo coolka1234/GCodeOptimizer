@@ -9,7 +9,7 @@ class Operation:
         dict_of_values= self.parse_line(line)
         self.X=None if dict_of_values['X']==None else float(dict_of_values['X'][1:]) - global_vars.global_X
         self.Z=global_vars.global_Z if dict_of_values['Z']==None else float(dict_of_values['Z'][1:])
-        logger.debug(f"Detected A: {dict_of_values['A']} global_A: {global_vars.global_A}")
+        # logger.debug(f"Detected A: {dict_of_values['A']} global_A: {global_vars.global_A}")
         self.A=None if dict_of_values['A']==None else float(dict_of_values['A'][1:]) - global_vars.global_A
         self.F=global_vars.global_F if dict_of_values['F']==None else float(dict_of_values['F'][1:])
         self.operation=global_vars.global_operation if dict_of_values['operation']==None else dict_of_values['operation']
@@ -27,7 +27,7 @@ class Operation:
     def parse_line(self,line):
         """Parse the line and return a dictionary of values using regex"""
         dict_of_values = {}
-        operation_match = re.search(r'[A-Z]\d+', line)
+        operation_match = re.search(r'G\d+', line)
         dict_of_values['operation'] = operation_match.group(0) if operation_match else None
 
         x_match = re.search(r'X-?\d+(\.\d+)?', line) 

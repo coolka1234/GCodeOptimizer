@@ -24,9 +24,15 @@ def get_and_write(file_path):
 
 def is_line_of_interest(line):
     """Check if the line is of interest"""
-    if '(' in line or ')' or 'G01' in line:
+    if '(' in line or ')' in line:
         return False
-    if not('G01' in line or 'G02' in line or global_vars.global_operation is not None):
+    if 'G00' in line:
+        global_vars.global_operation='G00' 
+        return False
+    if 'G53' in line:
+        global_vars.global_operation='G53'
+        return False
+    if not('G01' in line or 'G02' in line or global_vars.global_operation == 'G01' or global_vars.global_operation == 'G02'):
         return False
     if 'G53' in line:
         return False
@@ -71,12 +77,14 @@ def replace_f_in_line(f_value, line):
         output_string = insert_after_last_digit(output_string, new_F)
         # logger.debug(f"New F inputted: {output_string}")
     else:
-        output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
+        output_string = re.sub(r'F\d+(\.\d+)', 'F'+str(f_value), line)
         # logger.debug(f"New F replaced: {output_string}")
     logger.debug(f"Old line: {line.rstrip()}")
-    logger.debug(f"New line: {output_string.rstrip()}")
-    if output_string[-1] == '.':
-        output_string = output_string[:-1]
+    logger.debug(f"New line: {output_string.rstrip()}\n")
+    # output_string=re.sub(r'\.(?!\d)', '', output_string)
+    if output_string.rstrip()[-1] == '.':
+        output_string = output_string.rstrip()[:-1]
+        output_string = output_string + '\n'
     return output_string
 
 def handle_the_line(line):
