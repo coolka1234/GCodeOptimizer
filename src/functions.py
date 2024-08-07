@@ -24,7 +24,7 @@ def get_and_write(file_path):
 
 def is_line_of_interest(line):
     """Check if the line is of interest"""
-    if '(' in line or ')' in line:
+    if '(' in line or ')' or 'G01' in line:
         return False
     if not('G01' in line or 'G02' in line or global_vars.global_operation is not None):
         return False
@@ -75,6 +75,8 @@ def replace_f_in_line(f_value, line):
         # logger.debug(f"New F replaced: {output_string}")
     logger.debug(f"Old line: {line.rstrip()}")
     logger.debug(f"New line: {output_string.rstrip()}")
+    if output_string[-1] == '.':
+        output_string = output_string[:-1]
     return output_string
 
 def handle_the_line(line):
