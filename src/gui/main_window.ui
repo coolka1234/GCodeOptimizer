@@ -20,7 +20,24 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout">
         <item>
-         <widget class="QLineEdit" name="lineEditFilePath"/>
+         <widget class="QLineEdit" name="lineEditFilePath">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>File to proces...</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditSavePath">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="placeholderText">
+           <string>Save location...</string>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QPushButton" name="pushButtonConfirm">
@@ -61,7 +78,7 @@
       <item>
        <widget class="QProgressBar" name="progressBar">
         <property name="value">
-         <number>24</number>
+         <number>0</number>
         </property>
        </widget>
       </item>
