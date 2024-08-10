@@ -1,8 +1,8 @@
 # Operation.py
 # Class to handle each operation line
 import regex as re
-import global_vars
-from local_logging import logger
+import src.backend.global_vars as global_vars
+from src.backend.local_logging import logger
 class Operation:
     def __init__(self, line) -> None:
         """Initialize the object with the values from the line"""

@@ -1,6 +1,7 @@
 # This file contains the main window of the application
-from src.gui.main_window import Ui_MainWindow
+from main_window import Ui_MainWindow
 from PyQt6 import QtWidgets
+from backend.functions import handle_the_line
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):

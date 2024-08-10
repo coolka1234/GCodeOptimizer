@@ -2,10 +2,10 @@
 #This file contains the functions that are used to process the g-code files. 
 from math import log, sin
 import math
-from file_operations import read_nc_file
-import global_vars
-from local_logging import logger
-from Operation import Operation
+from src.backend.file_operations import read_nc_file
+import src.backend.global_vars as global_vars
+from src.backend.local_logging import logger
+from src.backend.Operation import Operation
 import regex as re
 def get_and_write(file_path):
     """Get the file path and write the processed file using generator"""

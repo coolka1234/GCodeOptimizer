@@ -1,4 +1,5 @@
-from local_logging import logger
+from src.backend.local_logging import logger
+
 def read_nc_file(file_path):
     if not file_path.endswith('.nc'):
         logger.error("The file is not a .nc file")
