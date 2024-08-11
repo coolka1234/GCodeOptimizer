@@ -12,7 +12,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         
    
     def open_file(self):
-        self.lineEditFilePath.setText(QFileDialog.getOpenFileName(self, 'Open file', '')[0])
+        self.lineEditFilePath.setText(QFileDialog.getOpenFileName()[0])
     
     def choose_save_path(self):
         self.lineEditSavePath.setText(QFileDialog.getExistingDirectory(self, 'Choose save path'))
@@ -24,8 +24,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             QMessageBox.critical(self, 'Error', 'Please choose a file')
         if save_path == '':
             save_path = file_path.replace('.nc', '_processed.nc')
-
-        main(self.lineEditFilePath.text(), self.lineEditSavePath.text()) 
+        else:
+            save_path = save_path + '/' + file_path.split('/')[-1].replace('.nc', '_processed.nc')
+        main(file_path, save_path) 
 
 
 

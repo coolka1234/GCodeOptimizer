@@ -10,7 +10,6 @@ import regex as re
 def get_and_write(file_path, save_path):
     """Get the file path and write the processed file using generator"""
     logger.debug(f"Processing file {file_path}")
-    save_path = save_path + '/' +os.path.basename(file_path) +'_processed.nc'
     generator=read_nc_file(file_path=file_path)
     with open(save_path,'w', encoding='cp1250') as file:
         for line in generator:
