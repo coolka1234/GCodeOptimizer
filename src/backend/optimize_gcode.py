@@ -11,7 +11,7 @@ def main():
     if not os.path.exists(input_file):
         print(f"File {input_file} does not exist")
         sys.exit(1)
-    get_and_write(input_file)
+    # get_and_write(input_file)
 
 if __name__ == '__main__':
     main() 

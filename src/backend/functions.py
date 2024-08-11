@@ -1,17 +1,18 @@
 #functions.py
 #This file contains the functions that are used to process the g-code files. 
-from math import log, sin
 import math
+import os
 from src.backend.file_operations import read_nc_file
 import src.backend.global_vars as global_vars
 from src.backend.local_logging import logger
 from src.backend.Operation import Operation
 import regex as re
-def get_and_write(file_path):
+def get_and_write(file_path, save_path):
     """Get the file path and write the processed file using generator"""
     logger.debug(f"Processing file {file_path}")
+    save_path = save_path + '/' +os.path.basename(file_path) +'_processed.nc'
     generator=read_nc_file(file_path=file_path)
-    with open(file_path.replace('.nc','_processed.nc'),'w', encoding='cp1250') as file:
+    with open(save_path,'w', encoding='cp1250') as file:
         for line in generator:
             if is_line_of_interest(line):
                 logger.debug(f"I: {line.rstrip()}")

@@ -1,6 +1,6 @@
 from src.gui.main_window import Ui_MainWindow
-from src.backend.optimize_gcode import main
-from PyQt6.QtWidgets import QMainWindow, QFileDialog
+from src.backend.functions import get_and_write as main
+from PyQt6.QtWidgets import QMainWindow, QFileDialog, QMessageBox
 
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -8,6 +8,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.pushButtonChooseFile.clicked.connect(self.open_file)
         self.pushButtonChooseSave.clicked.connect(self.choose_save_path)
+        self.pushButtonConfirm.clicked.connect(self.execute)
         
    
     def open_file(self):
@@ -17,6 +18,13 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.lineEditSavePath.setText(QFileDialog.getExistingDirectory(self, 'Choose save path'))
     
     def execute(self):
+        save_path= self.lineEditSavePath.text()
+        file_path= self.lineEditFilePath.text()
+        if file_path == '':
+            QMessageBox.critical(self, 'Error', 'Please choose a file')
+        if save_path == '':
+            save_path = file_path.replace('.nc', '_processed.nc')
+
         main(self.lineEditFilePath.text(), self.lineEditSavePath.text()) 
 
 
