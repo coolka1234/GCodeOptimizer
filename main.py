@@ -1,5 +1,5 @@
 from src.gui.main_window import Ui_MainWindow
-from src.backend.functions import handle_the_line
+from src.backend.optimize_gcode import main
 from PyQt6.QtWidgets import QMainWindow, QFileDialog
 
 class MainWindow(QMainWindow, Ui_MainWindow):
@@ -7,6 +7,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__()
         self.setupUi(self)
         self.pushButtonChooseFile.clicked.connect(self.open_file)
+        self.pushButtonChooseSave.clicked.connect(self.choose_save_path)
         
    
     def open_file(self):
@@ -14,6 +15,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     
     def choose_save_path(self):
         self.lineEditSavePath.setText(QFileDialog.getExistingDirectory(self, 'Choose save path'))
+    
+    def execute(self):
+        main(self.lineEditFilePath.text(), self.lineEditSavePath.text()) 
 
 
 
