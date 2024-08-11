@@ -6,10 +6,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setupUi(self)
-        self.pushButtonConfirm.clicked.connect(self.open_file)
+        self.pushButtonChooseFile.clicked.connect(self.open_file)
+        
    
     def open_file(self):
         self.lineEditFilePath.setText(QFileDialog.getOpenFileName(self, 'Open file', '')[0])
+    
+    def choose_save_path(self):
+        self.lineEditSavePath.setText(QFileDialog.getExistingDirectory(self, 'Choose save path'))
 
 
 
