@@ -40,6 +40,8 @@ class Operation:
         
         f_match = re.search(r'F-?\d+(\.\d+)?', line)
         dict_of_values['F'] = f_match.group(0) if f_match else None
+        s_match= re.search(r'S-?\d+(\.\d+)?', line)
+        dict_of_values['S'] = s_match.group(0) if s_match else None
         logger.debug(f"Dict of values: {dict_of_values}")
         return dict_of_values
 
