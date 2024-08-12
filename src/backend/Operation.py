@@ -10,6 +10,7 @@ class Operation:
         self.X=None if dict_of_values['X']==None else float(dict_of_values['X'][1:]) - global_vars.global_X
         self.Z=global_vars.global_Z if dict_of_values['Z']==None else float(dict_of_values['Z'][1:])
         self.A=None if dict_of_values['A']==None else float(dict_of_values['A'][1:]) - global_vars.global_A
+        self.S=None if dict_of_values['S']==None else float(dict_of_values['S'][1:])
         self.F=global_vars.global_F if dict_of_values['F']==None else float(dict_of_values['F'][1:])
         self.operation=global_vars.global_operation if dict_of_values['operation']==None else dict_of_values['operation']
         global_vars.global_Z=self.Z
@@ -19,8 +20,10 @@ class Operation:
         if self.X is not None:
             global_vars.global_X=float(dict_of_values['X'][1:])
         if self.A is not None:
-            logger.debug(f"Global A: {global_vars.global_A}, local A: {self.A}")
             global_vars.global_A=float(dict_of_values['A'][1:])
+        if self.S is not None:
+            global_vars.global_S=float(dict_of_values['S'][1:])
+        self.handle_maxes(dict_of_values)
         
         logger.debug(f"Operation: {self}")
     def parse_line(self,line):
@@ -48,4 +51,32 @@ class Operation:
     def __str__(self) -> str:
         """Return the string representation of the object"""
         return f'X: {self.X}, Z: {self.Z}, A: {self.A}, F: {self.F}, Operation: {self.operation}'    
+    
+    def handle_maxes(self, dict_of_values):
+        """Handle the maximum and minimum values"""
+        if dict_of_values['X'] is not None:
+            if self.X > global_vars.max_X:
+                global_vars.max_X=self.X
+            if self.X < global_vars.min_X:
+                global_vars.min_X=self.X
+        if dict_of_values['Z'] is not None:
+            if self.Z > global_vars.max_Z:
+                global_vars.max_Z=self.Z
+            if self.Z < global_vars.min_Z:
+                global_vars.min_Z=self.Z
+        if dict_of_values['A'] is not None:
+            if self.A > global_vars.max_A:
+                global_vars.max_A=self.A
+            if self.A < global_vars.min_A:
+                global_vars.min_A=self.A
+        if dict_of_values['F'] is not None:
+            if self.F > global_vars.max_F:
+                global_vars.max_F=self.F
+            if self.F < global_vars.min_F:
+                global_vars.min_F=self.F
+        if dict_of_values['S'] is not None:
+            if self.S > global_vars.max_S:
+                global_vars.max_S=self.S
+            if self.S < global_vars.min_S:
+                global_vars.min_S=self.S
  

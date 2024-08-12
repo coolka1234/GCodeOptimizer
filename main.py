@@ -1,4 +1,5 @@
 import os
+import traceback
 from src.backend import global_vars
 from src.gui.main_window import Ui_MainWindow
 from src.backend.functions import get_and_write as main
@@ -55,9 +56,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             main(file_path, save_path) 
             QMessageBox.information(self, 'Success', 'File processed successfully')
         except Exception as e:
-            logger.error(f"Error processing file: {e}")
             QMessageBox.critical(self, 'Error', 'Error processing file')
-            logger.error(f'Error processing file: {e}')
+            logger.error(f'Error processing file: {e}, traceback: {traceback.format_exc()}')
     def initialize_log_combobox(self):
         self.comboBoxLoggingLevel.addItem('DEBUG')
         self.comboBoxLoggingLevel.addItem('INFO')
