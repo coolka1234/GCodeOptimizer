@@ -105,9 +105,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.labelLanguage.setText('Wybierz język:')
         logger.info(f"Language set to {language}")
     
-    def set_progress_bar(self, value):
-        self.progressBar.setValue(value)
-
     def number_of_lines(self, path):
         try:
             with open(path, "rb") as f:

@@ -7,7 +7,6 @@ import src.backend.global_vars as global_vars
 from src.backend.local_logging import logger
 from src.backend.Operation import Operation
 import regex as re
-import main
 
 def get_and_write(file_path, save_path):
     """Get the file path and write the processed file using generator"""
@@ -23,7 +22,6 @@ def get_and_write(file_path, save_path):
                 file.write(line)
                 logger.debug(f"NI: {line.rstrip()}")
             global_vars.progress+=1
-            main.MainWindow.set_progress_bar(global_vars.progress/global_vars.num_of_lines*100)
     logger.debug(f"File {file_path} processed")
 
 def is_line_of_interest(line):
