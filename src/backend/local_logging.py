@@ -9,7 +9,7 @@ def get_logger():
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     try:
         if not os.path.exists('logs/log.log'):
-            os.makedirs("logs/log.log")
+            os.makedirs("logs")
         logging.basicConfig(filename='logs/log.log',level=logging.DEBUG, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
     except Exception as e:
         print("Error in creating log file: ", e)
