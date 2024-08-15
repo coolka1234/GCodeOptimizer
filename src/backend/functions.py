@@ -8,7 +8,7 @@ from src.backend.local_logging import logger
 from src.backend.Operation import Operation
 import regex as re
 
-def get_and_write(file_path, save_path):
+def get_and_write(file_path, save_path, progress_bar=None):
     """Get the file path and write the processed file using generator"""
     logger.debug(f"Processing file {file_path}")
     generator=read_nc_file(file_path=file_path)
@@ -21,6 +21,8 @@ def get_and_write(file_path, save_path):
             else:
                 file.write(line)
                 logger.debug(f"NI: {line.rstrip()}")
+                if progress_bar is not None:
+                    progress_bar.setValue(progress_bar.value()+1)
     logger.debug(f"File {file_path} processed")
     logger.debug(f"Processed file saved to {save_path}")
     logger.info(f"Max X: {global_vars.max_X}, Min X: {global_vars.min_X}")

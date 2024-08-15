@@ -53,7 +53,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             save_path = save_path + '/' + file_path.split('/')[-1].replace('.nc', '_processed.nc')
         try:
             global_vars.num_of_lines = self.number_of_lines(file_path)
-            main(file_path, save_path) 
+            main(file_path, save_path, self.progressBar) 
             QMessageBox.information(self, 'Success', 'File processed successfully')
         except Exception as e:
             QMessageBox.critical(self, 'Error', 'Error processing file')
