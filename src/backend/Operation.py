@@ -4,7 +4,7 @@ import regex as re
 import src.backend.global_vars as global_vars
 from src.backend.local_logging import logger
 class Operation:
-    def __init__(self, line) -> None:
+    def __init__(self, line, only_analyze=False) -> None:
         """Initialize the object with the values from the line"""
         dict_of_values= self.parse_line(line)
         self.X=None if dict_of_values['X']==None else float(dict_of_values['X'][1:]) - global_vars.global_X
@@ -13,6 +13,8 @@ class Operation:
         self.S=None if dict_of_values['S']==None else float(dict_of_values['S'][1:])
         self.F=global_vars.global_F if dict_of_values['F']==None else float(dict_of_values['F'][1:])
         self.operation=global_vars.global_operation if dict_of_values['operation']==None else dict_of_values['operation']
+        if only_analyze:
+            return
         global_vars.global_Z=self.Z
         global_vars.global_F=self.F
         if self.operation is not None:

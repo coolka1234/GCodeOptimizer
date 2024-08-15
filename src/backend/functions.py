@@ -119,36 +119,8 @@ def handle_the_line(line):
 
 def handle_ni_line(line):
     """Handle the line that is not of interest"""
-    dict_of_values=Operation.parse_line(None, line)
-    Operation.handle_maxes(None, dict_of_values)
-
-def handle_maxes(dict_of_values):
-    """Handle the maximum and minimum values"""
-    if dict_of_values['X'] is not None:
-        if float(dict_of_values['X'][1:]) > global_vars.max_X:
-            global_vars.max_X=self.X
-        if self.X < global_vars.min_X:
-            global_vars.min_X=self.X
-    if dict_of_values['Z'] is not None:
-        if self.Z > global_vars.max_Z:
-            global_vars.max_Z=self.Z
-        if self.Z < global_vars.min_Z:
-            global_vars.min_Z=self.Z
-    if dict_of_values['A'] is not None:
-        if self.A > global_vars.max_A:
-            global_vars.max_A=self.A
-        if self.A < global_vars.min_A:
-            global_vars.min_A=self.A
-    if dict_of_values['F'] is not None:
-        if self.F > global_vars.max_F:
-            global_vars.max_F=self.F
-        if self.F < global_vars.min_F:
-            global_vars.min_F=self.F
-    if dict_of_values['S'] is not None:
-        if self.S > global_vars.max_S:
-            global_vars.max_S=self.S
-        if self.S < global_vars.min_S:
-            global_vars.min_S=self.S
+    operation=Operation(line, only_analyze=True)
+    operation.handle_maxes(operation.parse_line(line))
 
 def insert_after_last_digit(input_string, string_to_insert):
     match = re.search(r'\d(?!.*\d)', input_string)
