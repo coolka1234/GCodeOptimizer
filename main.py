@@ -4,6 +4,7 @@ from src.backend import global_vars
 from src.gui.main_window import Ui_MainWindow
 from src.backend.functions import get_and_write as main
 from PyQt6.QtWidgets import QMainWindow, QFileDialog, QMessageBox
+from PyQt6.QtCore import QSettings
 from src.backend.local_logging import logger
 import logging
 
@@ -18,6 +19,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.comboBoxLanguage.currentIndexChanged.connect(self.set_language)
         self.initialize_log_combobox()
         self.initialize_language_combobox()
+        self.settings=QSettings('settings.ini', QSettings.Format.IniFormat)
+        self.resize(self.settings.value('size', self.size()))
+        self.move(self.settings.value('pos', self.pos()))
         
    
     def open_file(self):
@@ -103,6 +107,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.labelLoggingLevel.setText('Wybierz poziom logowania:')
             self.labelLanguage.setText('Wybierz język:')
         logger.info(f"Language set to {language}")
+    
+    def closeEvent(self, event):
+        self.settings.setValue('size', self.size())
+        self.settings.setValue('pos', self.pos())
+        event.accept()
     
 if __name__ == '__main__':
     import sys
