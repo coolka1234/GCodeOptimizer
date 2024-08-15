@@ -23,8 +23,9 @@ def get_and_write(file_path, save_path, progress_bar=None):
             else:
                 file.write(line)
                 logger.debug(f"NI: {line.rstrip()}")
-                if progress_bar is not None:
-                    progress_bar.setValue(int((line_num/calculated_num_of_lines)*100))
+                handle_ni_line(line)
+            if progress_bar is not None:
+                progress_bar.setValue(int((line_num/calculated_num_of_lines)*100))
             line_num+=1
     logger.debug(f"File {file_path} processed")
     logger.debug(f"Processed file saved to {save_path}")
@@ -34,6 +35,7 @@ def get_and_write(file_path, save_path, progress_bar=None):
     logger.info(f"Max Y: {global_vars.max_Y}, Min Y: {global_vars.min_Y}")
     logger.info(f"Max S: {global_vars.max_S}, Min S: {global_vars.min_S}")
     logger.info(f"Max F: {global_vars.max_F}, Min F: {global_vars.min_F}")
+    logger.info(f"Max processed F: {global_vars.max_proc_F}, Min processed F: {global_vars.min_proc_F}")
 
 
 def is_line_of_interest(line):
@@ -69,6 +71,7 @@ def calculate_F(line):
         #formula for straight line
         adjusted_F = (F*180)/(math.pi*Z)
         if adjusted_F != 0:
+            check_max_proc_F(adjusted_F)
             return round(adjusted_F,1)
     else:
         distance = math.sqrt(X**2 + (arc_length)**2)
@@ -77,8 +80,15 @@ def calculate_F(line):
         logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}, arc_length: {arc_length}, new F: {adjusted_F}")
     else:
         adjusted_F = F
-    
+    check_max_proc_F(adjusted_F)
     return round(adjusted_F,1)
+
+def check_max_proc_F(F):
+    """Check the maximum processed F value"""
+    if F > global_vars.max_proc_F:
+        global_vars.max_proc_F = F
+    if F < global_vars.min_proc_F:
+        global_vars.min_proc_F = F
 
 def replace_f_in_line(f_value, line):
     """Replace the F value in the line"""
@@ -106,6 +116,39 @@ def handle_the_line(line):
     F=calculate_F(line)
     new_line=replace_f_in_line(F, line)
     return new_line
+
+def handle_ni_line(line):
+    """Handle the line that is not of interest"""
+    dict_of_values=Operation.parse_line(None, line)
+    Operation.handle_maxes(None, dict_of_values)
+
+def handle_maxes(dict_of_values):
+    """Handle the maximum and minimum values"""
+    if dict_of_values['X'] is not None:
+        if float(dict_of_values['X'][1:]) > global_vars.max_X:
+            global_vars.max_X=self.X
+        if self.X < global_vars.min_X:
+            global_vars.min_X=self.X
+    if dict_of_values['Z'] is not None:
+        if self.Z > global_vars.max_Z:
+            global_vars.max_Z=self.Z
+        if self.Z < global_vars.min_Z:
+            global_vars.min_Z=self.Z
+    if dict_of_values['A'] is not None:
+        if self.A > global_vars.max_A:
+            global_vars.max_A=self.A
+        if self.A < global_vars.min_A:
+            global_vars.min_A=self.A
+    if dict_of_values['F'] is not None:
+        if self.F > global_vars.max_F:
+            global_vars.max_F=self.F
+        if self.F < global_vars.min_F:
+            global_vars.min_F=self.F
+    if dict_of_values['S'] is not None:
+        if self.S > global_vars.max_S:
+            global_vars.max_S=self.S
+        if self.S < global_vars.min_S:
+            global_vars.min_S=self.S
 
 def insert_after_last_digit(input_string, string_to_insert):
     match = re.search(r'\d(?!.*\d)', input_string)
