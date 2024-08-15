@@ -11,8 +11,10 @@ import regex as re
 def get_and_write(file_path, save_path, progress_bar=None):
     """Get the file path and write the processed file using generator"""
     logger.debug(f"Processing file {file_path}")
+    calculated_num_of_lines=number_of_lines(file_path)
     generator=read_nc_file(file_path=file_path)
     with open(save_path,'w', encoding='cp1250') as file:
+        line_num=1
         for line in generator:
             if is_line_of_interest(line):
                 logger.debug(f"I: {line.rstrip()}")
@@ -22,7 +24,8 @@ def get_and_write(file_path, save_path, progress_bar=None):
                 file.write(line)
                 logger.debug(f"NI: {line.rstrip()}")
                 if progress_bar is not None:
-                    progress_bar.setValue(progress_bar.value()+1)
+                    progress_bar.setValue(int((line_num/calculated_num_of_lines)*100))
+            line_num+=1
     logger.debug(f"File {file_path} processed")
     logger.debug(f"Processed file saved to {save_path}")
     logger.info(f"Max X: {global_vars.max_X}, Min X: {global_vars.min_X}")
@@ -111,3 +114,13 @@ def insert_after_last_digit(input_string, string_to_insert):
         return input_string[:position] + string_to_insert + input_string[position:]
     else:
         return input_string
+
+def number_of_lines(path):
+    try:
+        with open(path, "rb") as f:
+            num_lines = sum(1 for _ in f)
+        logger.debug(f"Number of lines in the file: {num_lines}")
+        return num_lines
+    except Exception as e:
+        logger.error(f"Error counting lines: {e}")
+        return 0

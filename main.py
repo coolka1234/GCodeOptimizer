@@ -52,7 +52,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             
             save_path = save_path + '/' + file_path.split('/')[-1].replace('.nc', '_processed.nc')
         try:
-            global_vars.num_of_lines = self.number_of_lines(file_path)
             main(file_path, save_path, self.progressBar) 
             QMessageBox.information(self, 'Success', 'File processed successfully')
         except Exception as e:
@@ -105,14 +104,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.labelLanguage.setText('Wybierz język:')
         logger.info(f"Language set to {language}")
     
-    def number_of_lines(self, path):
-        try:
-            with open(path, "rb") as f:
-                num_lines = sum(1 for _ in f)
-            return num_lines
-        except Exception as e:
-            logger.error(f"Error counting lines: {e}")
-            return 0
 if __name__ == '__main__':
     import sys
     from PyQt6.QtWidgets import QApplication
