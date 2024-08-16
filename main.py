@@ -16,12 +16,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.pushButtonChooseFile.clicked.connect(self.open_file)
         self.pushButtonChooseSave.clicked.connect(self.choose_save_path)
         self.pushButtonConfirm.clicked.connect(self.execute)
+        self.pushButton.clicked.connect(self.display_info)
         self.comboBoxLoggingLevel.currentIndexChanged.connect(self.set_logging_level)
         self.comboBoxLanguage.currentIndexChanged.connect(self.set_language)
         self.initialize_log_combobox()
         self.initialize_language_combobox()
         self.initialize_thresholds()
         self.settings=QSettings('settings.ini', QSettings.Format.IniFormat)
+        self.load_settings()
         self.resize(self.settings.value('size', self.size()))
         self.move(self.settings.value('pos', self.pos()))
         
@@ -144,9 +146,50 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             return
         logger.info(f"Thresholds set to A: {constants.A_threshold}, F: {constants.F_threshold}, S: {constants.S_threshold}, X: {constants.X_threshold}, Y: {constants.Y_threshold}, Z: {constants.Z_threshold}")
     
+    def display_info(self):
+        language = self.comboBoxLanguage.currentText()
+        if language == 'English':
+            QMessageBox.information(self, 'Info', constants.info_EN)
+        elif language == 'Polish':
+            QMessageBox.information(self, 'Info', constants.info_PL)
+    
+    def load_settings(self):
+        self.comboBoxLoggingLevel.setCurrentText(self.settings.value('logging_level', 'DEBUG'))
+        self.comboBoxLanguage.setCurrentText(self.settings.value('language', 'English'))
+        self.lineEditFilePath.setText(self.settings.value('file_path', ''))
+        self.lineEditSavePath.setText(self.settings.value('save_path', ''))
+        self.lineEditMaxA.setText(self.settings.value('A_threshold', ''))
+        self.lineEditMaxF.setText(self.settings.value('F_threshold', ''))
+        self.lineEditMaxS.setText(self.settings.value('S_threshold', ''))
+        self.lineEditMaxX.setText(self.settings.value('X_threshold', ''))
+        self.lineEditMaxY.setText(self.settings.value('Y_threshold', ''))
+        self.lineEditMaxZ.setText(self.settings.value('Z_threshold', ''))
+        self.comboBoxA.setCurrentText(self.settings.value('A_log_level', 'DEBUG'))
+        self.comboBoxF.setCurrentText(self.settings.value('F_log_level', 'DEBUG'))
+        self.comboBoxS.setCurrentText(self.settings.value('S_log_level', 'DEBUG'))
+        self.comboBoxX.setCurrentText(self.settings.value('X_log_level', 'DEBUG'))
+        self.comboBoxY.setCurrentText(self.settings.value('Y_log_level', 'DEBUG'))
+        self.comboBoxZ.setCurrentText(self.settings.value('Z_log_level', 'DEBUG'))
+    
     def closeEvent(self, event):
         self.settings.setValue('size', self.size())
         self.settings.setValue('pos', self.pos())
+        self.settings.setValue('logging_level', self.comboBoxLoggingLevel.currentText())
+        self.settings.setValue('file_path', self.lineEditFilePath.text())
+        self.settings.setValue('save_path', self.lineEditSavePath.text())
+        self.settings.setValue('language', self.comboBoxLanguage.currentText())
+        self.settings.setValue('A_threshold', self.lineEditMaxA.text())
+        self.settings.setValue('F_threshold', self.lineEditMaxF.text())
+        self.settings.setValue('S_threshold', self.lineEditMaxS.text())
+        self.settings.setValue('X_threshold', self.lineEditMaxX.text())
+        self.settings.setValue('Y_threshold', self.lineEditMaxY.text())
+        self.settings.setValue('Z_threshold', self.lineEditMaxZ.text())
+        self.settings.setValue('A_log_level', self.comboBoxA.currentText())
+        self.settings.setValue('F_log_level', self.comboBoxF.currentText())
+        self.settings.setValue('S_log_level', self.comboBoxS.currentText())
+        self.settings.setValue('X_log_level', self.comboBoxX.currentText())
+        self.settings.setValue('Y_log_level', self.comboBoxY.currentText())
+        self.settings.setValue('Z_log_level', self.comboBoxZ.currentText())
         event.accept()
     
 if __name__ == '__main__':
