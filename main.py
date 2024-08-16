@@ -126,11 +126,17 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     
     def set_thresholds(self):
         try:
+            constants.A_log_level = self.comboBoxA.currentText()
             constants.A_threshold = None if self.lineEditMaxA.text()=='' else float(self.lineEditMaxA.text())
+            constants.F_log_level = self.comboBoxF.currentText()
             constants.F_threshold = None if self.lineEditMaxF.text()==''else float(self.lineEditMaxF.text())
+            constants.S_log_level = self.comboBoxS.currentText()
             constants.S_threshold =  None if self.lineEditMaxF.text()==''else float(self.lineEditMaxS.text())
+            constants.X_log_level = self.comboBoxX.currentText()
             constants.X_threshold = None if self.lineEditMaxX.text()=='' else float(self.lineEditMaxX.text())
+            constants.Y_log_level = self.comboBoxY.currentText()
             constants.Y_threshold = None if self.lineEditMaxY.text()=='' else float(self.lineEditMaxY.text())
+            constants.Z_log_level = self.comboBoxZ.currentText()
             constants.Z_threshold = None if self.lineEditMaxZ.text()=='' else float(self.lineEditMaxZ.text())
         except ValueError as e:
             logger.error(f"Error setting thresholds: {e}")
