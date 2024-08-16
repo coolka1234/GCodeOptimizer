@@ -73,14 +73,19 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         logging_level = self.comboBoxLoggingLevel.currentText()
         if logging_level == 'DEBUG':
             logger.setLevel(logging.DEBUG)
+            logger.debug(f"Logging level set to {logging_level}")
         elif logging_level == 'INFO':
             logger.setLevel(logging.INFO)
+            logger.info(f"Logging level set to {logging_level}")
         elif logging_level == 'WARNING':
             logger.setLevel(logging.WARNING)
+            logger.warning(f"Logging level set to {logging_level}")
         elif logging_level == 'ERROR':
             logger.setLevel(logging.ERROR)
+            logger.error(f"Logging level set to {logging_level}")
         elif logging_level == 'CRITICAL':
             logger.setLevel(logging.CRITICAL)
+            logger.critical(f"Logging level set to {logging_level}")
         logger.info(f"Logging level set to {logging_level}")
     
     def initialize_language_combobox(self):
