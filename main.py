@@ -20,6 +20,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.comboBoxLanguage.currentIndexChanged.connect(self.set_language)
         self.initialize_log_combobox()
         self.initialize_language_combobox()
+        self.initialize_thresholds()
         self.settings=QSettings('settings.ini', QSettings.Format.IniFormat)
         self.resize(self.settings.value('size', self.size()))
         self.move(self.settings.value('pos', self.pos()))
@@ -34,6 +35,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def execute(self):
         save_path= self.lineEditSavePath.text()
         file_path= self.lineEditFilePath.text()
+        self.initialize_thresholds()
         if file_path == '':
             QMessageBox.critical(self, 'Error', 'Please choose a file')
             logger.error('No file chosen')
@@ -123,12 +125,17 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         logger.info(f"Language set to {language}")
     
     def set_thresholds(self):
-        constants.A_threshold = self.comboBoxA.currentText()
-        constants.F_threshold = self.comboBoxF.currentText()
-        constants.S_threshold = self.comboBoxS.currentText()
-        constants.X_threshold = self.comboBoxX.currentText()
-        constants.Y_threshold = self.comboBoxY.currentText()
-        constants.Z_threshold = self.comboBoxZ.currentText()
+        try:
+            constants.A_threshold = None if self.comboBoxA.currentText()=='' else float(self.comboBoxA.currentText())
+            constants.F_threshold = None if self.comboBoxF.currentText()==''else float(self.comboBoxF.currentText())
+            constants.S_threshold =  None if self.comboBoxF.currentText()==''else float(self.comboBoxS.currentText())
+            constants.X_threshold = None if self.comboBoxX.currentText()=='' else float(self.comboBoxX.currentText())
+            constants.Y_threshold = None if self.comboBoxY.currentText()=='' else float(self.comboBoxY.currentText())
+            constants.Z_threshold = None if self.comboBoxZ.currentText()=='' else float(self.comboBoxZ.currentText())
+        except ValueError as e:
+            logger.error(f"Error setting thresholds: {e}")
+            QMessageBox.critical(self, 'Error', 'Error setting thresholds. Please provide a valid number')
+            return
         logger.info(f"Thresholds set to A: {constants.A_threshold}, F: {constants.F_threshold}, S: {constants.S_threshold}, X: {constants.X_threshold}, Y: {constants.Y_threshold}, Z: {constants.Z_threshold}")
     
     def closeEvent(self, event):

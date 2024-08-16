@@ -103,4 +103,9 @@ class Operation:
                 global_vars.max_S=self.S
             if self.S < global_vars.min_S:
                 global_vars.min_S=self.S
+        if dict_of_values['Y'] is not None:
+            if self.Y > global_vars.max_Y:
+                global_vars.max_Y=self.Y
+            if self.Y < global_vars.min_Y:
+                global_vars.min_Y=self.Y
  
