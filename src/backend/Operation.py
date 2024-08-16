@@ -3,6 +3,8 @@
 import regex as re
 import src.backend.global_vars as global_vars
 from src.backend.local_logging import logger
+from src.backend import constants
+import logging
 class Operation:
     def __init__(self, line, only_analyze=False) -> None:
         """Initialize the object with the values from the line"""
@@ -12,6 +14,7 @@ class Operation:
         self.A=None if dict_of_values['A']==None else float(dict_of_values['A'][1:]) - global_vars.global_A
         self.S=None if dict_of_values['S']==None else float(dict_of_values['S'][1:])
         self.F=global_vars.global_F if dict_of_values['F']==None else float(dict_of_values['F'][1:])
+        self.Y=None if dict_of_values['Y']==None else float(dict_of_values['Y'][1:])
         self.operation=global_vars.global_operation if dict_of_values['operation']==None else dict_of_values['operation']
         if only_analyze:
             return
@@ -25,6 +28,8 @@ class Operation:
             global_vars.global_A=float(dict_of_values['A'][1:])
         if self.S is not None:
             global_vars.global_S=float(dict_of_values['S'][1:])
+        if self.Y is not None:
+            global_vars.global_Y=float(dict_of_values['Y'][1:])
         self.handle_maxes(dict_of_values)
         
         logger.debug(f"Operation: {self}")
@@ -33,6 +38,9 @@ class Operation:
         dict_of_values = {}
         operation_match = re.search(r'G\d+', line)
         dict_of_values['operation'] = operation_match.group(0) if operation_match else None
+
+        y_match = re.search(r'Y-?\d+(\.\d+)?', line)
+        dict_of_values['Y'] = y_match.group(0) if y_match else None
 
         x_match = re.search(r'X-?\d+(\.\d+)?', line) 
         dict_of_values['X'] = x_match.group(0) if x_match else None
@@ -53,6 +61,20 @@ class Operation:
     def __str__(self) -> str:
         """Return the string representation of the object"""
         return f'X: {self.X}, Z: {self.Z}, A: {self.A}, F: {self.F}, Operation: {self.operation}'    
+    
+    def check_tresholds(self):
+        """Check if the values are above the tresholds"""
+        if constants.X_threshold is not None and self.X > constants.X_threshold:
+            logger.log(getattr(logging, constants.X_log_level),f"X value above threshold: {self.X}")
+        if constants.Z_threshold is not None and self.Z > constants.Z_threshold:
+            logger.log(getattr(logging, constants.Z_log_level),f"Z value above threshold: {self.Z}")
+        if constants.A_threshold is not None and self.A > constants.A_threshold:
+            logger.log(getattr(logging, constants.A_log_level),f"A value above threshold: {self.A}")
+        if constants.F_threshold is not None and self.F > constants.F_threshold:
+            logger.log(getattr(logging, constants.F_log_level),f"F value above threshold: {self.F}")
+        if constants.S_threshold is not None and self.S > constants.S_threshold:
+            logger.log(getattr(logging, constants.S_log_level),f"S value above threshold: {self.S}")
+            
     
     def handle_maxes(self, dict_of_values):
         """Handle the maximum and minimum values"""

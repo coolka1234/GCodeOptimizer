@@ -1,4 +1,5 @@
 import os
+from src.backend import constants
 import traceback
 from src.backend import global_vars
 from src.gui.main_window import Ui_MainWindow
@@ -61,6 +62,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         except Exception as e:
             QMessageBox.critical(self, 'Error', 'Error processing file')
             logger.error(f'Error processing file: {e}, traceback: {traceback.format_exc()}')
+
     def initialize_log_combobox(self):
         self.comboBoxLoggingLevel.addItem('DEBUG')
         self.comboBoxLoggingLevel.addItem('INFO')
@@ -89,9 +91,16 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         logger.info(f"Logging level set to {logging_level}")
     
     def initialize_language_combobox(self):
-        self.comboBoxLanguage.addItem('English')
-        self.comboBoxLanguage.addItem('Polish')
+        self.comboBoxLanguage.addItems(constants.languages)
         self.comboBoxLanguage.setCurrentText('English')
+    
+    def initialize_thresholds(self):
+        self.comboBoxA.addItems(constants.logging_levels)
+        self.comboBoxF.addItems(constants.logging_levels)
+        self.comboBoxS.addItems(constants.logging_levels)
+        self.comboBoxX.addItems(constants.logging_levels)
+        self.comboBoxY.addItems(constants.logging_levels)
+        self.comboBoxZ.addItems(constants.logging_levels)
     
     def set_language(self):
         language = self.comboBoxLanguage.currentText()
@@ -112,6 +121,15 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.labelLoggingLevel.setText('Wybierz poziom logowania:')
             self.labelLanguage.setText('Wybierz język:')
         logger.info(f"Language set to {language}")
+    
+    def set_thresholds(self):
+        constants.A_threshold = self.comboBoxA.currentText()
+        constants.F_threshold = self.comboBoxF.currentText()
+        constants.S_threshold = self.comboBoxS.currentText()
+        constants.X_threshold = self.comboBoxX.currentText()
+        constants.Y_threshold = self.comboBoxY.currentText()
+        constants.Z_threshold = self.comboBoxZ.currentText()
+        logger.info(f"Thresholds set to A: {constants.A_threshold}, F: {constants.F_threshold}, S: {constants.S_threshold}, X: {constants.X_threshold}, Y: {constants.Y_threshold}, Z: {constants.Z_threshold}")
     
     def closeEvent(self, event):
         self.settings.setValue('size', self.size())
