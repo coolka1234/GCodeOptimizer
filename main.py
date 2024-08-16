@@ -35,7 +35,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def execute(self):
         save_path= self.lineEditSavePath.text()
         file_path= self.lineEditFilePath.text()
-        self.initialize_thresholds()
+        self.set_thresholds()
         if file_path == '':
             QMessageBox.critical(self, 'Error', 'Please choose a file')
             logger.error('No file chosen')
@@ -126,12 +126,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     
     def set_thresholds(self):
         try:
-            constants.A_threshold = None if self.comboBoxA.currentText()=='' else float(self.comboBoxA.currentText())
-            constants.F_threshold = None if self.comboBoxF.currentText()==''else float(self.comboBoxF.currentText())
-            constants.S_threshold =  None if self.comboBoxF.currentText()==''else float(self.comboBoxS.currentText())
-            constants.X_threshold = None if self.comboBoxX.currentText()=='' else float(self.comboBoxX.currentText())
-            constants.Y_threshold = None if self.comboBoxY.currentText()=='' else float(self.comboBoxY.currentText())
-            constants.Z_threshold = None if self.comboBoxZ.currentText()=='' else float(self.comboBoxZ.currentText())
+            constants.A_threshold = None if self.lineEditMaxA.text()=='' else float(self.lineEditMaxA.text())
+            constants.F_threshold = None if self.lineEditMaxF.text()==''else float(self.lineEditMaxF.text())
+            constants.S_threshold =  None if self.lineEditMaxF.text()==''else float(self.lineEditMaxS.text())
+            constants.X_threshold = None if self.lineEditMaxX.text()=='' else float(self.lineEditMaxX.text())
+            constants.Y_threshold = None if self.lineEditMaxY.text()=='' else float(self.lineEditMaxY.text())
+            constants.Z_threshold = None if self.lineEditMaxZ.text()=='' else float(self.lineEditMaxZ.text())
         except ValueError as e:
             logger.error(f"Error setting thresholds: {e}")
             QMessageBox.critical(self, 'Error', 'Error setting thresholds. Please provide a valid number')
