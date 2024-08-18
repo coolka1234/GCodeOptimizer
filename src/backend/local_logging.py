@@ -43,6 +43,7 @@ def info_logger():
     ch.setFormatter(formatter)
     logger.addHandler(ch)
     return logger
+
 def error_logger():
     logger = logging.getLogger(__name__)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')

@@ -119,7 +119,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         elif logging_level == 'CRITICAL':
             logger.setLevel(logging.CRITICAL)
             logger.critical(f"Logging level set to {logging_level}")
-        inf_logger.info(f"Logging level set to {logging_level}")
     
     def initialize_language_combobox(self):
         self.comboBoxLanguage.addItems(constants.languages)
@@ -171,7 +170,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             err_logger.error(f"Error setting thresholds: {e}")
             QMessageBox.critical(self, 'Error', 'Error setting thresholds. Please provide a valid number')
             return
-        logger.info(f"Thresholds set to A: {constants.A_threshold}, F: {constants.F_threshold}, S: {constants.S_threshold}, X: {constants.X_threshold}, Y: {constants.Y_threshold}, Z: {constants.Z_threshold}")
+        inf_logger.info(f"Thresholds set to A: {constants.A_threshold}, F: {constants.F_threshold}, S: {constants.S_threshold}, X: {constants.X_threshold}, Y: {constants.Y_threshold}, Z: {constants.Z_threshold}")
     
     def display_info(self):
         language = self.comboBoxLanguage.currentText()
