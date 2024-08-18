@@ -9,38 +9,46 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_Logs(object):
-    def setupUi(self, Logs):
-        # Logs.setObjectName("Logs")
-        # Logs.resize(317, 270)
-        self.horizontalLayout = QtWidgets.QHBoxLayout(Logs)
-        self.horizontalLayout.setObjectName("horizontalLayout")
-        self.scrollArea = QtWidgets.QScrollArea(parent=Logs)
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(447, 300)
+        self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(self.centralwidget)
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        self.scrollArea = QtWidgets.QScrollArea(parent=self.centralwidget)
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 297, 250))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 427, 258))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
+        self.horizontalLayout = QtWidgets.QHBoxLayout(self.scrollAreaWidgetContents)
+        self.horizontalLayout.setObjectName("horizontalLayout")
         self.listWidget = QtWidgets.QListWidget(parent=self.scrollAreaWidgetContents)
-        self.listWidget.setGeometry(QtCore.QRect(-10, 1, 301, 241))
         self.listWidget.setMinimumSize(QtCore.QSize(281, 221))
         self.listWidget.setObjectName("listWidget")
+        self.horizontalLayout.addWidget(self.listWidget)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
-        self.horizontalLayout.addWidget(self.scrollArea)
+        self.horizontalLayout_2.addWidget(self.scrollArea)
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
+        self.statusbar.setObjectName("statusbar")
+        MainWindow.setStatusBar(self.statusbar)
 
-        self.retranslateUi(Logs)
-        QtCore.QMetaObject.connectSlotsByName(Logs)
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
-    def retranslateUi(self, Logs):
+    def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        Logs.setWindowTitle(_translate("Logs", "Form"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Logs"))
 
 
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    Logs = QtWidgets.QWidget()
-    ui = Ui_Logs()
-    ui.setupUi(Logs)
-    Logs.show()
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
     sys.exit(app.exec())
