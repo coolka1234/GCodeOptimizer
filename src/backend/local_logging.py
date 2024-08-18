@@ -8,7 +8,7 @@ def get_logger():
     logger = logging.getLogger(__name__)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
     try:
-        if not os.path.exists('logs/log.log'):
+        if not os.path.exists('logs'):
             os.makedirs("logs")
         logging.basicConfig(filename='logs/log.log',level=logging.DEBUG, filemode='w', format='%(asctime)s - %(levelname)s - %(message)s')
     except Exception as e:
