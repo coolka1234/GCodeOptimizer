@@ -137,5 +137,5 @@ def number_of_lines(path):
         logger.debug(f"Number of lines in the file: {num_lines}")
         return num_lines
     except Exception as e:
-        logger.error(f"Error counting lines: {e}")
+        err_logger.error(f"Error counting lines: {e}")
         return 0

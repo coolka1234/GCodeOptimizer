@@ -73,7 +73,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def open_logs(self):
         list_of_lines=[]
         try:
-            f=open('logs/debug.log')
+            f=open('logs/info.log')
             list_of_lines=f.readlines()
             f.close()
         except FileNotFoundError:

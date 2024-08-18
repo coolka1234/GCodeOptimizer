@@ -75,6 +75,6 @@ def setup_logger(name, log_file, level=logging.INFO):
     logger.addHandler(handler)
     return logger
 
-logger = setup_logger('logger', 'logs/log.log')
+logger = setup_logger('logger', 'logs/log.log', logging.DEBUG)
 err_logger = setup_logger('error_logger', 'logs/error.log', logging.ERROR)
 inf_logger = setup_logger('info_logger', 'logs/info.log', logging.INFO)
