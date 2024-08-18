@@ -65,6 +65,16 @@ def error_logger():
     logger.addHandler(ch)
     return logger
 
-logger = get_logger()
-err_logger = error_logger()
-inf_logger = info_logger()
+formatter=logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+def setup_logger(name, log_file, level=logging.INFO):
+    handler = logging.FileHandler(log_file)
+    handler.setFormatter(formatter)
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    logger.addHandler(handler)
+    return logger
+
+logger = setup_logger('logger', 'logs/log.log')
+err_logger = setup_logger('error_logger', 'logs/error.log', logging.ERROR)
+inf_logger = setup_logger('info_logger', 'logs/info.log', logging.INFO)
