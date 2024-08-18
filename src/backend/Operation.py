@@ -2,7 +2,7 @@
 # Class to handle each operation line
 import regex as re
 import src.backend.global_vars as global_vars
-from src.backend.local_logging import logger
+from src.backend.local_logging import inf_logger, logger
 from src.backend import constants
 import logging
 class Operation:
@@ -68,18 +68,23 @@ class Operation:
         if constants.X_threshold is not None and dict_of_values['X'] is not None:
             if self.X > constants.X_threshold:
                 logger.log(getattr(logging, constants.X_log_level),f"X value above threshold: {self.X}")
+                inf_logger.log(getattr(logging, constants.Z_log_level), f"X value above threshold {self.X}")
         if constants.Z_threshold is not None and dict_of_values['Z'] is not None:
             if self.Z > constants.Z_threshold:
                 logger.log(getattr(logging, constants.Z_log_level),f"Z value above threshold: {self.Z}")
+                inf_logger.log(getattr(logging, constants.Z_log_level), f"Z value above threshold {self.Z}")
         if constants.A_threshold is not None and dict_of_values['A'] is not None:
             if self.A > constants.A_threshold:
                 logger.log(getattr(logging, constants.A_log_level),f"A value above threshold: {self.A}")
+                inf_logger.log(getattr(logging, constants.Z_log_level), f"A value above threshold {self.A}")
         if constants.F_threshold is not None and dict_of_values['F'] is not None:
             if self.F > constants.F_threshold:
                 logger.log(getattr(logging, constants.F_log_level),f"F value above threshold: {self.F}")
+                inf_logger.log(getattr(logging, constants.Z_log_level), f"F value above threshold {self.F}")
         if constants.S_threshold is not None and dict_of_values['S'] is not None:
             if self.S > constants.S_threshold:
                 logger.log(getattr(logging, constants.S_log_level),f"S value above threshold: {self.S}")
+                inf_logger.log(getattr(logging, constants.Z_log_level), f"S value above threshold {self.S}")
             
     
     def handle_maxes(self, dict_of_values):

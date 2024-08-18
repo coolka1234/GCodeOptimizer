@@ -273,8 +273,37 @@
         </property>
         <item>
          <widget class="QPushButton" name="pushButton">
+          <property name="toolTip">
+           <string>Display program info</string>
+          </property>
+          <property name="toolTipDuration">
+           <number>-1</number>
+          </property>
           <property name="text">
            <string>Info</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButtonInfoLogs">
+          <property name="toolTip">
+           <string>Display info log output</string>
+          </property>
+          <property name="toolTipDuration">
+           <number>-1</number>
+          </property>
+          <property name="text">
+           <string>Info Logs</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButtonErrorLogs">
+          <property name="toolTip">
+           <string>Display errors and warnings</string>
+          </property>
+          <property name="text">
+           <string>Error Logs</string>
           </property>
          </widget>
         </item>
@@ -298,6 +327,16 @@
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>838</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

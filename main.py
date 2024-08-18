@@ -3,10 +3,11 @@ from src.backend import constants
 import traceback
 from src.backend import global_vars
 from src.gui.main_window import Ui_MainWindow
+from src.gui.LogsWindow import LogsWindows
 from src.backend.functions import get_and_write as main
 from PyQt6.QtWidgets import QMainWindow, QFileDialog, QMessageBox
 from PyQt6.QtCore import QSettings
-from src.backend.local_logging import logger
+from src.backend.local_logging import logger, err_logger, inf_logger
 import logging
 
 class MainWindow(QMainWindow, Ui_MainWindow):
@@ -17,6 +18,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.pushButtonChooseSave.clicked.connect(self.choose_save_path)
         self.pushButtonConfirm.clicked.connect(self.execute)
         self.pushButton.clicked.connect(self.display_info)
+        self.pushButtonInfoLogs.clicked.connect(self.open_logs)
         self.comboBoxLoggingLevel.currentIndexChanged.connect(self.set_logging_level)
         self.comboBoxLanguage.currentIndexChanged.connect(self.set_language)
         self.initialize_log_combobox()
@@ -40,23 +42,23 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.set_thresholds()
         if file_path == '':
             QMessageBox.critical(self, 'Error', 'Please choose a file')
-            logger.error('No file chosen')
+            err_logger.error('No file chosen')
             return
         if not file_path.endswith('.nc'):
             QMessageBox.critical(self, 'Error', 'The file is not a .nc file')
-            logger.error('File is not a .nc file')
+            err_logger.error('File is not a .nc file')
             return
         if not os.path.exists(file_path):
             QMessageBox.critical(self, 'Error', 'The file does not exist')
-            logger.error('File does not exist')
+            err_logger.error('File does not exist')
             return
         if not os.path.exists(save_path):
             QMessageBox.critical(self, 'Error', 'The save path does not exist')
-            logger.error('Save path does not exist')
+            err_logger.error('Save path does not exist')
             return
         if save_path == '':
             save_path = file_path.replace('.nc', '_processed.nc')
-            logger.warning(f"Save path not provided, saving to {save_path}")
+            err_logger.warning(f"Save path not provided, saving to {save_path}")
         else:
             
             save_path = save_path + '/' + file_path.split('/')[-1].replace('.nc', '_processed.nc')
@@ -65,7 +67,19 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             QMessageBox.information(self, 'Success', 'File processed successfully')
         except Exception as e:
             QMessageBox.critical(self, 'Error', 'Error processing file')
-            logger.error(f'Error processing file: {e}, traceback: {traceback.format_exc()}')
+            err_logger.error(f'Error processing file: {e}, traceback: {traceback.format_exc()}')
+
+    def open_logs(self):
+        list_of_lines=[]
+        try:
+            f=open('logs/debug.log')
+            list_of_lines=f.readlines()
+            f.close()
+        except FileNotFoundError:
+            QMessageBox.critical(self, 'Error', 'No logs found')
+            return
+        self.logs_window = LogsWindows(list_of_lines)
+        self.logs_window.show()
 
     def initialize_log_combobox(self):
         self.comboBoxLoggingLevel.addItem('DEBUG')
@@ -92,7 +106,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         elif logging_level == 'CRITICAL':
             logger.setLevel(logging.CRITICAL)
             logger.critical(f"Logging level set to {logging_level}")
-        logger.info(f"Logging level set to {logging_level}")
+        inf_logger.info(f"Logging level set to {logging_level}")
     
     def initialize_language_combobox(self):
         self.comboBoxLanguage.addItems(constants.languages)
@@ -124,7 +138,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.lineEditSavePath.setPlaceholderText('Lokalizacja zapisu...')
             self.labelLoggingLevel.setText('Wybierz poziom logowania:')
             self.labelLanguage.setText('Wybierz język:')
-        logger.info(f"Language set to {language}")
+        inf_logger.info(f"Language set to {language}")
     
     def set_thresholds(self):
         try:
@@ -141,7 +155,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             constants.Z_log_level = self.comboBoxZ.currentText()
             constants.Z_threshold = None if self.lineEditMaxZ.text()=='' else float(self.lineEditMaxZ.text())
         except ValueError as e:
-            logger.error(f"Error setting thresholds: {e}")
+            err_logger.error(f"Error setting thresholds: {e}")
             QMessageBox.critical(self, 'Error', 'Error setting thresholds. Please provide a valid number')
             return
         logger.info(f"Thresholds set to A: {constants.A_threshold}, F: {constants.F_threshold}, S: {constants.S_threshold}, X: {constants.X_threshold}, Y: {constants.Y_threshold}, Z: {constants.Z_threshold}")

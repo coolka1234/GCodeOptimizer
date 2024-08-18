@@ -4,7 +4,7 @@ import math
 import os
 from src.backend.file_operations import read_nc_file
 import src.backend.global_vars as global_vars
-from src.backend.local_logging import logger
+from src.backend.local_logging import logger, inf_logger, err_logger
 from src.backend.Operation import Operation
 import regex as re
 
@@ -29,13 +29,13 @@ def get_and_write(file_path, save_path, progress_bar=None):
             line_num+=1
     logger.debug(f"File {file_path} processed")
     logger.debug(f"Processed file saved to {save_path}")
-    logger.info(f"Max X: {global_vars.max_X}, Min X: {global_vars.min_X}")
-    logger.info(f"Max Z: {global_vars.max_Z}, Min Z: {global_vars.min_Z}")
-    logger.info(f"Max A: {global_vars.max_A}, Min A: {global_vars.min_A}")
-    logger.info(f"Max Y: {global_vars.max_Y}, Min Y: {global_vars.min_Y}")
-    logger.info(f"Max S: {global_vars.max_S}, Min S: {global_vars.min_S}")
-    logger.info(f"Max F: {global_vars.max_F}, Min F: {global_vars.min_F}")
-    logger.info(f"Max processed F: {global_vars.max_proc_F}, Min processed F: {global_vars.min_proc_F}")
+    inf_logger.info(f"Max X: {global_vars.max_X}, Min X: {global_vars.min_X}")
+    inf_logger.info(f"Max Z: {global_vars.max_Z}, Min Z: {global_vars.min_Z}")
+    inf_logger.info(f"Max A: {global_vars.max_A}, Min A: {global_vars.min_A}")
+    inf_logger.info(f"Max Y: {global_vars.max_Y}, Min Y: {global_vars.min_Y}")
+    inf_logger.info(f"Max S: {global_vars.max_S}, Min S: {global_vars.min_S}")
+    inf_logger.info(f"Max F: {global_vars.max_F}, Min F: {global_vars.min_F}")
+    inf_logger.info(f"Max processed F: {global_vars.max_proc_F}, Min processed F: {global_vars.min_proc_F}")
 
 
 def is_line_of_interest(line):
