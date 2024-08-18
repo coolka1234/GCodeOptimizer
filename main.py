@@ -19,6 +19,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.pushButtonConfirm.clicked.connect(self.execute)
         self.pushButton.clicked.connect(self.display_info)
         self.pushButtonInfoLogs.clicked.connect(self.open_logs)
+        self.pushButtonErrorLogs.clicked.connect(self.open_err_logs)
         self.comboBoxLoggingLevel.currentIndexChanged.connect(self.set_logging_level)
         self.comboBoxLanguage.currentIndexChanged.connect(self.set_language)
         self.initialize_log_combobox()
@@ -73,6 +74,18 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         list_of_lines=[]
         try:
             f=open('logs/debug.log')
+            list_of_lines=f.readlines()
+            f.close()
+        except FileNotFoundError:
+            QMessageBox.critical(self, 'Error', 'No logs found')
+            return
+        self.logs_window = LogsWindows(list_of_lines)
+        self.logs_window.show()
+    
+    def open_err_logs(self):
+        list_of_lines=[]
+        try:
+            f=open('logs/error.log')
             list_of_lines=f.readlines()
             f.close()
         except FileNotFoundError:
