@@ -2,6 +2,8 @@
 # This file is used to create a logger object that can be used to log messages to a file and to the console.
 import logging
 import os
+#DEPRACTED
+#############################################################################################################
 def get_logger():
     logger = logging.getLogger(__name__)
     formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -64,11 +66,12 @@ def error_logger():
     ch.setFormatter(formatter)
     logger.addHandler(ch)
     return logger
+#############################################################################################################
 
 formatter=logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 def setup_logger(name, log_file, level=logging.INFO):
-    handler = logging.FileHandler(log_file)
+    handler = logging.FileHandler(log_file, mode='w')
     handler.setFormatter(formatter)
     logger = logging.getLogger(name)
     logger.setLevel(level)
