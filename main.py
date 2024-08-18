@@ -7,7 +7,7 @@ from src.gui.LogsWindow import LogsWindows
 from src.backend.functions import get_and_write as main
 from PyQt6.QtWidgets import QMainWindow, QFileDialog, QMessageBox
 from PyQt6.QtCore import QSettings
-from src.backend.local_logging import logger, err_logger, inf_logger
+from src.backend.local_logging import logger, err_logger, inf_logger, remove_logs
 import logging
 
 class MainWindow(QMainWindow, Ui_MainWindow):
@@ -40,6 +40,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     def execute(self):
         save_path= self.lineEditSavePath.text()
         file_path= self.lineEditFilePath.text()
+        file_name = self.lineEditFileName.text()
+        if file_name.endswith('.nc'):
+            logger.debug('File name already has .nc extension')
+            file_name = file_name[:-3]
+            logger.debug(f'File name changed to {file_name}')
         self.set_thresholds()
         if file_path == '':
             QMessageBox.critical(self, 'Error', 'Please choose a file')
@@ -53,16 +58,22 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             QMessageBox.critical(self, 'Error', 'The file does not exist')
             err_logger.error('File does not exist')
             return
-        if not os.path.exists(save_path):
-            QMessageBox.critical(self, 'Error', 'The save path does not exist')
-            err_logger.error('Save path does not exist')
+        if not os.path.exists(save_path) and save_path != '' and not os.path.isdir(save_path):
+            QMessageBox.critical(self, 'Error', 'The save path does not exist or is not a directory')
+            err_logger.error('Save path does not exist or is not a directory')
             return
-        if save_path == '':
+        if save_path == '' and file_name == '':
             save_path = file_path.replace('.nc', '_processed.nc')
             err_logger.warning(f"Save path not provided, saving to {save_path}")
-        else:
-            
-            save_path = save_path + '/' + file_path.split('/')[-1].replace('.nc', '_processed.nc')
+        elif save_path == '':
+            save_path = replace_last_location_in_path(file_path, file_name)
+        if not save_path.endswith('.nc'):
+            save_path = save_path + '.nc'
+        if (os.path.exists(save_path)):
+            reply = QMessageBox.question(self, 'Warning', 'File with the same name already exists in the save path. Do you want to overwrite it?', QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+            if reply != QMessageBox.StandardButton.Yes:
+                err_logger.error('File with the same name already exists in the save path. Overwrite not confirmed')
+                return
         try:
             main(file_path, save_path, self.progressBar) 
             QMessageBox.information(self, 'Success', 'File processed successfully')
@@ -159,7 +170,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             constants.F_log_level = self.comboBoxF.currentText()
             constants.F_threshold = None if self.lineEditMaxF.text()==''else float(self.lineEditMaxF.text())
             constants.S_log_level = self.comboBoxS.currentText()
-            constants.S_threshold =  None if self.lineEditMaxF.text()==''else float(self.lineEditMaxS.text())
+            constants.S_threshold =  None if self.lineEditMaxS.text()==''else float(self.lineEditMaxS.text())
             constants.X_log_level = self.comboBoxX.currentText()
             constants.X_threshold = None if self.lineEditMaxX.text()=='' else float(self.lineEditMaxX.text())
             constants.Y_log_level = self.comboBoxY.currentText()
@@ -218,6 +229,11 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.settings.setValue('Z_log_level', self.comboBoxZ.currentText())
         event.accept()
     
+def replace_last_location_in_path(path, new_location):
+    head, _ = os.path.split(path)
+    new_path = os.path.join(head, new_location)
+    return new_path
+
 if __name__ == '__main__':
     import sys
     from PyQt6.QtWidgets import QApplication

@@ -1,8 +1,9 @@
 # local_logging.py:
 # This file is used to create a logger object that can be used to log messages to a file and to the console.
 import logging
+from math import log
 import os
-#DEPRACTED
+#DEPRACATED
 #############################################################################################################
 def get_logger():
     logger = logging.getLogger(__name__)
@@ -70,7 +71,14 @@ def error_logger():
 
 formatter=logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-def setup_logger(name, log_file, level=logging.INFO):
+def setup_logger(name: str, log_file: str, level=logging.INFO):
+    try:
+        if not os.path.exists('logs'):
+            os.makedirs("logs")
+    except Exception as e:
+        print("Error in creating log file: ", e)
+        print("Program will continue attempt to log in current directory")
+        log_file = log_file.split("/")[1]
     handler = logging.FileHandler(log_file, mode='w')
     handler.setFormatter(formatter)
     logger = logging.getLogger(name)
@@ -78,6 +86,14 @@ def setup_logger(name, log_file, level=logging.INFO):
     logger.addHandler(handler)
     return logger
 
+def remove_logs():
+    try:
+        os.remove('logs/log.log')
+        os.remove('logs/error.log')
+        os.remove('logs/info.log')
+    except Exception as e:
+        print("Error in removing log files: ", e)
+
 logger = setup_logger('logger', 'logs/log.log', logging.DEBUG)
-err_logger = setup_logger('error_logger', 'logs/error.log', logging.ERROR)
+err_logger = setup_logger('error_logger', 'logs/error.log', logging.WARNING)
 inf_logger = setup_logger('info_logger', 'logs/info.log', logging.INFO)
