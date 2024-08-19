@@ -5,3 +5,4 @@ class LogsWindows(Ui_MainWindow, QMainWindow):
         super().__init__()
         self.setupUi(self)
         self.listWidget.addItems(logs)
+    

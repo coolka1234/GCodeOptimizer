@@ -59,9 +59,10 @@ def calculate_F(line):
     """Calculate the optimized F value for the line"""
     operation_line=Operation(line)
     A=operation_line.A
-    F=operation_line.F
+    F=operation_line.F if operation_line.F is not None else global_vars.global_F
     X=operation_line.X
     Z=operation_line.Z
+    
     arc_length=0 
     if Z==0 and A is None and X is None:
         return F 
