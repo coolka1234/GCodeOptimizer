@@ -16,8 +16,8 @@ class Operation:
         self.F=global_vars.global_F if dict_of_values['F']==None else float(dict_of_values['F'][1:])
         self.Y=None if dict_of_values['Y']==None else float(dict_of_values['Y'][1:])
         self.operation=global_vars.global_operation if dict_of_values['operation']==None else dict_of_values['operation']
+        global_vars.global_F=self.F if self.F is not None else global_vars.global_F
         if only_analyze:
-            global_vars.global_F=self.F
             return
         global_vars.global_Z=self.Z
         if self.operation is not None:
