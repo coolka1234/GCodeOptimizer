@@ -78,7 +78,7 @@ def calculate_F(line):
         distance = math.sqrt(X**2 + (arc_length)**2)
     if distance != 0:
         adjusted_F = F / distance * abs(X)
-        logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}, arc_length: {arc_length}, new F: {adjusted_F}")
+        logger.debug(f"Distance: {distance} for X: {X}, Z: {Z}, A: {A}, F: {F}, arc_length: {arc_length}, new F: {round(adjusted_F,1)}")
     else:
         adjusted_F = F
     check_max_proc_F(adjusted_F)
@@ -95,15 +95,15 @@ def replace_f_in_line(f_value, line):
     """Replace the F value in the line"""
     output_string = ""
     output_string += line
-    # logger.debug(f"String to replace F: {output_string}, F: {f_value}")
+    logger.debug(f"String to replace F: {output_string}, F: {f_value}")
     if 'F' not in line:
         new_F= 'F'+str(f_value)
         logger.debug(f"New F: {new_F}")
         output_string = insert_after_last_digit(output_string, new_F)
-        # logger.debug(f"New F inputted: {output_string}")
+        logger.debug(f"New F inputted: {output_string}")
     else:
-        output_string = re.sub(r'F\d+(\.\d+)', 'F'+str(f_value), line)
-        # logger.debug(f"New F replaced: {output_string}")
+        output_string = re.sub(r'F\d+(\.\d+)?', 'F'+str(f_value), line)
+        logger.debug(f"New F replaced: {output_string}")
     logger.debug(f"Old line: {line.rstrip()}")
     logger.debug(f"New line: {output_string.rstrip()}\n")
     # output_string=re.sub(r'\.(?!\d)', '', output_string)
