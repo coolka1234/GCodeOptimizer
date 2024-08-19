@@ -20,6 +20,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.pushButton.clicked.connect(self.display_info)
         self.pushButtonInfoLogs.clicked.connect(self.open_logs)
         self.pushButtonErrorLogs.clicked.connect(self.open_err_logs)
+        self.pushButtonClear.clicked.connect(self.clear)
         self.comboBoxLoggingLevel.currentIndexChanged.connect(self.set_logging_level)
         self.comboBoxLanguage.currentIndexChanged.connect(self.set_language)
         self.initialize_log_combobox()
@@ -153,6 +154,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.lineEditSavePath.setPlaceholderText('Save location...')
             self.labelLoggingLevel.setText('Select logging level:')
             self.labelLanguage.setText('Select language:')
+            self.lineEditFileName.setPlaceholderText('Processed file name (default is <original_file_name>_processed.nc)')
+            self.pushButtonClear.setText('Clear')
         elif language == 'Polish':
             self.pushButtonChooseFile.setText('Wybierz plik')
             self.pushButtonChooseSave.setText('Wybierz ścieżkę zapisu')
@@ -160,6 +163,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.lineEditFilePath.setPlaceholderText('Plik do przetworzenia...')
             self.lineEditSavePath.setPlaceholderText('Lokalizacja zapisu...')
             self.labelLoggingLevel.setText('Wybierz poziom logowania:')
+            self.lineEditFileName.setPlaceholderText('Nazwa przetworzonego pliku (domyślnie <oryginalna_nazwa_pliku>_processed.nc)')
+            self.pushButtonClear.setText('Wyczyść')
             self.labelLanguage.setText('Wybierz język:')
         inf_logger.info(f"Language set to {language}")
     
@@ -207,6 +212,24 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.comboBoxX.setCurrentText(self.settings.value('X_log_level', 'DEBUG'))
         self.comboBoxY.setCurrentText(self.settings.value('Y_log_level', 'DEBUG'))
         self.comboBoxZ.setCurrentText(self.settings.value('Z_log_level', 'DEBUG'))
+    
+    def clear(self):
+        self.lineEditFilePath.clear()
+        self.lineEditSavePath.clear()
+        self.lineEditFileName.clear()
+        self.lineEditMaxA.clear()
+        self.lineEditMaxF.clear()
+        self.lineEditMaxS.clear()
+        self.lineEditMaxX.clear()
+        self.lineEditMaxY.clear()
+        self.lineEditMaxZ.clear()
+        self.comboBoxA.setCurrentText('WARNING')
+        self.comboBoxF.setCurrentText('WARNING')
+        self.comboBoxS.setCurrentText('WARNING')
+        self.comboBoxX.setCurrentText('WARNING')
+        self.comboBoxY.setCurrentText('WARNING')
+        self.comboBoxZ.setCurrentText('WARNING')
+
     
     def closeEvent(self, event):
         self.settings.setValue('size', self.size())

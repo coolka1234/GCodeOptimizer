@@ -225,6 +225,16 @@
          </widget>
         </item>
         <item>
+         <widget class="QPushButton" name="pushButtonClear">
+          <property name="toolTip">
+           <string>Clear all fields</string>
+          </property>
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QPushButton" name="pushButtonInfoLogs">
           <property name="toolTip">
            <string>Display info log output</string>
