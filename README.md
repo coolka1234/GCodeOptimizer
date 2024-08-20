@@ -19,7 +19,7 @@ Note: There is a good chance that Windows flags the program as a virus. You shou
 The finished file will be named like the original with the suffix _processed.\
 ### GUI Instructions:
 Select the file to be converted.\
-Optionally, specify the save path (default file folder), name, boundaries, logging level.\
+Optionally, specify the save path (default file folder), name, thresholds, logging level.\
 Click the “Confirm” button.\
 The program will inform you that the conversion has been performed.\
 At the bottom of the window, buttons allow you to preview the most important logs.\
