@@ -79,11 +79,17 @@ def setup_logger(name: str, log_file: str, level=logging.INFO):
         print("Error in creating log file: ", e)
         print("Program will continue attempt to log in current directory")
         log_file = log_file.split("/")[1]
-    handler = logging.FileHandler(log_file, mode='w')
-    handler.setFormatter(formatter)
-    logger = logging.getLogger(name)
-    logger.setLevel(level)
-    logger.addHandler(handler)
+    try:
+        handler = logging.FileHandler(log_file, mode='w')
+        handler.setFormatter(formatter)
+        logger = logging.getLogger(name)
+        logger.setLevel(level)
+        logger.addHandler(handler)
+    except Exception as e:
+        print("Error in creating log file: ", e)
+        print("Program will not log")
+        logger = logging.getLogger(name)
+        logger.setLevel(logging.ERROR)
     return logger
 
 def remove_logs():
