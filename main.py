@@ -66,8 +66,12 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         if save_path == '' and file_name == '':
             save_path = file_path.replace('.nc', '_processed.nc')
             err_logger.warning(f"Save path not provided, saving to {save_path}")
-        elif save_path == '':
+        elif save_path == '' and file_name != '':
             save_path = replace_last_location_in_path(file_path, file_name)
+        elif save_path != '' and file_name == '':
+            save_path = os.path.join(save_path, os.path.basename(file_path).replace('.nc', '_processed.nc'))
+        else:
+            save_path = os.path.join(save_path, file_name + '.nc')
         if not save_path.endswith('.nc'):
             save_path = save_path + '.nc'
         if (os.path.exists(save_path)):
@@ -76,6 +80,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
                 err_logger.error('File with the same name already exists in the save path. Overwrite not confirmed')
                 return
         try:
+            logger.debug(f'Processing file {file_path} and saving to {save_path}')
             main(file_path, save_path, self.progressBar) 
             QMessageBox.information(self, 'Success', 'File processed successfully')
         except Exception as e:
