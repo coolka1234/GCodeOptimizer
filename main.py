@@ -217,6 +217,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.comboBoxX.setCurrentText(self.settings.value('X_log_level', 'DEBUG'))
         self.comboBoxY.setCurrentText(self.settings.value('Y_log_level', 'DEBUG'))
         self.comboBoxZ.setCurrentText(self.settings.value('Z_log_level', 'DEBUG'))
+        self.lineEditFileName.setText(self.settings.value('file_name', ''))
     
     def clear(self):
         self.lineEditFilePath.clear()
@@ -255,6 +256,7 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.settings.setValue('X_log_level', self.comboBoxX.currentText())
         self.settings.setValue('Y_log_level', self.comboBoxY.currentText())
         self.settings.setValue('Z_log_level', self.comboBoxZ.currentText())
+        self.settings.setValue('file_name', self.lineEditFileName.text())
         event.accept()
     
 def replace_last_location_in_path(path, new_location):
