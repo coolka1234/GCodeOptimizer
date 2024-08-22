@@ -8,7 +8,7 @@ Gotowy plik będzie nazywał się jak oryginalny z sufiksem _processed.
 ### Instrukajca dla GUI:
 Wybrać plik do konwersji.\
 Opcjonalnie, podać ścieżkę zapisu (domyślna folder pliku), nazwę, granice, poziom logowania.\
-Kliknąć przycisk "Confirm".\
+Kliknąć przycisk "Potwierdź".\
 Program poinformuje o wykonaniu konwersji.\
 Na dole okienka przyciski pozwalają podejrzeć najważniejsze logi.\
 ## ENG:
