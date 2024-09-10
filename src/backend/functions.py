@@ -45,6 +45,12 @@ def is_line_of_interest(line):
     if 'G00' in line:
         global_vars.global_operation='G00' 
         return False
+    if 'G02' in line:
+        global_vars.global_operation='G02'
+        return False    
+    if 'G03' in line:
+        global_vars.global_operation='G03'
+        return False    
     if 'G53' in line:
         global_vars.global_operation='G53'
         return False
