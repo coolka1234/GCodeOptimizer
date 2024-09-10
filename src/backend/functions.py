@@ -48,7 +48,7 @@ def is_line_of_interest(line):
     if 'G53' in line:
         global_vars.global_operation='G53'
         return False
-    if not('G01' in line or 'G02' in line or global_vars.global_operation == 'G01' or global_vars.global_operation == 'G02'):
+    if not('G01' in line or global_vars.global_operation == 'G01' or global_vars.global_operation == 'G02'):
         return False
     if 'G53' in line:
         return False
