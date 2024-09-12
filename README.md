@@ -1,4 +1,4 @@
-# Instrukcja / Instruction:
+# Instrukcja / Instruction (v1.1.5):
 ## PL:
 ### Prosta instrukcja użycia dla CLI:
 Otworzyć terminal (cmd) w miejscu zapisania skryptu.\
