@@ -39,7 +39,7 @@ def get_and_write(file_path, save_path, progress_bar=None):
 
 
 def is_line_of_interest(line):
-    """Check if the line is of interest"""
+    """Check if the line is of interest provided that g01 is only of interst"""
     if '(' in line or ')' in line:
         return False
     if 'G00' in line:
