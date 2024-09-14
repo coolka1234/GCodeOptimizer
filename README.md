@@ -12,7 +12,7 @@ Kliknąć przycisk "Potwierdź".\
 Program poinformuje o wykonaniu konwersji.\
 Na dole okienka przyciski pozwalają podejrzeć najważniejsze logi.\
 ## ENG:
-### Simple instructions for CLI:
+### Simple instructions for CLI(<1.0):
 Open the terminal at the location where the script was saved.\
 Command: optimize_gcode.exe <filename/path to file>\
 Note: There is a good chance that Windows flags the program as a virus. You should then add exclusivity from Windows Defender to the download location, and use the command as an administrator.\
