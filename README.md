@@ -1,6 +1,6 @@
 # Instrukcja / Instruction (v1.1.5):
 ## PL:
-### Prosta instrukcja użycia dla CLI:
+### Prosta instrukcja użycia dla CLI(<1.0):
 Otworzyć terminal (cmd) w miejscu zapisania skryptu.\
 Komenda: optimize_gcode.exe <nazwa pliku/ścieżka do pliku>\
 Uwaga! Duża szansa że Windows oflaguje program jako wirus. Należy wtedy dodać wyłączność z Windows Defendera do miejsca pobierania, i używać komendy jako administrator.\
