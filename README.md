@@ -26,4 +26,4 @@ At the bottom of the window, buttons allow you to preview the most important log
 Program do optymalizacji G-Code.\
 Przykład / Example:\
 ![Test_4_osie](https://github.com/user-attachments/assets/b1a8e032-fcfa-4836-8f5c-b1353b14721d)
-![Aplikacja z GUI](https://github.com/user-attachments/assets/330402c3-59a6-46b1-8298-4bd7d8fc0777)
+![Aplikacja z GUI main screen](https://github.com/user-attachments/assets/330402c3-59a6-46b1-8298-4bd7d8fc0777)
