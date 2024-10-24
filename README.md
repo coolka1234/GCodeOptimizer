@@ -10,7 +10,7 @@ Wybrać plik do konwersji.\
 Opcjonalnie, podać ścieżkę zapisu (domyślna folder pliku), nazwę, granice, poziom logowania.\
 Kliknąć przycisk "Potwierdź".\
 Program poinformuje o wykonaniu konwersji.\
-Na dole okienka przyciski pozwalają podejrzeć najważniejsze logi.\
+Na dole okienka przyciski pozwalają podejrzeć najważniejsze logi.
 ## ENG:
 ### Simple instructions for CLI(<1.0):
 Open the terminal at the location where the script was saved.\
