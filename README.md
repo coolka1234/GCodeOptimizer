@@ -5,7 +5,7 @@ Otworzyć terminal (cmd) w miejscu zapisania skryptu.\
 Komenda: optimize_gcode.exe <nazwa pliku/ścieżka do pliku>\
 Uwaga! Duża szansa że Windows oflaguje program jako wirus. Należy wtedy dodać wyłączność z Windows Defendera do miejsca pobierania, i używać komendy jako administrator.\
 Gotowy plik będzie nazywał się jak oryginalny z sufiksem _processed.
-### Instrukajca dla GUI:
+### Instrukacja dla GUI:
 Wybrać plik do konwersji.\
 Opcjonalnie, podać ścieżkę zapisu (domyślna folder pliku), nazwę, granice, poziom logowania.\
 Kliknąć przycisk "Potwierdź".\
